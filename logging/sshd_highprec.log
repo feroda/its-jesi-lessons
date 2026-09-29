@@ -1,0 +1,82 @@
+2026-09-06T11:25:44.000000+02:00 srv sshd[4357]: Accepted password for anna from 10.0.0.7 port 53942 ssh2
+2026-09-06T15:45:23.000000+02:00 srv sshd[3714]: Accepted password for anna from 10.0.0.12 port 51791 ssh2
+2026-09-06T17:25:57.000000+02:00 srv sshd[2070]: Accepted password for anna from 10.0.0.12 port 53217 ssh2
+2026-09-07T14:15:10.000000+02:00 srv sshd[6140]: Accepted password for admin_lab from 192.168.1.30 port 48678 ssh2
+2026-09-07T18:43:41.000000+02:00 srv sshd[5319]: Failed password for pippo from 10.0.0.7 port 47004 ssh2
+2026-09-07T19:12:35.000000+02:00 srv sshd[2102]: Accepted password for pippo from 10.0.0.7 port 53351 ssh2
+2026-09-07T19:19:42.000000+02:00 srv sshd[1292]: Accepted password for anna from 192.168.1.30 port 43884 ssh2
+2026-09-08T03:11:00.000000+02:00 srv sshd[7438]: Invalid user admin from 185.22.1.9 port 46374
+2026-09-08T03:11:00.000000+02:00 srv sshd[7438]: Failed password for invalid user admin from 185.22.1.9 port 46374 ssh2
+2026-09-08T03:11:04.000000+02:00 srv sshd[3606]: Invalid user test from 185.22.1.9 port 55375
+2026-09-08T03:11:04.000000+02:00 srv sshd[3606]: Failed password for invalid user test from 185.22.1.9 port 55375 ssh2
+2026-09-08T03:11:07.000000+02:00 srv sshd[1645]: Invalid user oracle from 185.22.1.9 port 40990
+2026-09-08T03:11:07.000000+02:00 srv sshd[1645]: Failed password for invalid user oracle from 185.22.1.9 port 40990 ssh2
+2026-09-08T03:11:09.000000+02:00 srv sshd[8167]: Invalid user ubuntu from 185.22.1.9 port 50057
+2026-09-08T03:11:09.000000+02:00 srv sshd[8167]: Failed password for invalid user ubuntu from 185.22.1.9 port 50057 ssh2
+2026-09-08T03:11:12.000000+02:00 srv sshd[7592]: Invalid user git from 185.22.1.9 port 51753
+2026-09-08T03:11:12.000000+02:00 srv sshd[7592]: Failed password for invalid user git from 185.22.1.9 port 51753 ssh2
+2026-09-08T03:11:14.000000+02:00 srv sshd[6001]: Invalid user postgres from 185.22.1.9 port 54420
+2026-09-08T03:11:14.000000+02:00 srv sshd[6001]: Failed password for invalid user postgres from 185.22.1.9 port 54420 ssh2
+2026-09-08T03:11:18.000000+02:00 srv sshd[7229]: Invalid user user from 185.22.1.9 port 44720
+2026-09-08T03:11:18.000000+02:00 srv sshd[7229]: Failed password for invalid user user from 185.22.1.9 port 44720 ssh2
+2026-09-08T03:11:21.000000+02:00 srv sshd[4878]: Invalid user ftp from 185.22.1.9 port 52629
+2026-09-08T03:11:21.000000+02:00 srv sshd[4878]: Failed password for invalid user ftp from 185.22.1.9 port 52629 ssh2
+2026-09-08T03:11:22.000000+02:00 srv sshd[8549]: Invalid user www-data from 185.22.1.9 port 40094
+2026-09-08T03:11:22.000000+02:00 srv sshd[8549]: Failed password for invalid user www-data from 185.22.1.9 port 40094 ssh2
+2026-09-08T03:11:25.000000+02:00 srv sshd[2405]: Invalid user guest from 185.22.1.9 port 49018
+2026-09-08T03:11:25.000000+02:00 srv sshd[2405]: Failed password for invalid user guest from 185.22.1.9 port 49018 ssh2
+2026-09-08T11:12:28.000000+02:00 srv sshd[6149]: Accepted password for pippo from 192.168.1.30 port 50931 ssh2
+2026-09-08T13:36:50.000000+02:00 srv sshd[4748]: Accepted password for pippo from 192.168.1.30 port 50069 ssh2
+2026-09-08T16:03:43.000000+02:00 srv sshd[1280]: Accepted password for deploy from 10.0.0.7 port 43427 ssh2
+2026-09-09T01:05:48.000000+02:00 srv sshd[1878]: Invalid user postgres from 216.223.215.102 port 55504
+2026-09-09T01:34:35.000000+02:00 srv sshd[2885]: Invalid user user from 82.146.79.177 port 40230
+2026-09-09T13:19:31.000000+02:00 srv sshd[7087]: Invalid user admin from 207.165.6.194 port 59753
+2026-09-09T16:11:33.000000+02:00 srv sshd[9629]: Accepted password for deploy from 192.168.1.30 port 41652 ssh2
+2026-09-09T21:08:23.000000+02:00 srv sshd[5473]: Invalid user guest from 107.14.0.240 port 48013
+2026-09-15T11:08:30.000000+02:00 srv sshd[7420]: Failed password for pippo from 10.0.0.7 port 54076 ssh2
+2026-09-15T14:45:47.000000+02:00 srv sshd[8457]: Accepted password for pippo from 192.168.1.30 port 55977 ssh2
+2026-09-15T15:48:41.000000+02:00 srv sshd[6777]: Accepted password for anna from 10.0.0.12 port 42188 ssh2
+2026-09-15T18:08:03.000000+02:00 srv sshd[3787]: Accepted password for anna from 10.0.0.7 port 46287 ssh2
+2026-09-22T00:31:43.000000+02:00 srv sshd[4010]: Invalid user ubuntu from 29.217.96.23 port 58044
+2026-09-22T15:53:16.000000+02:00 srv sshd[1878]: Accepted password for deploy from 10.0.0.12 port 51443 ssh2
+2026-09-22T16:45:56.000000+02:00 srv sshd[1702]: Accepted password for admin_lab from 10.0.0.12 port 45097 ssh2
+2026-09-22T20:33:50.000000+02:00 srv sshd[3588]: Invalid user user from 67.41.114.129 port 46096
+2026-09-28T02:47:03.000000+02:00 srv sshd[7369]: Failed password for deploy from 45.9.14.207 port 44572 ssh2
+2026-09-28T02:47:04.000000+02:00 srv sshd[1608]: Failed password for deploy from 45.9.14.207 port 56524 ssh2
+2026-09-28T02:47:05.060000+02:00 srv sshd[7206]: Failed password for deploy from 45.9.14.207 port 46407 ssh2
+2026-09-28T02:47:06.183600+02:00 srv sshd[8279]: Failed password for deploy from 45.9.14.207 port 43725 ssh2
+2026-09-28T02:47:07.374616+02:00 srv sshd[4981]: Failed password for deploy from 45.9.14.207 port 49872 ssh2
+2026-09-28T02:47:08.637093+02:00 srv sshd[1856]: Failed password for deploy from 45.9.14.207 port 56110 ssh2
+2026-09-28T02:47:09.975319+02:00 srv sshd[4481]: Failed password for deploy from 45.9.14.207 port 51654 ssh2
+2026-09-28T02:47:11.393838+02:00 srv sshd[9764]: Failed password for deploy from 45.9.14.207 port 50760 ssh2
+2026-09-28T02:47:12.897468+02:00 srv sshd[5534]: Failed password for deploy from 45.9.14.207 port 59004 ssh2
+2026-09-28T02:47:14.491316+02:00 srv sshd[2686]: Failed password for deploy from 45.9.14.207 port 44998 ssh2
+2026-09-28T02:47:16.180795+02:00 srv sshd[9287]: Failed password for deploy from 45.9.14.207 port 59364 ssh2
+2026-09-28T02:47:17.971643+02:00 srv sshd[1708]: Failed password for deploy from 45.9.14.207 port 58364 ssh2
+2026-09-28T02:47:19.869942+02:00 srv sshd[9130]: Failed password for deploy from 45.9.14.207 port 49707 ssh2
+2026-09-28T02:47:21.882138+02:00 srv sshd[1259]: Failed password for deploy from 45.9.14.207 port 44872 ssh2
+2026-09-28T02:47:24.015066+02:00 srv sshd[3427]: Failed password for deploy from 45.9.14.207 port 55266 ssh2
+2026-09-28T02:47:26.275970+02:00 srv sshd[2316]: Failed password for deploy from 45.9.14.207 port 56020 ssh2
+2026-09-28T02:47:28.672528+02:00 srv sshd[8496]: Failed password for deploy from 45.9.14.207 port 40683 ssh2
+2026-09-28T02:47:31.212880+02:00 srv sshd[3871]: Failed password for deploy from 45.9.14.207 port 46317 ssh2
+2026-09-28T02:47:33.905653+02:00 srv sshd[3659]: Failed password for deploy from 45.9.14.207 port 47767 ssh2
+2026-09-28T02:47:36.759992+02:00 srv sshd[4650]: Failed password for deploy from 45.9.14.207 port 41386 ssh2
+2026-09-28T02:47:39.785592+02:00 srv sshd[8219]: Failed password for deploy from 45.9.14.207 port 55104 ssh2
+2026-09-28T02:47:42.992727+02:00 srv sshd[7652]: Failed password for deploy from 45.9.14.207 port 50056 ssh2
+2026-09-28T02:47:46.392291+02:00 srv sshd[6125]: Failed password for deploy from 45.9.14.207 port 40821 ssh2
+2026-09-28T02:47:49.995828+02:00 srv sshd[7984]: Failed password for deploy from 45.9.14.207 port 51569 ssh2
+2026-09-28T02:47:53.815578+02:00 srv sshd[2678]: Failed password for deploy from 45.9.14.207 port 45567 ssh2
+2026-09-28T02:47:57.864513+02:00 srv sshd[2329]: Failed password for deploy from 45.9.14.207 port 40502 ssh2
+2026-09-28T02:48:02.156384+02:00 srv sshd[5903]: Failed password for deploy from 45.9.14.207 port 46348 ssh2
+2026-09-28T02:48:06.705767+02:00 srv sshd[3571]: Failed password for deploy from 45.9.14.207 port 46450 ssh2
+2026-09-28T02:48:11.528113+02:00 srv sshd[2745]: Failed password for deploy from 45.9.14.207 port 42565 ssh2
+2026-09-28T02:48:16.639800+02:00 srv sshd[3612]: Failed password for deploy from 45.9.14.207 port 58023 ssh2
+2026-09-28T02:48:22.058188+02:00 srv sshd[7630]: Failed password for deploy from 45.9.14.207 port 58922 ssh2
+2026-09-28T02:48:27.801679+02:00 srv sshd[5022]: Failed password for deploy from 45.9.14.207 port 41929 ssh2
+2026-09-28T02:48:33.889780+02:00 srv sshd[8055]: Failed password for deploy from 45.9.14.207 port 47452 ssh2
+2026-09-28T02:48:40.343167+02:00 srv sshd[7810]: Failed password for deploy from 45.9.14.207 port 50757 ssh2
+2026-09-28T02:48:47.183757+02:00 srv sshd[8563]: Failed password for deploy from 45.9.14.207 port 55502 ssh2
+2026-09-28T02:48:54.434782+02:00 srv sshd[4181]: Failed password for deploy from 45.9.14.207 port 42420 ssh2
+2026-09-28T02:49:02.120869+02:00 srv sshd[2208]: Accepted password for deploy from 45.9.14.207 port 42216 ssh2
+2026-09-28T16:16:10.000000+02:00 srv sshd[4628]: Failed password for pippo from 10.0.0.7 port 50936 ssh2
+2026-09-28T17:29:22.000000+02:00 srv sshd[7233]: Accepted password for pippo from 10.0.0.7 port 51548 ssh2
