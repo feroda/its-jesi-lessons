@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="60" y="66" font-size="38" font-weight="bold" fill="#1F2933">Un indirizzo IP è un centro commerciale</text>
+<text x="60" y="104" font-size="21" fill="#52606D">L'indirizzo IP dice in quale edificio andare, la porta dice in quale negozio entrare</text>
+<rect x="0" y="790" width="1600" height="110" fill="#E4E7EB"/>
+<rect x="50" y="150" width="1500" height="640" rx="6" fill="#F5F0E6" stroke="#3E4C59" stroke-width="4"/>
+<rect x="50" y="150" width="1500" height="110" rx="6" fill="#3E4C59"/>
+<text x="800" y="200" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Centro commerciale befair3</text>
+<text x="800" y="242" font-size="26" fill="#FFD43B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">indirizzo: 128.140.61.87</text>
+<text x="800" y="300" font-size="22" fill="#3E4C59" text-anchor="middle">65.535 porte numerate, da 1 a 65535. Quasi tutte chiuse.</text>
+<rect x="78" y="470" width="92" height="320" fill="#9AA5B1" stroke="#52606D" stroke-width="3"/>
+<line x1="82" y1="488" x2="166" y2="488" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="510" x2="166" y2="510" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="532" x2="166" y2="532" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="554" x2="166" y2="554" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="576" x2="166" y2="576" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="598" x2="166" y2="598" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="620" x2="166" y2="620" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="642" x2="166" y2="642" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="664" x2="166" y2="664" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="686" x2="166" y2="686" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="708" x2="166" y2="708" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="730" x2="166" y2="730" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="752" x2="166" y2="752" stroke="#7B8794" stroke-width="3"/>
+<line x1="82" y1="774" x2="166" y2="774" stroke="#7B8794" stroke-width="3"/>
+<rect x="88" y="422" width="72" height="36" rx="5" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<text x="124.0" y="447" font-size="18" font-weight="bold" fill="#1F2933" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1</text>
+<text x="124.0" y="638.0" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 124.0 630.0)">CHIUSO</text>
+<rect x="180" y="470" width="92" height="320" fill="#9AA5B1" stroke="#52606D" stroke-width="3"/>
+<line x1="184" y1="488" x2="268" y2="488" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="510" x2="268" y2="510" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="532" x2="268" y2="532" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="554" x2="268" y2="554" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="576" x2="268" y2="576" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="598" x2="268" y2="598" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="620" x2="268" y2="620" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="642" x2="268" y2="642" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="664" x2="268" y2="664" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="686" x2="268" y2="686" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="708" x2="268" y2="708" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="730" x2="268" y2="730" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="752" x2="268" y2="752" stroke="#7B8794" stroke-width="3"/>
+<line x1="184" y1="774" x2="268" y2="774" stroke="#7B8794" stroke-width="3"/>
+<rect x="190" y="422" width="72" height="36" rx="5" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<text x="226.0" y="447" font-size="18" font-weight="bold" fill="#1F2933" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2</text>
+<text x="226.0" y="638.0" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 226.0 630.0)">CHIUSO</text>
+<text x="317" y="640" font-size="40" fill="#7B8794" text-anchor="middle">…</text>
+<rect x="362.0" y="460" width="21.2" height="40" fill="#7B8794" stroke="#7B8794" stroke-width="1"/>
+<rect x="383.2" y="460" width="21.2" height="40" fill="#FFFFFF" stroke="#7B8794" stroke-width="1"/>
+<rect x="404.5" y="460" width="21.2" height="40" fill="#7B8794" stroke="#7B8794" stroke-width="1"/>
+<rect x="425.8" y="460" width="21.2" height="40" fill="#FFFFFF" stroke="#7B8794" stroke-width="1"/>
+<rect x="447.0" y="460" width="21.2" height="40" fill="#7B8794" stroke="#7B8794" stroke-width="1"/>
+<rect x="468.2" y="460" width="21.2" height="40" fill="#FFFFFF" stroke="#7B8794" stroke-width="1"/>
+<rect x="489.5" y="460" width="21.2" height="40" fill="#7B8794" stroke="#7B8794" stroke-width="1"/>
+<rect x="510.8" y="460" width="21.2" height="40" fill="#FFFFFF" stroke="#7B8794" stroke-width="1"/>
+<rect x="362" y="390" width="170" height="64" rx="8" fill="#7B8794"/>
+<text x="447.0" y="434" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SSH</text>
+<rect x="362" y="500" width="170" height="290" fill="#E4E7EB" stroke="#7B8794" stroke-width="3"/>
+<rect x="392.0" y="514" width="110" height="38" rx="6" fill="#FFFFFF" stroke="#7B8794" stroke-width="3"/>
+<text x="447.0" y="541" font-size="22" font-weight="bold" fill="#7B8794" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">22</text>
+<rect x="392.0" y="570" width="110" height="220" fill="#FFFFFF" stroke="#7B8794" stroke-width="3"/>
+<text x="447.0" y="620" font-size="18" font-weight="bold" fill="#7B8794" text-anchor="middle">APERTO</text>
+<text x="577" y="640" font-size="40" fill="#7B8794" text-anchor="middle">…</text>
+<rect x="622.0" y="460" width="31.2" height="40" fill="#E8590C" stroke="#E8590C" stroke-width="1"/>
+<rect x="653.2" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#E8590C" stroke-width="1"/>
+<rect x="684.5" y="460" width="31.2" height="40" fill="#E8590C" stroke="#E8590C" stroke-width="1"/>
+<rect x="715.8" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#E8590C" stroke-width="1"/>
+<rect x="747.0" y="460" width="31.2" height="40" fill="#E8590C" stroke="#E8590C" stroke-width="1"/>
+<rect x="778.2" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#E8590C" stroke-width="1"/>
+<rect x="809.5" y="460" width="31.2" height="40" fill="#E8590C" stroke="#E8590C" stroke-width="1"/>
+<rect x="840.8" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#E8590C" stroke-width="1"/>
+<rect x="622" y="390" width="250" height="64" rx="8" fill="#E8590C"/>
+<text x="747.0" y="434" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Grafana</text>
+<rect x="622" y="500" width="250" height="290" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<rect x="692.0" y="514" width="110" height="38" rx="6" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<text x="747.0" y="541" font-size="22" font-weight="bold" fill="#E8590C" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3000</text>
+<rect x="692.0" y="570" width="110" height="220" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<text x="747.0" y="620" font-size="18" font-weight="bold" fill="#E8590C" text-anchor="middle">APERTO</text>
+<text x="917" y="640" font-size="40" fill="#7B8794" text-anchor="middle">…</text>
+<rect x="962.0" y="460" width="31.2" height="40" fill="#1C64C8" stroke="#1C64C8" stroke-width="1"/>
+<rect x="993.2" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#1C64C8" stroke-width="1"/>
+<rect x="1024.5" y="460" width="31.2" height="40" fill="#1C64C8" stroke="#1C64C8" stroke-width="1"/>
+<rect x="1055.8" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#1C64C8" stroke-width="1"/>
+<rect x="1087.0" y="460" width="31.2" height="40" fill="#1C64C8" stroke="#1C64C8" stroke-width="1"/>
+<rect x="1118.2" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#1C64C8" stroke-width="1"/>
+<rect x="1149.5" y="460" width="31.2" height="40" fill="#1C64C8" stroke="#1C64C8" stroke-width="1"/>
+<rect x="1180.8" y="460" width="31.2" height="40" fill="#FFFFFF" stroke="#1C64C8" stroke-width="1"/>
+<rect x="962" y="390" width="250" height="64" rx="8" fill="#1C64C8"/>
+<text x="1087.0" y="434" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Loki</text>
+<rect x="962" y="500" width="250" height="290" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<rect x="1032.0" y="514" width="110" height="38" rx="6" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<text x="1087.0" y="541" font-size="22" font-weight="bold" fill="#1C64C8" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3100</text>
+<rect x="1032.0" y="570" width="110" height="220" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<text x="1087.0" y="620" font-size="18" font-weight="bold" fill="#1C64C8" text-anchor="middle">APERTO</text>
+<text x="1257" y="640" font-size="40" fill="#7B8794" text-anchor="middle">…</text>
+<rect x="1302" y="470" width="92" height="320" fill="#9AA5B1" stroke="#52606D" stroke-width="3"/>
+<line x1="1306" y1="488" x2="1390" y2="488" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="510" x2="1390" y2="510" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="532" x2="1390" y2="532" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="554" x2="1390" y2="554" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="576" x2="1390" y2="576" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="598" x2="1390" y2="598" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="620" x2="1390" y2="620" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="642" x2="1390" y2="642" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="664" x2="1390" y2="664" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="686" x2="1390" y2="686" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="708" x2="1390" y2="708" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="730" x2="1390" y2="730" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="752" x2="1390" y2="752" stroke="#7B8794" stroke-width="3"/>
+<line x1="1306" y1="774" x2="1390" y2="774" stroke="#7B8794" stroke-width="3"/>
+<rect x="1312" y="422" width="72" height="36" rx="5" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<text x="1348.0" y="447" font-size="18" font-weight="bold" fill="#1F2933" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">65534</text>
+<text x="1348.0" y="638.0" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 1348.0 630.0)">CHIUSO</text>
+<rect x="1404" y="470" width="92" height="320" fill="#9AA5B1" stroke="#52606D" stroke-width="3"/>
+<line x1="1408" y1="488" x2="1492" y2="488" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="510" x2="1492" y2="510" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="532" x2="1492" y2="532" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="554" x2="1492" y2="554" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="576" x2="1492" y2="576" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="598" x2="1492" y2="598" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="620" x2="1492" y2="620" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="642" x2="1492" y2="642" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="664" x2="1492" y2="664" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="686" x2="1492" y2="686" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="708" x2="1492" y2="708" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="730" x2="1492" y2="730" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="752" x2="1492" y2="752" stroke="#7B8794" stroke-width="3"/>
+<line x1="1408" y1="774" x2="1492" y2="774" stroke="#7B8794" stroke-width="3"/>
+<rect x="1414" y="422" width="72" height="36" rx="5" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<text x="1450.0" y="447" font-size="18" font-weight="bold" fill="#1F2933" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">65535</text>
+<text x="1450.0" y="638.0" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 1450.0 630.0)">CHIUSO</text>
+<circle cx="677.0" cy="845" r="30" fill="#FFD43B" stroke="#E0A800" stroke-width="3"/>
+<circle cx="667.0" cy="837" r="4" fill="#1F2933"/><circle cx="687.0" cy="837" r="4" fill="#1F2933"/>
+<path d="M663.0,851 Q677.0,867 691.0,851" fill="none" stroke="#1F2933" stroke-width="4" stroke-linecap="round"/>
+<text x="719.0" y="841" font-size="17" fill="#E8590C" font-weight="bold">il browser</text>
+<text x="719.0" y="863" font-size="17" fill="#E8590C" font-weight="bold">entra da Grafana</text>
+<rect x="977.0" y="820" width="34" height="28" fill="#C69C6D" stroke="#7C5E3C" stroke-width="2"/>
+<line x1="977.0" y1="830" x2="1011.0" y2="830" stroke="#7C5E3C" stroke-width="2"/>
+<text x="1021.0" y="841" font-size="17" fill="#1C64C8" font-weight="bold">log da spes-dev</text>
+<rect x="977.0" y="860" width="34" height="28" fill="#C69C6D" stroke="#7C5E3C" stroke-width="2"/>
+<line x1="977.0" y1="870" x2="1011.0" y2="870" stroke="#7C5E3C" stroke-width="2"/>
+<text x="1021.0" y="881" font-size="17" fill="#1C64C8" font-weight="bold">log da spes-doc</text>
+<text x="447.0" y="845" font-size="17" fill="#52606D" text-anchor="middle">il prof entra</text>
+<text x="447.0" y="867" font-size="17" fill="#52606D" text-anchor="middle">a fare manutenzione</text>
+</svg>

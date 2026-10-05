@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+  <defs>
+    <marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/>
+    </marker>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/>
+    </marker>
+    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- Titolo -->
+  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Cosa viaggia sulle linee</text>
+  <text x="60" y="110" font-size="22" fill="#52606D">Ogni pacco porta un indirizzo IP, una porta e un messaggio</text>
+
+  <g opacity="0.28">
+<!-- Nuvola Internet -->
+  <g fill="#EEF2F7" stroke="#9AA5B1" stroke-width="2">
+    <path d="M520,560 C455,560 440,490 495,470 C480,415 545,385 590,410 C610,355 700,350 725,400 C770,370 835,395 825,450 C880,465 875,550 815,560 Z"/>
+  </g>
+  <text x="660" y="490" font-size="30" font-weight="bold" fill="#52606D" text-anchor="middle">Internet</text>
+
+  <!-- Utente: smiley + browser -->
+  <g>
+    <circle cx="180" cy="220" r="62" fill="#FFD43B" stroke="#E0A800" stroke-width="4"/>
+    <circle cx="158" cy="203" r="8" fill="#1F2933"/>
+    <circle cx="202" cy="203" r="8" fill="#1F2933"/>
+    <path d="M148,238 Q180,270 212,238" fill="none" stroke="#1F2933" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="50" y="310" width="260" height="120" rx="10" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+    <rect x="50" y="310" width="260" height="30" rx="10" fill="#CBD2D9"/>
+    <rect x="50" y="328" width="260" height="12" fill="#CBD2D9"/>
+    <circle cx="70" cy="325" r="5" fill="#E12D39"/>
+    <circle cx="86" cy="325" r="5" fill="#F0B429"/>
+    <circle cx="102" cy="325" r="5" fill="#27AB83"/>
+    <rect x="62" y="352" width="236" height="26" rx="5" fill="#F5F7FA" stroke="#9AA5B1"/>
+    <text x="70" y="370" font-size="13" font-family="DejaVu Sans Mono, monospace" fill="#1F2933">http://befair3…:3000</text>
+    <text x="180" y="412" font-size="20" font-weight="bold" fill="#3E4C59" text-anchor="middle">browser</text>
+  </g>
+
+  <!-- Server client: spes-dev, spes-doc -->
+  <g>
+    <rect x="50" y="560" width="260" height="110" rx="10" fill="#F5F7FA" stroke="#3E4C59" stroke-width="3"/>
+    <line x1="70" y1="585" x2="110" y2="585" stroke="#9AA5B1" stroke-width="4"/>
+    <line x1="70" y1="598" x2="110" y2="598" stroke="#9AA5B1" stroke-width="4"/>
+    <text x="130" y="598" font-size="26" font-weight="bold" fill="#1F2933">spes-dev</text>
+    <rect x="70" y="618" width="120" height="34" rx="6" fill="#DCE8FA" stroke="#1C64C8" stroke-width="2"/>
+    <text x="130" y="641" font-size="18" fill="#1C64C8" text-anchor="middle">Alloy</text>
+    <text x="205" y="641" font-size="15" fill="#52606D">invia log</text>
+
+    <rect x="50" y="720" width="260" height="110" rx="10" fill="#F5F7FA" stroke="#3E4C59" stroke-width="3"/>
+    <line x1="70" y1="745" x2="110" y2="745" stroke="#9AA5B1" stroke-width="4"/>
+    <line x1="70" y1="758" x2="110" y2="758" stroke="#9AA5B1" stroke-width="4"/>
+    <text x="130" y="758" font-size="26" font-weight="bold" fill="#1F2933">spes-doc</text>
+    <rect x="70" y="778" width="120" height="34" rx="6" fill="#DCE8FA" stroke="#1C64C8" stroke-width="2"/>
+    <text x="130" y="801" font-size="18" fill="#1C64C8" text-anchor="middle">Alloy</text>
+    <text x="205" y="801" font-size="15" fill="#52606D">invia log</text>
+  </g>
+
+  <!-- Server befair3 -->
+  <g>
+    <rect x="990" y="150" width="560" height="700" rx="14" fill="#F5F7FA" stroke="#1F2933" stroke-width="4"/>
+    <text x="1270" y="190" font-size="28" font-weight="bold" fill="#1F2933" text-anchor="middle">server befair3.befair.it</text>
+    <text x="1270" y="217" font-size="19" fill="#52606D" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">IP 128.140.61.87</text>
+    <rect x="1040" y="236" width="460" height="584" rx="12" fill="#FFFFFF" stroke="#2496ED" stroke-width="3" stroke-dasharray="12 8"/>
+    <text x="1270" y="266" font-size="20" fill="#2496ED" text-anchor="middle" font-weight="bold">docker compose</text>
+    <text x="1270" y="290" font-size="15" fill="#2496ED" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">/opt/loki-grafana</text>
+
+    <!-- Grafana -->
+    <rect x="1090" y="320" width="370" height="170" rx="10" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+    <text x="1275" y="390" font-size="36" font-weight="bold" fill="#E8590C" text-anchor="middle">Grafana</text>
+    <text x="1275" y="428" font-size="18" fill="#52606D" text-anchor="middle">interfaccia web</text>
+    <text x="1275" y="452" font-size="18" fill="#52606D" text-anchor="middle">grafici e ricerca nei log</text>
+
+    <!-- Loki -->
+    <rect x="1090" y="600" width="370" height="170" rx="10" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+    <text x="1275" y="670" font-size="36" font-weight="bold" fill="#1C64C8" text-anchor="middle">Loki</text>
+    <text x="1275" y="708" font-size="18" fill="#52606D" text-anchor="middle">raccoglie e conserva</text>
+    <text x="1275" y="732" font-size="18" fill="#52606D" text-anchor="middle">i log ricevuti</text>
+
+    <!-- Grafana interroga Loki -->
+    <path d="M1275,492 L1275,596" stroke="#555" stroke-width="3" stroke-dasharray="7 6" fill="none" marker-end="url(#arrG)"/>
+    <text x="1290" y="550" font-size="17" fill="#555">interroga</text>
+  </g>
+
+  <!-- Porte esposte -->
+  <g>
+    <rect x="930" y="378" width="120" height="44" rx="8" fill="#E8590C"/>
+    <text x="990" y="408" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">:3000</text>
+    <rect x="930" y="645" width="120" height="70" rx="8" fill="#1C64C8"/>
+    <text x="990" y="688" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">:3100</text>
+    <line x1="1050" y1="400" x2="1090" y2="400" stroke="#E8590C" stroke-width="4"/>
+    <line x1="1050" y1="680" x2="1090" y2="680" stroke="#1C64C8" stroke-width="4"/>
+  </g>
+
+  </g>
+<!-- Flussi -->
+  <path d="M310,370 C460,370 520,445 640,445 C760,445 820,400 924,400" fill="none" stroke="#E8590C" stroke-width="5" marker-end="url(#arrO)"/>
+
+  <path d="M310,615 C450,615 520,520 640,520 C780,520 820,663 924,663" fill="none" stroke="#1C64C8" stroke-width="5" marker-end="url(#arrB)"/>
+  <path d="M310,775 C470,775 540,535 660,535 C790,535 820,697 924,697" fill="none" stroke="#1C64C8" stroke-width="5" marker-end="url(#arrB)"/>
+<rect x="345" y="160" width="520" height="150" rx="12" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<text x="361" y="186" font-size="18" font-weight="bold" fill="#E8590C">browser → Grafana</text>
+<rect x="355" y="196" width="500" height="33" rx="6" fill="#F3F0FF"/>
+<text x="365" y="218" font-size="15" font-weight="bold" fill="#6741D9">IP</text>
+<text x="461" y="219" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">128.140.61.87</text>
+<rect x="765" y="201" width="84" height="23" rx="11.5" fill="#6741D9"/>
+<text x="807" y="217.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">livello 3</text>
+<rect x="355" y="233" width="500" height="33" rx="6" fill="#E3FAFC"/>
+<text x="365" y="255" font-size="15" font-weight="bold" fill="#0C8599">porta</text>
+<text x="461" y="256" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">3000</text>
+<rect x="765" y="238" width="84" height="23" rx="11.5" fill="#0C8599"/>
+<text x="807" y="254.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">livello 4</text>
+<rect x="355" y="270" width="500" height="33" rx="6" fill="#FFF0F6"/>
+<text x="365" y="292" font-size="15" font-weight="bold" fill="#C2255C">messaggio</text>
+<text x="461" y="293" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">GET /dashboards</text>
+<rect x="765" y="275" width="84" height="23" rx="11.5" fill="#C2255C"/>
+<text x="807" y="291.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">livello 7</text>
+<line x1="600" y1="310" x2="600" y2="398" stroke="#E8590C" stroke-width="2.5" stroke-dasharray="4 4"/><circle cx="600" cy="402" r="6" fill="#E8590C"/>
+<rect x="450" y="742" width="470" height="150" rx="12" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<text x="466" y="768" font-size="18" font-weight="bold" fill="#1C64C8">spes-dev, spes-doc → Loki</text>
+<rect x="460" y="778" width="450" height="33" rx="6" fill="#F3F0FF"/>
+<text x="470" y="800" font-size="15" font-weight="bold" fill="#6741D9">IP</text>
+<text x="566" y="801" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">128.140.61.87</text>
+<rect x="820" y="783" width="84" height="23" rx="11.5" fill="#6741D9"/>
+<text x="862" y="799.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">livello 3</text>
+<rect x="460" y="815" width="450" height="33" rx="6" fill="#E3FAFC"/>
+<text x="470" y="837" font-size="15" font-weight="bold" fill="#0C8599">porta</text>
+<text x="566" y="838" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">3100</text>
+<rect x="820" y="820" width="84" height="23" rx="11.5" fill="#0C8599"/>
+<text x="862" y="836.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">livello 4</text>
+<rect x="460" y="852" width="450" height="33" rx="6" fill="#FFF0F6"/>
+<text x="470" y="874" font-size="15" font-weight="bold" fill="#C2255C">messaggio</text>
+<text x="566" y="875" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">POST /loki/api/v1/push</text>
+<rect x="820" y="857" width="84" height="23" rx="11.5" fill="#C2255C"/>
+<text x="862" y="873.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">livello 7</text>
+<line x1="790" y1="742" x2="790" y2="582" stroke="#1C64C8" stroke-width="2.5" stroke-dasharray="4 4"/><circle cx="790" cy="578" r="6" fill="#1C64C8"/>
+</svg>
