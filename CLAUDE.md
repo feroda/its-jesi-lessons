@@ -54,4 +54,39 @@ docker compose logs -f alloy   # or loki, grafana
 
 ## Slides
 
-`logging/slides/assets/imgs/` holds one SVG source and its PNG export per slide, named `slideN-<descrizione>`. The SVG is the source of truth, so edit it and re-export the PNG. Slide 6 also has step-by-step PNGs (`-passo1` to `-passo3`) for a progressive reveal. The PDFs are exported presentations and are not generated from this repository.
+`logging/slides/assets/imgs/` holds one SVG source and its PNG export (3200x1800) per slide, named `slideN-<descrizione>`. The SVG is the source of truth, so edit it and re-export the PNG. Slide 6 also has step-by-step PNGs (`-passo1` to `-passo3`) for a progressive reveal; these have no SVG of their own.
+
+New slides follow the existing look: 1600x900 viewBox, white background, DejaVu Sans (DejaVu Sans Mono for commands), and the palette already used in the other SVGs.
+
+`logging/slides/Troubleshooting.pdf` is the assembled deck and is built from the PNGs, so it must be rebuilt whenever a slide is added or changed. Page order is slide 0 to 9, with slide 6 expanded as passo1, passo2, passo3 and then the full image:
+
+```bash
+cd logging/slides
+I=assets/imgs
+magick $I/slide0-*.png $I/slide1-*.png $I/slide2-*.png $I/slide3-*.png $I/slide4-*.png $I/slide5-*.png \
+  $I/slide6-viaggio-pacco-passo{1,2,3}.png $I/slide6-viaggio-pacco.png \
+  $I/slide7-*.png $I/slide8-*.png $I/slide9-*.png \
+  -units PixelsPerInch -density 240 -compress zip Troubleshooting.pdf
+```
+
+To export an SVG to PNG, pass absolute paths: the snap build of Inkscape on this machine resolves relative paths from the home directory. Flatten the result to RGB so it matches the other slides.
+
+```bash
+inkscape "$PWD/$I/slideN-nome.svg" --export-type=png --export-width=3200 --export-background=white --export-filename="$PWD/$I/slideN-nome.png"
+magick $I/slideN-nome.png -background white -alpha remove -alpha off $I/slideN-nome.png
+```
+
+## Cheatsheets
+
+Two Markdown handouts for students live in `logging/`:
+
+- `cheatsheet-comandi.md` covers the shell tools for reading logs (`cat`, `cut`, `wc`, `sort`, `uniq`, `tail`, `grep`, `sed`). Its examples run from `logging/` against the committed logs and some use values from the seed 1337 dataset (a queue ID, two IPs, a timestamp), so they need updating if the logs are regenerated with another seed. After editing it, run every command again to check it still works.
+- `cheatsheet-troubleshooting.md` covers network and service troubleshooting layer by layer (`ping`, `nc`, `curl` from the client; `ss`, `journalctl`, `docker compose logs`, `tcpdump` on the server). It is the text companion of slides 8 and 9 and uses the same shopping-centre metaphor as the deck, so keep the two aligned.
+
+## Other PDFs
+
+These are exported documents with no source in this repository:
+
+- `RecapLezione1.pdf`: written recap of lesson 1, including the live troubleshooting of the Grafana and Alloy stacks.
+- `logging/Logging-Monitoring-Troubleshooting_part1.pdf`: slides of the first lesson (image-only, no extractable text).
+- `02_shell_GNULinux_Luca Ferroni.pdf`: introduction to the GNU/Linux shell (Bash builtins versus external programs, `help`, `man`, `PATH`), printed from the teacher's GitLab course material for another class. It is background reading for the shell tools used here.
