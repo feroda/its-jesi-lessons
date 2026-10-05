@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="60" y="66" font-size="38" font-weight="bold" fill="#1F2933">Sul server: chi ascolta, cosa dice, cosa arriva</text>
+<text x="60" y="104" font-size="21" fill="#52606D">Quando dal client qualcosa non va, si entra nel centro commerciale e si guarda dentro</text>
+<rect x="50" y="135" width="1500" height="236" rx="14" fill="#F0FCFD" stroke="#0C8599" stroke-width="3"/>
+<rect x="72" y="157" width="215" height="30" rx="15" fill="#0C8599"/>
+<text x="86" y="178" font-size="16" font-weight="bold" fill="#FFFFFF">LIVELLO 4 · PORTE</text>
+<text x="72" y="233" font-size="40" font-weight="bold" fill="#0C8599" font-family="DejaVu Sans Mono, monospace">ss</text>
+<text x="72" y="271" font-size="19" fill="#1F2933" font-weight="bold">Chi è in ascolto,</text>
+<text x="72" y="297" font-size="19" fill="#1F2933" font-weight="normal">e su quale porta?</text>
+<rect x="430" y="155" width="620" height="196" rx="10" fill="#1F2933"/>
+<text x="450" y="187" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">$ sudo ss -lptn</text>
+<text x="450" y="214" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">LISTEN 0 4096   *:3000   *:*</text>
+<text x="450" y="241" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">   users:(("docker-proxy",pid=812))</text>
+<text x="450" y="268" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"># -l in ascolto -p processo -t TCP -n numeri</text>
+<text x="1075" y="185" font-size="17" font-weight="bold" fill="#0C8599">Da sapere</text>
+<text x="1075" y="215" font-size="17" fill="#3E4C59">Sostituisce netstat -pltn,</text>
+<text x="1075" y="240" font-size="17" fill="#3E4C59">che su molte distribuzioni</text>
+<text x="1075" y="265" font-size="17" fill="#3E4C59">non è più installato.</text>
+<text x="1075" y="290" font-size="17" fill="#3E4C59">Con Docker il processo che vedi</text>
+<text x="1075" y="315" font-size="17" fill="#3E4C59">è docker-proxy, non grafana.</text>
+<rect x="50" y="385" width="1500" height="236" rx="14" fill="#FFF5F9" stroke="#C2255C" stroke-width="3"/>
+<rect x="72" y="407" width="193" height="30" rx="15" fill="#C2255C"/>
+<text x="86" y="428" font-size="16" font-weight="bold" fill="#FFFFFF">LIVELLO 7 · LOG</text>
+<text x="72" y="483" font-size="40" font-weight="bold" fill="#C2255C" font-family="DejaVu Sans Mono, monospace">journalctl</text>
+<text x="72" y="521" font-size="19" fill="#1F2933" font-weight="bold">Cosa dice il sistema?</text>
+<text x="72" y="547" font-size="19" fill="#1F2933" font-weight="normal">Cosa è successo e quando?</text>
+<rect x="430" y="405" width="620" height="196" rx="10" fill="#1F2933"/>
+<text x="450" y="437" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">$ journalctl -n 100 -f</text>
+<text x="450" y="464" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">$ journalctl -u docker --since "1 hour ago"</text>
+<text x="450" y="491" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"># i log dei container Docker stanno qui:</text>
+<text x="450" y="518" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">$ docker compose logs -f grafana</text>
+<text x="1075" y="435" font-size="17" font-weight="bold" fill="#C2255C">Attenzione</text>
+<text x="1075" y="465" font-size="17" fill="#3E4C59">-n 100: ultime 100 righe,</text>
+<text x="1075" y="490" font-size="17" fill="#3E4C59">-f: continua a mostrare le nuove.</text>
+<text x="1075" y="515" font-size="17" fill="#3E4C59">I log dei container normalmente</text>
+<text x="1075" y="540" font-size="17" fill="#3E4C59">non finiscono in journalctl: si</text>
+<text x="1075" y="565" font-size="17" fill="#3E4C59">leggono con docker compose logs.</text>
+<rect x="50" y="635" width="1500" height="236" rx="14" fill="#F7F5FF" stroke="#6741D9" stroke-width="3"/>
+<rect x="72" y="657" width="270" height="30" rx="15" fill="#6741D9"/>
+<text x="86" y="678" font-size="16" font-weight="bold" fill="#FFFFFF">LIVELLI 3 E 4 · PACCHI</text>
+<text x="72" y="733" font-size="40" font-weight="bold" fill="#6741D9" font-family="DejaVu Sans Mono, monospace">tcpdump</text>
+<text x="72" y="771" font-size="19" fill="#1F2933" font-weight="bold">I pacchi arrivano</text>
+<text x="72" y="797" font-size="19" fill="#1F2933" font-weight="normal">davvero fin qui?</text>
+<rect x="430" y="655" width="620" height="196" rx="10" fill="#1F2933"/>
+<text x="450" y="687" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">$ sudo tcpdump -ni any port 3100</text>
+<text x="450" y="714" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">IP 151.x.x.x.50432 &gt; 128.140.61.87.3100:</text>
+<text x="450" y="741" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">  Flags [S], ...</text>
+<text x="450" y="768" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"># guardi le buste: IP e porte</text>
+<text x="1075" y="685" font-size="17" font-weight="bold" fill="#6741D9">Quando usarlo</text>
+<text x="1075" y="715" font-size="17" fill="#3E4C59">Per approfondire: vedi ogni pacco</text>
+<text x="1075" y="740" font-size="17" fill="#3E4C59">che entra ed esce, con mittente,</text>
+<text x="1075" y="765" font-size="17" fill="#3E4C59">destinatario e porte.</text>
+<text x="1075" y="790" font-size="17" fill="#3E4C59">Se qui non arriva niente, il problema</text>
+<text x="1075" y="815" font-size="17" fill="#3E4C59">è prima del server (rete, firewall).</text>
+</svg>
