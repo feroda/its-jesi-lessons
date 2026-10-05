@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C2255C"/></marker>
+</defs><rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="60" y="66" font-size="38" font-weight="bold" fill="#1F2933">Il viaggio del pacco: ogni busta si apre al suo posto</text>
+<text x="60" y="104" font-size="21" fill="#52606D">Livello 3 porta all'edificio, livello 4 al negozio, livello 7 dice cosa chiedere</text>
+<rect x="560" y="150" width="990" height="690" rx="10" fill="#FAFAF7" stroke="#3E4C59" stroke-width="4"/>
+<rect x="560" y="150" width="990" height="64" rx="10" fill="#3E4C59"/>
+<text x="1055" y="193" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">server befair3 · <tspan fill="#FFD43B" font-family="DejaVu Sans Mono, monospace">IP 128.140.61.87</tspan></text>
+<rect x="600" y="240" width="150" height="46" rx="6" fill="#7B8794"/>
+<text x="675.0" y="272" font-size="21" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SSH</text>
+<rect x="600" y="292" width="150" height="238" fill="#EEF0F2" stroke="#7B8794" stroke-width="3"/>
+<rect x="630.0" y="440" width="90" height="90" fill="#FFFFFF" stroke="#7B8794" stroke-width="3"/>
+<rect x="631.0" y="404" width="88" height="30" rx="5" fill="#FFFFFF" stroke="#7B8794" stroke-width="2.5"/>
+<text x="675.0" y="426" font-size="19" font-weight="bold" fill="#7B8794" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">22</text>
+<rect x="780" y="240" width="440" height="46" rx="6" fill="#E8590C"/>
+<text x="1000.0" y="272" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Grafana</text>
+<rect x="780" y="292" width="440" height="238" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<rect x="955.0" y="440" width="90" height="90" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<rect x="956.0" y="404" width="88" height="30" rx="5" fill="#FFFFFF" stroke="#E8590C" stroke-width="2.5"/>
+<text x="1000.0" y="426" font-size="19" font-weight="bold" fill="#E8590C" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3000</text>
+<rect x="1250" y="240" width="270" height="46" rx="6" fill="#1C64C8"/>
+<text x="1385.0" y="272" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Loki</text>
+<rect x="1250" y="292" width="270" height="238" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<rect x="1340.0" y="440" width="90" height="90" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<rect x="1341.0" y="404" width="88" height="30" rx="5" fill="#FFFFFF" stroke="#1C64C8" stroke-width="2.5"/>
+<text x="1385.0" y="426" font-size="19" font-weight="bold" fill="#1C64C8" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3100</text>
+<rect x="580" y="560" width="950" height="260" rx="8" fill="#EEF0F2"/>
+<text x="1520" y="808" font-size="15" fill="#7B8794" text-anchor="end" font-style="italic">corridoio interno: il sistema operativo smista i pacchi</text>
+<rect x="554" y="640" width="12" height="120" fill="#EEF0F2"/>
+<g>
+<circle cx="150" cy="250" r="48" fill="#FFD43B" stroke="#E0A800" stroke-width="3"/>
+<circle cx="135" cy="238" r="6" fill="#1F2933"/><circle cx="165" cy="238" r="6" fill="#1F2933"/>
+<path d="M128,260 Q150,284 172,260" fill="none" stroke="#1F2933" stroke-width="5" stroke-linecap="round"/>
+<text x="150" y="325" font-size="19" font-weight="bold" fill="#3E4C59" text-anchor="middle">browser</text>
+<rect x="102.0" y="374.0" width="96.0" height="72.0" rx="6" fill="#F3F0FF" stroke="#6741D9" stroke-width="4"/>
+<rect x="116.0" y="385.0" width="68.0" height="50.0" rx="5" fill="#E3FAFC" stroke="#0C8599" stroke-width="4"/>
+<rect x="130.0" y="395.0" width="40.0" height="30.0" fill="#FFFFFF" stroke="#C2255C" stroke-width="3.5"/>
+<line x1="138.0" y1="405.0" x2="162.0" y2="405.0" stroke="#C2255C" stroke-width="2"/><line x1="138.0" y1="414.0" x2="158.0" y2="414.0" stroke="#C2255C" stroke-width="2"/>
+<circle cx="60" cy="500" r="17" fill="#6741D9"/><text x="60" y="507" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="88" y="507" font-size="17" font-weight="bold" fill="#6741D9">Il browser chiude</text>
+<text x="88" y="530" font-size="17" font-weight="normal" fill="#3E4C59">il messaggio in due</text>
+<text x="88" y="553" font-size="17" font-weight="normal" fill="#3E4C59">buste e spedisce</text>
+<path d="M205,430 C330,440 380,700 548,700" fill="none" stroke="#6741D9" stroke-width="4" stroke-dasharray="10 7" marker-end="url(#mp)"/>
+<text x="300" y="650" font-size="18" fill="#7B8794" font-weight="bold">Internet</text>
+</g>
+<g>
+<rect x="600" y="713" width="80" height="50" rx="4" fill="#F3F0FF" stroke="#6741D9" stroke-width="3.5"/>
+<path d="M600,713 L640,677 L680,713" fill="#F3F0FF" stroke="#6741D9" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M600,713 L640,741 L680,713" fill="none" stroke="#6741D9" stroke-width="2" opacity="0.6"/>
+<circle cx="612" cy="612" r="17" fill="#6741D9"/><text x="612" y="619" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="640" y="618" font-size="16" font-weight="bold" fill="#6741D9">Ingresso: si apre</text>
+<text x="640" y="641" font-size="16" font-weight="normal" fill="#3E4C59">la busta IP e si lascia</text>
+<text x="640" y="787" font-size="15" fill="#3E4C59" text-anchor="middle">era per</text><text x="640" y="805" font-size="15" fill="#3E4C59" text-anchor="middle">questo edificio</text>
+<rect x="746.0" y="680.0" width="68.0" height="50.0" rx="5" fill="#E3FAFC" stroke="#0C8599" stroke-width="4"/>
+<rect x="760.0" y="690.0" width="40.0" height="30.0" fill="#FFFFFF" stroke="#C2255C" stroke-width="3.5"/>
+<line x1="768.0" y1="700.0" x2="792.0" y2="700.0" stroke="#C2255C" stroke-width="2"/><line x1="768.0" y1="709.0" x2="788.0" y2="709.0" stroke="#C2255C" stroke-width="2"/>
+<path d="M822,705 L972,705 C995,705 1000,690 1000,670 L1000,632" fill="none" stroke="#0C8599" stroke-width="4" stroke-dasharray="10 7" marker-end="url(#mt)"/>
+</g>
+<g>
+<rect x="1050" y="628" width="80" height="50" rx="4" fill="#E3FAFC" stroke="#0C8599" stroke-width="3.5"/>
+<path d="M1050,628 L1090,592 L1130,628" fill="#E3FAFC" stroke="#0C8599" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M1050,628 L1090,656 L1130,628" fill="none" stroke="#0C8599" stroke-width="2" opacity="0.6"/>
+<circle cx="1162" cy="612" r="17" fill="#0C8599"/><text x="1162" y="619" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1188" y="618" font-size="16" font-weight="bold" fill="#0C8599">Porta 3000: si apre la busta</text>
+<text x="1188" y="641" font-size="16" font-weight="normal" fill="#3E4C59">della porta e si lascia:</text>
+<text x="1188" y="664" font-size="16" font-weight="normal" fill="#3E4C59">diceva in quale negozio entrare</text>
+<rect x="980.0" y="583.0" width="40.0" height="30.0" fill="#FFFFFF" stroke="#C2255C" stroke-width="3.5"/>
+<line x1="988.0" y1="593.0" x2="1012.0" y2="593.0" stroke="#C2255C" stroke-width="2"/><line x1="988.0" y1="602.0" x2="1008.0" y2="602.0" stroke="#C2255C" stroke-width="2"/>
+<path d="M1000,581 L1000,537" fill="none" stroke="#C2255C" stroke-width="4" marker-end="url(#mr)"/>
+</g>
+<g>
+<rect x="805" y="305" width="390" height="88" rx="6" fill="#FFFFFF" stroke="#C2255C" stroke-width="3.5"/>
+<text x="825" y="337" font-size="19" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">GET /dashboards HTTP/1.1</text>
+<text x="825" y="374" font-size="16" font-style="italic" fill="#C2255C">Grafana legge il messaggio in HTTP</text>
+<circle cx="790" cy="300" r="17" fill="#C2255C"/><text x="790" y="307" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+</g>
+</svg>

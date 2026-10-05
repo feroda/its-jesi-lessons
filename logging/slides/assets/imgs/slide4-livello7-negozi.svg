@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C2255C"/></marker></defs>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="60" y="66" font-size="38" font-weight="bold" fill="#1F2933">Livello 7: cosa ci si dice nei negozi</text>
+<text x="60" y="104" font-size="21" fill="#52606D">Per ora niente indirizzi e niente porte: solo le richieste e le risposte</text>
+<line x1="800" y1="150" x2="800" y2="860" stroke="#CBD2D9" stroke-width="2" stroke-dasharray="8 8"/>
+<rect x="60" y="170" width="300" height="64" rx="8" fill="#E8590C"/>
+<text x="210.0" y="214" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Grafana</text>
+<rect x="60.0" y="242" width="37.5" height="36" fill="#E8590C" stroke="#E8590C"/>
+<rect x="97.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#E8590C"/>
+<rect x="135.0" y="242" width="37.5" height="36" fill="#E8590C" stroke="#E8590C"/>
+<rect x="172.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#E8590C"/>
+<rect x="210.0" y="242" width="37.5" height="36" fill="#E8590C" stroke="#E8590C"/>
+<rect x="247.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#E8590C"/>
+<rect x="285.0" y="242" width="37.5" height="36" fill="#E8590C" stroke="#E8590C"/>
+<rect x="322.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#E8590C"/>
+<rect x="60" y="278" width="300" height="250" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<rect x="155.0" y="318" width="110" height="210" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<rect x="390" y="290" width="370" height="170" rx="16" fill="#FFF0F6" stroke="#C2255C" stroke-width="3"/>
+<path d="M392,380 L362,400 L392,420" fill="#FFF0F6" stroke="#C2255C" stroke-width="3" stroke-linejoin="round"/>
+<line x1="391.5" y1="382" x2="391.5" y2="418" stroke="#FFF0F6" stroke-width="4"/>
+<text x="412" y="322" font-size="16" font-weight="bold" fill="#C2255C">RISPOSTA</text>
+<text x="412" y="356" font-size="21" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">HTTP/1.1 200 OK</text>
+<text x="412" y="386" font-size="21" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">Content-Type: text/html</text>
+<text x="412" y="438" font-size="19" font-style="italic" fill="#C2255C">«Ecco la pagina»</text>
+<circle cx="150" cy="800" r="40" fill="#FFD43B" stroke="#E0A800" stroke-width="3"/>
+<circle cx="137" cy="790" r="5" fill="#1F2933"/><circle cx="163" cy="790" r="5" fill="#1F2933"/>
+<path d="M132,808 Q150,828 168,808" fill="none" stroke="#1F2933" stroke-width="5" stroke-linecap="round"/>
+<text x="150" y="870" font-size="18" font-weight="bold" fill="#3E4C59" text-anchor="middle">browser</text>
+<rect x="200" y="580" width="560" height="150" rx="16" fill="#FFF0F6" stroke="#C2255C" stroke-width="3"/>
+<path d="M230,728 L182,772 L280,728" fill="#FFF0F6" stroke="#C2255C" stroke-width="3" stroke-linejoin="round"/>
+<line x1="232" y1="728.5" x2="278" y2="728.5" stroke="#FFF0F6" stroke-width="4"/>
+<text x="222" y="612" font-size="16" font-weight="bold" fill="#C2255C">RICHIESTA</text>
+<text x="222" y="646" font-size="21" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">GET /dashboards HTTP/1.1</text>
+<text x="222" y="708" font-size="19" font-style="italic" fill="#C2255C">«Dammi la pagina delle dashboard»</text>
+<rect x="860" y="170" width="300" height="64" rx="8" fill="#1C64C8"/>
+<text x="1010.0" y="214" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Loki</text>
+<rect x="860.0" y="242" width="37.5" height="36" fill="#1C64C8" stroke="#1C64C8"/>
+<rect x="897.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#1C64C8"/>
+<rect x="935.0" y="242" width="37.5" height="36" fill="#1C64C8" stroke="#1C64C8"/>
+<rect x="972.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#1C64C8"/>
+<rect x="1010.0" y="242" width="37.5" height="36" fill="#1C64C8" stroke="#1C64C8"/>
+<rect x="1047.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#1C64C8"/>
+<rect x="1085.0" y="242" width="37.5" height="36" fill="#1C64C8" stroke="#1C64C8"/>
+<rect x="1122.5" y="242" width="37.5" height="36" fill="#FFFFFF" stroke="#1C64C8"/>
+<rect x="860" y="278" width="300" height="250" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<rect x="955.0" y="318" width="110" height="210" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<rect x="1190" y="290" width="370" height="170" rx="16" fill="#FFF0F6" stroke="#C2255C" stroke-width="3"/>
+<path d="M1192,380 L1162,400 L1192,420" fill="#FFF0F6" stroke="#C2255C" stroke-width="3" stroke-linejoin="round"/>
+<line x1="1191.5" y1="382" x2="1191.5" y2="418" stroke="#FFF0F6" stroke-width="4"/>
+<text x="1212" y="322" font-size="16" font-weight="bold" fill="#C2255C">RISPOSTA</text>
+<text x="1212" y="356" font-size="21" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">HTTP/1.1 204 No Content</text>
+<text x="1212" y="438" font-size="19" font-style="italic" fill="#C2255C">«Ricevuti, li conservo»</text>
+<rect x="895" y="765" width="110" height="80" rx="8" fill="#F5F7FA" stroke="#3E4C59" stroke-width="3"/>
+<line x1="910" y1="785" x2="950" y2="785" stroke="#9AA5B1" stroke-width="4"/><line x1="910" y1="798" x2="950" y2="798" stroke="#9AA5B1" stroke-width="4"/>
+<text x="950" y="832" font-size="17" font-weight="bold" fill="#1C64C8" text-anchor="middle">Alloy</text>
+<text x="950" y="870" font-size="18" font-weight="bold" fill="#3E4C59" text-anchor="middle">spes-dev</text>
+<rect x="1000" y="580" width="560" height="150" rx="16" fill="#FFF0F6" stroke="#C2255C" stroke-width="3"/>
+<path d="M1030,728 L982,768 L1080,728" fill="#FFF0F6" stroke="#C2255C" stroke-width="3" stroke-linejoin="round"/>
+<line x1="1032" y1="728.5" x2="1078" y2="728.5" stroke="#FFF0F6" stroke-width="4"/>
+<text x="1022" y="612" font-size="16" font-weight="bold" fill="#C2255C">RICHIESTA</text>
+<text x="1022" y="646" font-size="21" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">POST /loki/api/v1/push</text>
+<text x="1022" y="708" font-size="19" font-style="italic" fill="#C2255C">«Conserva questi log»</text>
+<path d="M330,576 C330,550 250,560 232,536" fill="none" stroke="#C2255C" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M1130,576 C1130,550 1050,560 1032,536" fill="none" stroke="#C2255C" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+</svg>
