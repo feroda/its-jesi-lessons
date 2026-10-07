@@ -1,0 +1,13 @@
+SSH (sshd_classic.log / sshd_highprec.log)
+------------------------------------------------------------
+Fallimenti su utente 'pippo' (Failed password):
+Totale righe 'Invalid user': 
+Totale righe 'Failed password':
+Totale accessi riusciti (Accepted): 
+
+BONUS:
+
+- Password spraying dall'IP 185.22.1.9: 
+- Brute force da quale IP? quale utente? quanti accessi falliti? quanti riusciti (Accepted)?
+
+APACHE (apache_access.log)
