@@ -11,3 +11,22 @@ BONUS:
 - Brute force da quale IP? quale utente? quanti accessi falliti? quanti riusciti (Accepted)?
 
 APACHE (apache_access.log)
+------------------------------------------------------------
+Totale richieste:
+Totale 404:
+IP che scansiona directory (raffica di 404):
+IP con tentativi di SQL injection:
+  -> 'Contare le richieste per ogni IP' mette in cima proprio
+     lo scanner e l'IP SQLi.
+
+MAIL (mail.log)
+------------------------------------------------------------
+Righe status=sent:
+Righe status=bounced:
+Righe status=deferred:
+Righe from=<...@example.com>:
+  NOTA per approfondimento: 
+  due queue ID compaiono in piu' stati per via del retry
+  (deferred -> sent, e deferred -> bounced). Contare i 'sent'
+  conta i destinatari consegnati, non i messaggi unici.
+
