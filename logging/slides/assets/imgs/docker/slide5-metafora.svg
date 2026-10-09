@@ -31,5 +31,5 @@
   <line x1="60" y1="200" x2="1540" y2="200" stroke="#1F2933" stroke-width="3"/>
   <line x1="60" y1="800" x2="1540" y2="800" stroke="#1F2933" stroke-width="3"/>
   <line x1="620" y1="200" x2="620" y2="800" stroke="#CBD2D9" stroke-width="2"/>
-  <text x="60" y="860" font-size="20" fill="#3E4C59">Il centro commerciale (indirizzo IP) è il server. Prima di Docker c'era un solo negozio per porta; ora ognuno ha il suo.</text>
+  <text x="60" y="860" font-size="20" fill="#3E4C59">Il centro commerciale (indirizzo IP) è il server. Dentro, ogni negozio ha il suo bancone 80; in facciata, porte diverse: 8007, 8008...</text>
 </svg>
