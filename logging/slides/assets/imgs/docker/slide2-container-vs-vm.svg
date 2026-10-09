@@ -1,78 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
-  <rect width="1600" height="900" fill="#FFFFFF"/>
-  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Un container non è una macchina virtuale</text>
-  <text x="60" y="110" font-size="22" fill="#52606D">Ricordi la lezione 2? Kernel, demoni, applicazioni. Il container condivide il kernel dell'host.</text>
-
-  <!-- Macchine virtuali -->
-  <text x="400" y="180" font-size="28" font-weight="bold" fill="#3E4C59" text-anchor="middle">Macchine virtuali</text>
-  <g>
-    <rect x="80" y="210" width="200" height="70" rx="8" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
-    <text x="180" y="253" font-size="22" font-weight="bold" fill="#E8590C" text-anchor="middle">Grafana</text>
-    <rect x="300" y="210" width="200" height="70" rx="8" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
-    <text x="400" y="253" font-size="22" font-weight="bold" fill="#1C64C8" text-anchor="middle">Loki</text>
-    <rect x="520" y="210" width="200" height="70" rx="8" fill="#F5F7FA" stroke="#3E4C59" stroke-width="3"/>
-    <text x="620" y="253" font-size="22" font-weight="bold" fill="#3E4C59" text-anchor="middle">nginx</text>
-
-    <rect x="80" y="290" width="200" height="60" rx="8" fill="#F5F7FA" stroke="#9AA5B1" stroke-width="2"/>
-    <text x="180" y="327" font-size="18" fill="#52606D" text-anchor="middle">librerie</text>
-    <rect x="300" y="290" width="200" height="60" rx="8" fill="#F5F7FA" stroke="#9AA5B1" stroke-width="2"/>
-    <text x="400" y="327" font-size="18" fill="#52606D" text-anchor="middle">librerie</text>
-    <rect x="520" y="290" width="200" height="60" rx="8" fill="#F5F7FA" stroke="#9AA5B1" stroke-width="2"/>
-    <text x="620" y="327" font-size="18" fill="#52606D" text-anchor="middle">librerie</text>
-
-    <rect x="80" y="360" width="200" height="80" rx="8" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
-    <text x="180" y="395" font-size="19" font-weight="bold" fill="#C2255C" text-anchor="middle">sistema</text>
-    <text x="180" y="420" font-size="19" font-weight="bold" fill="#C2255C" text-anchor="middle">+ kernel</text>
-    <rect x="300" y="360" width="200" height="80" rx="8" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
-    <text x="400" y="395" font-size="19" font-weight="bold" fill="#C2255C" text-anchor="middle">sistema</text>
-    <text x="400" y="420" font-size="19" font-weight="bold" fill="#C2255C" text-anchor="middle">+ kernel</text>
-    <rect x="520" y="360" width="200" height="80" rx="8" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
-    <text x="620" y="395" font-size="19" font-weight="bold" fill="#C2255C" text-anchor="middle">sistema</text>
-    <text x="620" y="420" font-size="19" font-weight="bold" fill="#C2255C" text-anchor="middle">+ kernel</text>
-
-    <rect x="80" y="455" width="640" height="65" rx="8" fill="#EEF2F7" stroke="#52606D" stroke-width="3"/>
-    <text x="400" y="496" font-size="22" font-weight="bold" fill="#3E4C59" text-anchor="middle">hypervisor</text>
-    <rect x="80" y="530" width="640" height="65" rx="8" fill="#D9E2EC" stroke="#1F2933" stroke-width="3"/>
-    <text x="400" y="571" font-size="22" font-weight="bold" fill="#1F2933" text-anchor="middle">hardware del server</text>
-  </g>
-
-  <!-- Container -->
-  <text x="1200" y="180" font-size="28" font-weight="bold" fill="#2496ED" text-anchor="middle">Container</text>
-  <g>
-    <rect x="880" y="210" width="200" height="70" rx="8" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
-    <text x="980" y="253" font-size="22" font-weight="bold" fill="#E8590C" text-anchor="middle">Grafana</text>
-    <rect x="1100" y="210" width="200" height="70" rx="8" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
-    <text x="1200" y="253" font-size="22" font-weight="bold" fill="#1C64C8" text-anchor="middle">Loki</text>
-    <rect x="1320" y="210" width="200" height="70" rx="8" fill="#F5F7FA" stroke="#3E4C59" stroke-width="3"/>
-    <text x="1420" y="253" font-size="22" font-weight="bold" fill="#3E4C59" text-anchor="middle">nginx</text>
-
-    <rect x="880" y="290" width="200" height="60" rx="8" fill="#F5F7FA" stroke="#9AA5B1" stroke-width="2"/>
-    <text x="980" y="327" font-size="18" fill="#52606D" text-anchor="middle">librerie</text>
-    <rect x="1100" y="290" width="200" height="60" rx="8" fill="#F5F7FA" stroke="#9AA5B1" stroke-width="2"/>
-    <text x="1200" y="327" font-size="18" fill="#52606D" text-anchor="middle">librerie</text>
-    <rect x="1320" y="290" width="200" height="60" rx="8" fill="#F5F7FA" stroke="#9AA5B1" stroke-width="2"/>
-    <text x="1420" y="327" font-size="18" fill="#52606D" text-anchor="middle">librerie</text>
-
-    <!-- confini container -->
-    <rect x="870" y="200" width="220" height="160" rx="12" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="10 6"/>
-    <rect x="1090" y="200" width="220" height="160" rx="12" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="10 6"/>
-    <rect x="1310" y="200" width="220" height="160" rx="12" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="10 6"/>
-
-    <rect x="880" y="380" width="640" height="65" rx="8" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
-    <text x="1200" y="420" font-size="22" font-weight="bold" fill="#2496ED" text-anchor="middle">Docker (demone dockerd)</text>
-    <rect x="880" y="455" width="640" height="65" rx="8" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
-    <text x="1200" y="496" font-size="22" font-weight="bold" fill="#C2255C" text-anchor="middle">sistema operativo + UN SOLO kernel</text>
-    <rect x="880" y="530" width="640" height="65" rx="8" fill="#D9E2EC" stroke="#1F2933" stroke-width="3"/>
-    <text x="1200" y="571" font-size="22" font-weight="bold" fill="#1F2933" text-anchor="middle">hardware del server</text>
-  </g>
-
-  <!-- Conseguenze -->
-  <rect x="60" y="640" width="1480" height="215" rx="14" fill="#F5F7FA" stroke="#CBD2D9" stroke-width="2"/>
-  <text x="90" y="685" font-size="22" font-weight="bold" fill="#1F2933">Cosa cambia in pratica</text>
-  <g font-size="20" fill="#3E4C59">
-    <text x="90" y="725">• Un container parte in un secondo: non deve avviare un sistema operativo.</text>
-    <text x="90" y="760">• Ognuno porta con sé le sue librerie: "sul mio PC funziona" vale anche sul server.</text>
-    <text x="90" y="795">• Un container Linux ha bisogno di un kernel Linux: su Windows e Mac Docker Desktop usa una VM nascosta.</text>
-    <text x="90" y="830">• Un processo nel container è un processo dell'host: lo vedi con ps aux, come il miner della lezione 2.</text>
-  </g>
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Un container non è una macchina virtuale</text>
+<text x="70" y="152" font-size="27" fill="#52606D">I container condividono il kernel dell'host (lezione 2)</text>
+<text x="410" y="230" font-size="34" fill="#3E4C59" font-weight="bold" text-anchor="middle">Macchine virtuali</text>
+<rect x="90" y="265" width="200" height="80" rx="10" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<text x="190" y="316" font-size="26" fill="#E8590C" font-weight="bold" text-anchor="middle">Grafana</text>
+<rect x="90" y="355" width="200" height="80" rx="10" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
+<text x="190" y="405" font-size="24" fill="#C2255C" font-weight="bold" text-anchor="middle">kernel</text>
+<rect x="310" y="265" width="200" height="80" rx="10" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text x="410" y="316" font-size="26" fill="#1C64C8" font-weight="bold" text-anchor="middle">Loki</text>
+<rect x="310" y="355" width="200" height="80" rx="10" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
+<text x="410" y="405" font-size="24" fill="#C2255C" font-weight="bold" text-anchor="middle">kernel</text>
+<rect x="530" y="265" width="200" height="80" rx="10" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text x="630" y="316" font-size="26" fill="#3E4C59" font-weight="bold" text-anchor="middle">nginx</text>
+<rect x="530" y="355" width="200" height="80" rx="10" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
+<text x="630" y="405" font-size="24" fill="#C2255C" font-weight="bold" text-anchor="middle">kernel</text>
+<rect x="90" y="455" width="640" height="75" rx="10" fill="#EEF2F7" stroke="#52606D" stroke-width="3"/>
+<text x="410" y="503" font-size="26" fill="#3E4C59" font-weight="bold" text-anchor="middle">hypervisor</text>
+<rect x="90" y="540" width="640" height="75" rx="10" fill="#D9E2EC" stroke="#1F2933" stroke-width="3"/>
+<text x="410" y="588" font-size="26" fill="#1F2933" font-weight="bold" text-anchor="middle">server</text>
+<text x="1190" y="230" font-size="34" fill="#2496ED" font-weight="bold" text-anchor="middle">Container</text>
+<rect x="870" y="265" width="200" height="80" rx="10" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<text x="970" y="316" font-size="26" fill="#E8590C" font-weight="bold" text-anchor="middle">Grafana</text>
+<rect x="862" y="257" width="216" height="96" rx="14" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="10 7"/>
+<rect x="1090" y="265" width="200" height="80" rx="10" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text x="1190" y="316" font-size="26" fill="#1C64C8" font-weight="bold" text-anchor="middle">Loki</text>
+<rect x="1082" y="257" width="216" height="96" rx="14" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="10 7"/>
+<rect x="1310" y="265" width="200" height="80" rx="10" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text x="1410" y="316" font-size="26" fill="#3E4C59" font-weight="bold" text-anchor="middle">nginx</text>
+<rect x="1302" y="257" width="216" height="96" rx="14" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="10 7"/>
+<rect x="870" y="375" width="640" height="75" rx="10" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<text x="1190" y="423" font-size="26" fill="#2496ED" font-weight="bold" text-anchor="middle">Docker</text>
+<rect x="870" y="460" width="640" height="75" rx="10" fill="#FCE8EC" stroke="#C2255C" stroke-width="3"/>
+<text x="1190" y="508" font-size="26" fill="#C2255C" font-weight="bold" text-anchor="middle">UN SOLO kernel</text>
+<rect x="870" y="545" width="640" height="75" rx="10" fill="#D9E2EC" stroke="#1F2933" stroke-width="3"/>
+<text x="1190" y="593" font-size="26" fill="#1F2933" font-weight="bold" text-anchor="middle">server</text>
+<rect x="70" y="700" width="1460" height="150" rx="16" fill="#FFFFFF"/>
+<text x="110" y="762" font-size="30" fill="#1F2933" font-weight="bold">Un container è un processo dell'host, chiuso in una scatola.</text>
+<text x="110" y="812" font-size="26" fill="#3E4C59">Parte in un secondo. Lo vedi con ps aux, come il miner della lezione 2.</text>
 </svg>

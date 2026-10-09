@@ -11,11 +11,12 @@
     </marker>
   </defs>
 
-  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <rect width="1600" height="900" fill="#F6F3EC"/>
+  <rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
 
   <!-- Titolo -->
-  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Dove eravamo: la scatola chiusa</text>
-  <text x="60" y="110" font-size="22" fill="#52606D">Nella lezione 1 abbiamo usato docker compose senza aprirlo. Oggi lo apriamo.</text>
+  <text x="70" y="100" font-size="52" font-weight="bold" fill="#1F2933">Dove eravamo</text>
+  <text x="70" y="152" font-size="27" fill="#52606D">Nella lezione 1 docker compose era una scatola chiusa</text>
 
   <!-- Nuvola Internet -->
   <g fill="#EEF2F7" stroke="#9AA5B1" stroke-width="2">
@@ -105,17 +106,12 @@
   <path d="M310,775 C470,775 540,535 660,535 C790,535 820,697 924,697" fill="none" stroke="#1C64C8" stroke-width="5" marker-end="url(#arrB)"/>
   <text x="470" y="860" font-size="18" fill="#1C64C8" font-weight="bold">log inviati a Loki, porta 3100</text>
 
-  <!-- Velo su ciò che non è argomento di oggi -->
-  <rect x="0" y="130" width="925" height="770" fill="#FFFFFF" opacity="0.72"/>
-  <!-- Fumetto -->
+  <rect x="0" y="175" width="925" height="725" fill="#F6F3EC" opacity="0.75"/>
   <g>
-    <rect x="300" y="190" width="560" height="260" rx="16" fill="#E8F4FD" stroke="#2496ED" stroke-width="4"/>
-    <path d="M860,300 L1030,300 L860,340 Z" fill="#E8F4FD" stroke="#2496ED" stroke-width="4" stroke-linejoin="round"/>
-    <rect x="850" y="303" width="14" height="34" fill="#E8F4FD"/>
-    <text x="330" y="245" font-size="30" font-weight="bold" fill="#1F2933">Cosa c'è qui dentro?</text>
-    <text x="330" y="295" font-size="22" fill="#3E4C59">Registry, immagini, container,</text>
-    <text x="330" y="327" font-size="22" fill="#3E4C59">porte, volumi, log.</text>
-    <text x="330" y="380" font-size="20" fill="#1C64C8" font-family="DejaVu Sans Mono, monospace">$ cd /opt/loki-grafana</text>
-    <text x="330" y="412" font-size="20" fill="#1C64C8" font-family="DejaVu Sans Mono, monospace">$ cat compose.yml</text>
+    <rect x="330" y="300" width="520" height="170" rx="18" fill="#FFFFFF" stroke="#2496ED" stroke-width="4"/>
+    <path d="M850,360 L1030,330 L850,410 Z" fill="#FFFFFF" stroke="#2496ED" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="840" y="364" width="16" height="42" fill="#FFFFFF"/>
+    <text x="590" y="375" font-size="40" font-weight="bold" fill="#1F2933" text-anchor="middle">Oggi la apriamo</text>
+    <text x="590" y="428" font-size="26" fill="#52606D" text-anchor="middle">cosa c'è dentro, e come funziona</text>
   </g>
 </svg>
