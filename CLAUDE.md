@@ -46,6 +46,8 @@ Two independent Compose stacks mirror the real setup used for live troubleshooti
 
 The Loki push URL and the `host` label are hardcoded in `journal-alloy/alloy/config.alloy` and must be changed per client. Grafana has no provisioning here: the Loki datasource is added by hand in the UI.
 
+`loki-grafana/compose.yml` has no `restart:` policy while `journal-alloy/compose.yml` uses `unless-stopped`. This is the likely reason Grafana stayed down in the lesson 1 incident, and the lesson 3 deck (slide 13) uses it as the example, so if you add a restart policy to the server stack, update that slide too.
+
 ```bash
 docker compose up -d
 docker compose ps
@@ -67,6 +69,15 @@ magick $I/slide0-*.png $I/slide1-*.png $I/slide2-*.png $I/slide3-*.png $I/slide4
   $I/slide6-viaggio-pacco-passo{1,2,3}.png $I/slide6-viaggio-pacco.png \
   $I/slide7-*.png $I/slide8-*.png $I/slide9-*.png \
   -units PixelsPerInch -density 240 -compress zip Troubleshooting.pdf
+```
+
+`logging/slides/assets/imgs/docker/` holds the lesson 3 deck on Docker and Docker Compose, with the same SVG plus PNG convention and its own numbering (slide 0 to 15). It lives in a subfolder so the `slideN-*` globs above keep matching only the Troubleshooting deck. Slides 3 and 4 are redrawn from two third-party diagrams (Microsoft Learn and Nordic APIs, credited in the subtitles) rather than copied, because the repository is public. The assembled deck is `logging/slides/Docker.pdf`:
+
+```bash
+cd logging/slides
+I=assets/imgs/docker
+magick $(for n in $(seq 0 15); do ls $I/slide$n-*.png; done) \
+  -units PixelsPerInch -density 240 -compress zip Docker.pdf
 ```
 
 To export an SVG to PNG, pass absolute paths: the snap build of Inkscape on this machine resolves relative paths from the home directory. Flatten the result to RGB so it matches the other slides.

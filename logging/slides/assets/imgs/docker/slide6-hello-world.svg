@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Il primo container: hello-world</text>
+  <text x="60" y="110" font-size="22" fill="#52606D">Leggiamo l'output: Docker ci spiega da solo l'architettura della slide precedente</text>
+  <rect x="60" y="140" width="1480" height="460" rx="12" fill="#1F2933"/>
+  <text x="90" y="185" font-size="19" font-weight="bold" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker run hello-world</text>
+<text x="90" y="226" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">Unable to find image 'hello-world:latest' locally</text>
+<text x="90" y="252" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">latest: Pulling from library/hello-world</text>
+<text x="90" y="278" font-size="17" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">Status: Downloaded newer image for hello-world:latest</text>
+<text x="90" y="330" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">Hello from Docker!</text>
+<text x="90" y="356" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">This message shows that your installation appears to be working correctly.</text>
+<text x="90" y="408" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">To generate this message, Docker took the following steps:</text>
+<text x="90" y="434" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"> 1. The Docker client contacted the Docker daemon.</text>
+<text x="90" y="460" font-size="17" fill="#F0A060" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"> 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.</text>
+<text x="90" y="486" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"> 3. The Docker daemon created a new container from that image which runs the</text>
+<text x="90" y="512" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">    executable that produces the output you are currently reading.</text>
+<text x="90" y="538" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve"> 4. The Docker daemon streamed that output to the Docker client, which sent it</text>
+<text x="90" y="564" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace" xml:space="preserve">    to your terminal.</text>
+  <rect x="1180" y="160" width="340" height="95" rx="8" fill="#2D3A48"/>
+  <text x="1200" y="192" font-size="16" fill="#F0B429" font-weight="bold">Prima volta: pull</text>
+  <text x="1200" y="218" font-size="15" fill="#CBD2D9">Le prime 3 righe compaiono</text>
+  <text x="1200" y="240" font-size="15" fill="#CBD2D9">solo se l'immagine manca.</text>
+<circle cx="90" cy="650" r="20" fill="#2F9E44"/><text x="90" y="657" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="125" y="648" font-size="21" font-weight="bold" fill="#1F2933">Il client parla al demone</text>
+<text x="125" y="676" font-size="18" fill="#52606D">il telecomando, attraverso docker.sock</text>
+<circle cx="830" cy="650" r="20" fill="#E8590C"/><text x="830" y="657" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="865" y="648" font-size="21" font-weight="bold" fill="#1F2933">Il demone scarica dal registry</text>
+<text x="865" y="676" font-size="18" fill="#52606D">pull: l'immagine non c'era sul server</text>
+<circle cx="90" cy="735" r="20" fill="#2F9E44"/><text x="90" y="742" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="125" y="733" font-size="21" font-weight="bold" fill="#1F2933">Crea il container e lo avvia</text>
+<text x="125" y="761" font-size="18" fill="#52606D">run: l'immagine diventa un processo</text>
+<circle cx="830" cy="735" r="20" fill="#2F9E44"/><text x="830" y="742" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="865" y="733" font-size="21" font-weight="bold" fill="#1F2933">L'output torna al terminale</text>
+<text x="865" y="761" font-size="18" fill="#52606D">è il log del container: docker logs</text>
+  <text x="60" y="860" font-size="19" fill="#3E4C59">Poi: <tspan font-family="DejaVu Sans Mono, monospace" font-weight="bold">docker ps</tspan> è vuoto, <tspan font-family="DejaVu Sans Mono, monospace" font-weight="bold">docker ps -a</tspan> mostra Exited (0). Un container vive quanto il suo processo.</text>
+</svg>

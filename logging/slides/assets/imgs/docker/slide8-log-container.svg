@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+  <defs>
+    <marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+    <marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Dove finiscono i log</text>
+  <text x="60" y="110" font-size="22" fill="#52606D">Due strade diverse: i log dei container e i log del demone Docker</text>
+
+  <!-- Strada 1: container -->
+  <rect x="60" y="145" width="900" height="330" rx="14" fill="#F2FBF4" stroke="#2F9E44" stroke-width="3"/>
+  <text x="85" y="185" font-size="22" font-weight="bold" fill="#2F9E44">I log di un container</text>
+  <rect x="85" y="215" width="210" height="80" rx="8" fill="#E3F6E8" stroke="#2F9E44" stroke-width="3"/>
+  <text x="190" y="250" font-size="20" font-weight="bold" fill="#1F2933" text-anchor="middle">web-07</text>
+  <text x="190" y="276" font-size="15" fill="#52606D" text-anchor="middle">nginx</text>
+  <path d="M300,255 L385,255" stroke="#2F9E44" stroke-width="4" fill="none" marker-end="url(#aG)"/>
+  <text x="342" y="240" font-size="14" fill="#2F9E44" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">stdout</text>
+  <text x="342" y="285" font-size="14" fill="#2F9E44" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">stderr</text>
+  <rect x="390" y="215" width="250" height="80" rx="8" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+  <text x="515" y="250" font-size="19" font-weight="bold" fill="#1F2933" text-anchor="middle">Docker li conserva</text>
+  <text x="515" y="276" font-size="14" fill="#52606D" text-anchor="middle">in un file JSON per container</text>
+  <path d="M645,255 L725,255" stroke="#2F9E44" stroke-width="4" fill="none" marker-end="url(#aG)"/>
+  <rect x="730" y="215" width="210" height="80" rx="8" fill="#1F2933"/>
+  <text x="835" y="250" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">docker logs</text>
+  <text x="835" y="276" font-size="16" fill="#7BC47F" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">-f web-07</text>
+  <g font-size="17" fill="#3E4C59">
+    <text x="85" y="340">nginx nel container non scrive in /var/log/nginx: scrive sullo schermo.</text>
+    <text x="85" y="366">Docker raccoglie quell'output. Il file sta in</text>
+    <text x="85" y="392" font-family="DejaVu Sans Mono, monospace" font-size="15">/var/lib/docker/containers/&lt;id&gt;/&lt;id&gt;-json.log</text>
+    <text x="85" y="418">ma non si legge a mano. Con compose:</text>
+    <text x="85" y="450" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#1F2933" font-weight="bold">docker compose logs -f grafana</text>
+    <text x="440" y="450" fill="#52606D">(come nella lezione 1)</text>
+  </g>
+
+  <!-- Strada 2: demone -->
+  <rect x="990" y="145" width="550" height="330" rx="14" fill="#FFF5F5" stroke="#C92A2A" stroke-width="3"/>
+  <text x="1015" y="185" font-size="22" font-weight="bold" fill="#C92A2A">I log del demone</text>
+  <rect x="1015" y="215" width="170" height="80" rx="40" fill="#FFE3E3" stroke="#E03131" stroke-width="3"/>
+  <text x="1100" y="262" font-size="19" font-weight="bold" fill="#C92A2A" text-anchor="middle">dockerd</text>
+  <path d="M1190,255 L1265,255" stroke="#C92A2A" stroke-width="4" fill="none" marker-end="url(#aR)"/>
+  <rect x="1270" y="215" width="245" height="80" rx="8" fill="#1F2933"/>
+  <text x="1392" y="250" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">journalctl</text>
+  <text x="1392" y="276" font-size="16" fill="#7BC47F" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">-u docker</text>
+  <g font-size="17" fill="#3E4C59">
+    <text x="1015" y="340">dockerd è un servizio di systemd,</text>
+    <text x="1015" y="366">come sshd: i suoi log vanno nel</text>
+    <text x="1015" y="392">journal (lezione 2). Qui si vede</text>
+    <text x="1015" y="418">quando Docker si è fermato o</text>
+    <text x="1015" y="444">riavviato, e perché.</text>
+  </g>
+
+  <!-- Terminale -->
+  <rect x="60" y="505" width="1480" height="270" rx="12" fill="#1F2933"/>
+  <g font-size="16" font-family="DejaVu Sans Mono, monospace">
+    <text xml:space="preserve" x="85" y="542" fill="#FFFFFF">$ docker logs -f web-07</text>
+    <text xml:space="preserve" x="85" y="570" fill="#9FB3C8">203.0.113.25 - - [15/Oct/2026:09:12:44 +0000] "GET / HTTP/1.1" 200 615 "-" "Mozilla/5.0 (X11; Linux x86_64)" "-"</text>
+    <text xml:space="preserve" x="85" y="598" fill="#9FB3C8">203.0.113.25 - - [15/Oct/2026:09:12:51 +0000] "GET /pippo HTTP/1.1" 404 153 "-" "curl/8.5.0" "-"</text>
+    <text xml:space="preserve" x="85" y="640" fill="#FFFFFF">$ docker logs web-07 2&gt;/dev/null | awk '{print $1}' | sort | uniq -c</text>
+    <text xml:space="preserve" x="85" y="668" fill="#9FB3C8">     14 203.0.113.25</text>
+    <text xml:space="preserve" x="85" y="696" fill="#9FB3C8">      3 198.51.100.7</text>
+    <text xml:space="preserve" x="85" y="738" fill="#7BC47F"># quasi il formato di apache_access.log (in più l'ultimo campo): valgono i comandi della lezione 2</text>
+  </g>
+
+  <!-- Note in basso -->
+  <g font-size="18" fill="#3E4C59">
+    <text x="60" y="818"><tspan font-weight="bold" fill="#1F2933">Occhio all'ora:</tspan> i container di solito sono in UTC (+0000). Come nella lezione 1: 03:30 UTC = 05:30 in Italia.</text>
+    <text x="60" y="852"><tspan font-weight="bold" fill="#1F2933">Opzioni utili:</tspan> <tspan font-family="DejaVu Sans Mono, monospace">--since 1h</tspan>, <tspan font-family="DejaVu Sans Mono, monospace">--tail 50</tspan>, <tspan font-family="DejaVu Sans Mono, monospace">-t</tspan> (aggiunge il timestamp di Docker a ogni riga)</text>
+  </g>
+</svg>

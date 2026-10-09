@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+  <defs>
+    <marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+    <marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+    <marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7048E8"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Chi fa cosa: client, demone, registry</text>
+  <text x="60" y="110" font-size="22" fill="#52606D">Il comando docker non fa niente da solo: chiede al demone (ridisegnato da Nordic APIs, via devopedia.org)</text>
+
+  <!-- Legenda -->
+  <g font-size="17" font-weight="bold">
+    <rect x="1100" y="140" width="22" height="22" rx="4" fill="#2F9E44"/><text x="1130" y="158" fill="#2F9E44">RUN</text>
+    <rect x="1210" y="140" width="22" height="22" rx="4" fill="#E8590C"/><text x="1240" y="158" fill="#E8590C">PULL</text>
+    <rect x="1325" y="140" width="22" height="22" rx="4" fill="#7048E8"/><text x="1355" y="158" fill="#7048E8">BUILD (non oggi)</text>
+  </g>
+
+  <!-- CLIENT -->
+  <rect x="60" y="180" width="300" height="560" rx="12" fill="#F5F7FA" stroke="#3E4C59" stroke-width="3"/>
+  <rect x="60" y="180" width="300" height="50" rx="12" fill="#3E4C59"/><rect x="60" y="210" width="300" height="20" fill="#3E4C59"/>
+  <text x="210" y="214" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">CLIENT</text>
+  <rect x="90" y="260" width="240" height="150" rx="8" fill="#1F2933"/>
+  <text x="105" y="298" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker ps</text>
+  <text x="105" y="328" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker run ...</text>
+  <text x="105" y="358" font-size="17" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker compose</text>
+  <text x="105" y="388" font-size="17" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace">  up -d</text>
+  <text x="90" y="455" font-size="18" fill="#3E4C59">Il comando docker è solo</text>
+  <text x="90" y="480" font-size="18" fill="#3E4C59">un telecomando.</text>
+  <text x="90" y="525" font-size="18" fill="#3E4C59">Parla al demone attraverso</text>
+  <text x="90" y="550" font-size="16" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">/var/run/docker.sock</text>
+  <rect x="80" y="590" width="260" height="125" rx="8" fill="#FCE8EC" stroke="#C2255C" stroke-width="2"/>
+  <text x="95" y="622" font-size="17" font-weight="bold" fill="#C2255C">Sicurezza</text>
+  <text x="95" y="650" font-size="16" fill="#3E4C59">Chi può usare docker</text>
+  <text x="95" y="674" font-size="16" fill="#3E4C59">(gruppo docker) è, di fatto,</text>
+  <text x="95" y="698" font-size="16" fill="#3E4C59">root sulla macchina.</text>
+
+  <!-- HOST -->
+  <rect x="420" y="180" width="700" height="560" rx="12" fill="#E8F4FD" stroke="#2496ED" stroke-width="3"/>
+  <rect x="420" y="180" width="700" height="50" rx="12" fill="#2496ED"/><rect x="420" y="210" width="700" height="20" fill="#2496ED"/>
+  <text x="770" y="214" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">HOST (il server)</text>
+  <rect x="460" y="255" width="620" height="70" rx="35" fill="#FFE3E3" stroke="#E03131" stroke-width="3"/>
+  <text x="770" y="290" font-size="24" font-weight="bold" fill="#C92A2A" text-anchor="middle">DEMONE dockerd</text>
+  <text x="770" y="314" font-size="15" fill="#52606D" text-anchor="middle">un servizio di systemd: journalctl -u docker</text>
+
+  <rect x="450" y="400" width="320" height="320" rx="10" fill="#FFFFFF" stroke="#9AA5B1" stroke-width="2"/>
+  <text x="610" y="705" font-size="20" font-weight="bold" fill="#2F9E44" text-anchor="middle">CONTAINER</text>
+  <rect x="480" y="430" width="260" height="56" rx="4" fill="#E3F6E8" stroke="#2F9E44" stroke-width="2.5"/><line x1="706" y1="438" x2="706" y2="478" stroke="#2F9E44" stroke-width="2"/><line x1="714" y1="438" x2="714" y2="478" stroke="#2F9E44" stroke-width="2"/><line x1="722" y1="438" x2="722" y2="478" stroke="#2F9E44" stroke-width="2"/><line x1="730" y1="438" x2="730" y2="478" stroke="#2F9E44" stroke-width="2"/><text x="490" y="463.6" font-size="16" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">grafana</text><circle cx="690" cy="458.0" r="8" fill="#2F9E44"/>
+  <rect x="480" y="505" width="260" height="56" rx="4" fill="#E3F6E8" stroke="#2F9E44" stroke-width="2.5"/><line x1="706" y1="513" x2="706" y2="553" stroke="#2F9E44" stroke-width="2"/><line x1="714" y1="513" x2="714" y2="553" stroke="#2F9E44" stroke-width="2"/><line x1="722" y1="513" x2="722" y2="553" stroke="#2F9E44" stroke-width="2"/><line x1="730" y1="513" x2="730" y2="553" stroke="#2F9E44" stroke-width="2"/><text x="490" y="538.6" font-size="16" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">loki</text><circle cx="690" cy="533.0" r="8" fill="#2F9E44"/>
+  <rect x="480" y="580" width="260" height="56" rx="4" fill="#E3F6E8" stroke="#2F9E44" stroke-width="2.5"/><line x1="706" y1="588" x2="706" y2="628" stroke="#2F9E44" stroke-width="2"/><line x1="714" y1="588" x2="714" y2="628" stroke="#2F9E44" stroke-width="2"/><line x1="722" y1="588" x2="722" y2="628" stroke="#2F9E44" stroke-width="2"/><line x1="730" y1="588" x2="730" y2="628" stroke="#2F9E44" stroke-width="2"/><text x="490" y="613.6" font-size="16" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">web-07</text><circle cx="690" cy="608.0" r="8" fill="#2F9E44"/>
+
+  <rect x="800" y="400" width="290" height="320" rx="10" fill="#FFFFFF" stroke="#9AA5B1" stroke-width="2"/>
+  <text x="945" y="705" font-size="20" font-weight="bold" fill="#2496ED" text-anchor="middle">IMMAGINI</text>
+  <rect x="825" y="430" width="240" height="56" rx="4" fill="#DCEFFD" stroke="#2496ED" stroke-width="2.5"/><line x1="1031" y1="438" x2="1031" y2="478" stroke="#2496ED" stroke-width="2"/><line x1="1039" y1="438" x2="1039" y2="478" stroke="#2496ED" stroke-width="2"/><line x1="1047" y1="438" x2="1047" y2="478" stroke="#2496ED" stroke-width="2"/><line x1="1055" y1="438" x2="1055" y2="478" stroke="#2496ED" stroke-width="2"/><text x="835" y="463.6" font-size="16" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">grafana</text>
+  <rect x="825" y="505" width="240" height="56" rx="4" fill="#DCEFFD" stroke="#2496ED" stroke-width="2.5"/><line x1="1031" y1="513" x2="1031" y2="553" stroke="#2496ED" stroke-width="2"/><line x1="1039" y1="513" x2="1039" y2="553" stroke="#2496ED" stroke-width="2"/><line x1="1047" y1="513" x2="1047" y2="553" stroke="#2496ED" stroke-width="2"/><line x1="1055" y1="513" x2="1055" y2="553" stroke="#2496ED" stroke-width="2"/><text x="835" y="538.6" font-size="16" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">loki:3.7.0</text>
+  <rect x="825" y="580" width="240" height="56" rx="4" fill="#DCEFFD" stroke="#2496ED" stroke-width="2.5"/><line x1="1031" y1="588" x2="1031" y2="628" stroke="#2496ED" stroke-width="2"/><line x1="1039" y1="588" x2="1039" y2="628" stroke="#2496ED" stroke-width="2"/><line x1="1047" y1="588" x2="1047" y2="628" stroke="#2496ED" stroke-width="2"/><line x1="1055" y1="588" x2="1055" y2="628" stroke="#2496ED" stroke-width="2"/><text x="835" y="613.6" font-size="16" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">nginx:alpine</text>
+
+  <!-- REGISTRY -->
+  <rect x="1180" y="180" width="360" height="560" rx="12" fill="#F3E6C8" stroke="#8D6E2F" stroke-width="3"/>
+  <rect x="1180" y="180" width="360" height="50" rx="12" fill="#8D6E2F"/><rect x="1180" y="210" width="360" height="20" fill="#8D6E2F"/>
+  <text x="1360" y="214" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">REGISTRY</text>
+  <text x="1360" y="300" font-size="26" font-weight="bold" fill="#1F2933" text-anchor="middle">Docker Hub</text>
+  <text x="1360" y="330" font-size="16" fill="#52606D" text-anchor="middle">(o un altro registry)</text>
+  <rect x="1230" y="430" width="260" height="56" rx="4" fill="#DCEFFD" stroke="#2496ED" stroke-width="2.5"/><line x1="1456" y1="438" x2="1456" y2="478" stroke="#2496ED" stroke-width="2"/><line x1="1464" y1="438" x2="1464" y2="478" stroke="#2496ED" stroke-width="2"/><line x1="1472" y1="438" x2="1472" y2="478" stroke="#2496ED" stroke-width="2"/><line x1="1480" y1="438" x2="1480" y2="478" stroke="#2496ED" stroke-width="2"/><text x="1240" y="463.25" font-size="15" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">grafana/grafana</text>
+  <rect x="1230" y="505" width="260" height="56" rx="4" fill="#DCEFFD" stroke="#2496ED" stroke-width="2.5"/><line x1="1456" y1="513" x2="1456" y2="553" stroke="#2496ED" stroke-width="2"/><line x1="1464" y1="513" x2="1464" y2="553" stroke="#2496ED" stroke-width="2"/><line x1="1472" y1="513" x2="1472" y2="553" stroke="#2496ED" stroke-width="2"/><line x1="1480" y1="513" x2="1480" y2="553" stroke="#2496ED" stroke-width="2"/><text x="1240" y="538.25" font-size="15" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">grafana/loki</text>
+  <rect x="1230" y="580" width="260" height="56" rx="4" fill="#DCEFFD" stroke="#2496ED" stroke-width="2.5"/><line x1="1456" y1="588" x2="1456" y2="628" stroke="#2496ED" stroke-width="2"/><line x1="1464" y1="588" x2="1464" y2="628" stroke="#2496ED" stroke-width="2"/><line x1="1472" y1="588" x2="1472" y2="628" stroke="#2496ED" stroke-width="2"/><line x1="1480" y1="588" x2="1480" y2="628" stroke="#2496ED" stroke-width="2"/><text x="1240" y="613.25" font-size="15" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">nginx</text>
+  <text x="1360" y="680" font-size="16" fill="#52606D" text-anchor="middle">su Internet</text>
+
+  <!-- Flussi client -> demone -->
+  <path d="M330,268 L458,268" stroke="#2F9E44" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aG)"/>
+  <path d="M330,290 L458,290" stroke="#E8590C" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aO)"/>
+  <path d="M330,312 L458,312" stroke="#7048E8" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aP)"/>
+  <!-- PULL: demone -> registry -> immagini -->
+  <path d="M1082,290 L1150,290 L1150,370 L1360,370 L1360,420" stroke="#E8590C" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aO)"/>
+  <path d="M1226,608 L1075,608" stroke="#E8590C" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aO)"/>
+  <!-- RUN: demone -> immagine -> container -->
+  <path d="M900,327 L900,420" stroke="#2F9E44" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aG)"/>
+  <path d="M820,608 L750,608" stroke="#2F9E44" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aG)"/>
+  <!-- BUILD: demone -> immagini -->
+  <path d="M1000,327 L1000,420" stroke="#7048E8" stroke-width="5" stroke-dasharray="3 7" stroke-linecap="round" fill="none" marker-end="url(#aP)"/>
+
+  <!-- Comandi -->
+  <g font-size="19" font-family="DejaVu Sans Mono, monospace" font-weight="bold">
+    <text x="60" y="800" fill="#E8590C">docker pull nginx:alpine</text>
+    <text x="60" y="840" fill="#2F9E44">docker run -d -p 8007:80 nginx:alpine</text>
+  </g>
+  <g font-size="18" fill="#3E4C59">
+    <text x="540" y="800">← scarica l'immagine dal registry</text>
+    <text x="540" y="840">← la scarica se manca, poi avvia il container</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Torniamo al centro commerciale</text>
+  <text x="60" y="110" font-size="22" fill="#52606D">Le parole di Docker, tradotte nella metafora della lezione 2</text>
+  <text x="90" y="180" font-size="20" font-weight="bold" fill="#52606D">DOCKER</text>
+  <text x="660" y="180" font-size="20" font-weight="bold" fill="#52606D">NEL CENTRO COMMERCIALE</text>
+  <rect x="60" y="200" width="1480" height="100" fill="#F5F7FA"/>
+  <text x="90" y="260" font-size="28" font-weight="bold" fill="#8D6E2F" font-family="DejaVu Sans Mono, monospace">registry (Docker Hub)</text>
+  <text x="660" y="245" font-size="24" font-weight="bold" fill="#1F2933">il catalogo del franchising</text>
+  <text x="660" y="277" font-size="20" fill="#52606D">da cui si ordinano i progetti dei negozi</text>
+  <rect x="60" y="300" width="1480" height="100" fill="#FFFFFF"/>
+  <text x="90" y="360" font-size="28" font-weight="bold" fill="#2496ED" font-family="DejaVu Sans Mono, monospace">immagine</text>
+  <text x="660" y="345" font-size="24" font-weight="bold" fill="#1F2933">il progetto standard di un negozio</text>
+  <text x="660" y="377" font-size="20" fill="#52606D">uguale per tutti, esiste solo sulla carta</text>
+  <rect x="60" y="400" width="1480" height="100" fill="#F5F7FA"/>
+  <text x="90" y="460" font-size="28" font-weight="bold" fill="#2F9E44" font-family="DejaVu Sans Mono, monospace">container</text>
+  <text x="660" y="445" font-size="24" font-weight="bold" fill="#1F2933">un negozio aperto, costruito dal progetto</text>
+  <text x="660" y="477" font-size="20" fill="#52606D">dallo stesso progetto se ne aprono tanti</text>
+  <rect x="60" y="500" width="1480" height="100" fill="#FFFFFF"/>
+  <text x="90" y="560" font-size="28" font-weight="bold" fill="#0C8599" font-family="DejaVu Sans Mono, monospace">-p 8007:80</text>
+  <text x="660" y="545" font-size="24" font-weight="bold" fill="#1F2933">la porta 8007 sulla facciata del centro</text>
+  <text x="660" y="577" font-size="20" fill="#52606D">porta al bancone interno numero 80</text>
+  <rect x="60" y="600" width="1480" height="100" fill="#F5F7FA"/>
+  <text x="90" y="660" font-size="28" font-weight="bold" fill="#C92A2A" font-family="DejaVu Sans Mono, monospace">dockerd</text>
+  <text x="660" y="645" font-size="24" font-weight="bold" fill="#1F2933">la direzione del centro commerciale</text>
+  <text x="660" y="677" font-size="20" fill="#52606D">apre, chiude e controlla i negozi</text>
+  <rect x="60" y="700" width="1480" height="100" fill="#FFFFFF"/>
+  <text x="90" y="760" font-size="28" font-weight="bold" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">docker logs</text>
+  <text x="660" y="745" font-size="24" font-weight="bold" fill="#1F2933">il registro di cassa del negozio</text>
+  <text x="660" y="777" font-size="20" fill="#52606D">tutto ciò che il negozio ha detto e fatto</text>
+  <line x1="60" y1="200" x2="1540" y2="200" stroke="#1F2933" stroke-width="3"/>
+  <line x1="60" y1="800" x2="1540" y2="800" stroke="#1F2933" stroke-width="3"/>
+  <line x1="620" y1="200" x2="620" y2="800" stroke="#CBD2D9" stroke-width="2"/>
+  <text x="60" y="860" font-size="20" fill="#3E4C59">Il centro commerciale (indirizzo IP) è il server. Prima di Docker c'era un solo negozio per porta; ora ognuno ha il suo.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">Da befair3 al VPS del corso</text>
+<text x="60" y="110" font-size="22" fill="#52606D">Lo stesso compose.yml, su un altro server: questo è il bello dei container</text>
+
+<!-- schema compose -->
+<rect x="60" y="145" width="740" height="560" rx="14" fill="#F5F7FA" stroke="#1F2933" stroke-width="4"/>
+<text x="90" y="185" font-size="22" font-weight="bold" fill="#1F2933">VPS del corso</text>
+<rect x="90" y="205" width="530" height="475" rx="12" fill="#FFFFFF" stroke="#2496ED" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="355" y="237" font-size="19" font-weight="bold" fill="#2496ED" text-anchor="middle">loki-grafana/compose.yml</text>
+
+<rect x="120" y="260" width="300" height="170" rx="10" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<text x="270" y="300" font-size="28" font-weight="bold" fill="#E8590C" text-anchor="middle">grafana</text>
+<text x="140" y="335" font-size="14" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">grafana/grafana:latest</text>
+<text x="140" y="365" font-size="14" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">grafana-data:/var/lib/grafana</text>
+<text x="140" y="398" font-size="15" fill="#52606D">utenti, dashboard, sorgenti</text>
+
+<rect x="120" y="480" width="300" height="180" rx="10" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text x="270" y="520" font-size="28" font-weight="bold" fill="#1C64C8" text-anchor="middle">loki</text>
+<text x="140" y="555" font-size="14" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">grafana/loki:3.7.0</text>
+<text x="140" y="585" font-size="14" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">./loki/config.yml (ro)</text>
+<text x="140" y="613" font-size="14" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">loki-data:/loki</text>
+<text x="140" y="643" font-size="15" fill="#52606D">config + i log ricevuti</text>
+
+<path d="M270,432 L270,476" stroke="#555" stroke-width="3" stroke-dasharray="7 6" fill="none"/>
+<text x="285" y="460" font-size="15" fill="#555" font-family="DejaVu Sans Mono, monospace">http://loki:3100</text>
+
+<rect x="690" y="320" width="130" height="50" rx="8" fill="#E8590C"/>
+<text x="755" y="353" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">:3000</text>
+<line x1="422" y1="345" x2="688" y2="345" stroke="#E8590C" stroke-width="4"/>
+<text x="555" y="335" font-size="14" fill="#E8590C" text-anchor="middle">ports</text>
+<rect x="690" y="545" width="130" height="50" rx="8" fill="#1C64C8"/>
+<text x="755" y="578" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">:3100</text>
+<line x1="422" y1="570" x2="688" y2="570" stroke="#1C64C8" stroke-width="4"/>
+<text x="555" y="560" font-size="14" fill="#1C64C8" text-anchor="middle">ports</text>
+<text x="735" y="400" font-size="16" fill="#3E4C59" text-anchor="middle">dal browser</text>
+<text x="735" y="625" font-size="16" fill="#3E4C59" text-anchor="middle">da Alloy</text>
+
+<!-- passi -->
+<text x="840" y="160" font-size="22" font-weight="bold" fill="#1F2933">Lo facciamo insieme</text>
+<circle cx="855" cy="202" r="17" fill="#2496ED"/><text x="855" y="209" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="890" y="202" font-size="18" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">cd its-jesi-lessons/logging/loki-grafana</text>
+<text x="890" y="232" font-size="17" fill="#52606D">il compose è nel repository del corso</text>
+<circle cx="855" cy="290" r="17" fill="#2496ED"/><text x="855" y="297" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="890" y="290" font-size="18" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose up -d</text>
+<text x="890" y="320" font-size="17" fill="#52606D">scarica le immagini e avvia Loki e Grafana</text>
+<circle cx="855" cy="378" r="17" fill="#2496ED"/><text x="855" y="385" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="890" y="378" font-size="18" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose ps</text>
+<text x="890" y="408" font-size="17" fill="#52606D">entrambi Up? Se no: docker compose logs loki</text>
+<circle cx="855" cy="466" r="17" fill="#2496ED"/><text x="855" y="473" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="890" y="466" font-size="18" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">curl http://IP-del-VPS:3100/ready</text>
+<text x="890" y="496" font-size="17" fill="#52606D">dal vostro PC. Risposta attesa: ready</text>
+<circle cx="855" cy="554" r="17" fill="#2496ED"/><text x="855" y="561" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="890" y="554" font-size="18" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">http://IP-del-VPS:3000</text>
+<text x="890" y="584" font-size="17" fill="#52606D">browser: admin / admin, poi nuova password</text>
+<circle cx="855" cy="642" r="17" fill="#2496ED"/><text x="855" y="649" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="890" y="642" font-size="18" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">Data sources › Loki › http://loki:3100</text>
+<text x="890" y="672" font-size="17" fill="#52606D">dentro il compose Loki si chiama per nome</text>
+
+<!-- anticipo lezione 4 -->
+<rect x="60" y="735" width="1480" height="130" rx="14" fill="#E8F4FD" stroke="#2496ED" stroke-width="2"/>
+<text x="85" y="775" font-size="21" font-weight="bold" fill="#2496ED">Lezione 4: Alloy sui vostri PC (logging/journal-alloy)</text>
+<text x="85" y="810" font-size="18" fill="#3E4C59">In <tspan font-family="DejaVu Sans Mono, monospace" fill="#1F2933">alloy/config.alloy</tspan> si cambiano due righe: <tspan font-family="DejaVu Sans Mono, monospace" fill="#1F2933">url</tspan> (l'indirizzo del Loki del VPS) e <tspan font-family="DejaVu Sans Mono, monospace" fill="#1F2933">host</tspan> (il nome del vostro PC).</text>
+<text x="85" y="842" font-size="18" fill="#3E4C59">Compiti: verificate se sul vostro PC gira <tspan font-family="DejaVu Sans Mono, monospace" fill="#1F2933">docker run hello-world</tspan> (Linux, WSL2 o Docker Desktop).</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="60" y="72" font-size="40" font-weight="bold" fill="#1F2933">I comandi minimi di docker compose</text>
+<text x="60" y="110" font-size="22" fill="#52606D">Sempre dalla cartella che contiene compose.yml</text>
+<rect x="60" y="150" width="1480" height="92" fill="#F5F7FA"/>
+<rect x="60" y="150" width="8" height="92" fill="#2F9E44"/>
+<text x="90" y="205" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose up -d</text>
+<text x="660" y="190" font-size="21" font-weight="bold" fill="#2F9E44">crea e avvia tutti i servizi del file</text>
+<text x="660" y="220" font-size="17" fill="#52606D">-d: in background. Se cambi il file, rilancialo: ricrea solo ciò che è cambiato</text>
+<rect x="60" y="242" width="1480" height="92" fill="#FFFFFF"/>
+<rect x="60" y="242" width="8" height="92" fill="#2496ED"/>
+<text x="90" y="297" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose ps</text>
+<text x="660" y="282" font-size="21" font-weight="bold" fill="#2496ED">chi gira e chi no, con le porte</text>
+<text x="660" y="312" font-size="17" fill="#52606D">come docker ps, ma solo per questo progetto</text>
+<rect x="60" y="334" width="1480" height="92" fill="#F5F7FA"/>
+<rect x="60" y="334" width="8" height="92" fill="#C2255C"/>
+<text x="90" y="389" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose logs -f grafana</text>
+<text x="660" y="374" font-size="21" font-weight="bold" fill="#C2255C">i log di un servizio, in tempo reale</text>
+<text x="660" y="404" font-size="17" fill="#52606D">senza nome: tutti i servizi insieme. Ctrl+C per uscire</text>
+<rect x="60" y="426" width="1480" height="92" fill="#FFFFFF"/>
+<rect x="60" y="426" width="8" height="92" fill="#B7791F"/>
+<text x="90" y="481" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose stop / start</text>
+<text x="660" y="466" font-size="21" font-weight="bold" fill="#B7791F">ferma e riavvia, senza cancellare</text>
+<text x="660" y="496" font-size="17" fill="#52606D">i container restano, li vedi con ps -a</text>
+<rect x="60" y="518" width="1480" height="92" fill="#F5F7FA"/>
+<rect x="60" y="518" width="8" height="92" fill="#B7791F"/>
+<text x="90" y="573" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose restart loki</text>
+<text x="660" y="558" font-size="21" font-weight="bold" fill="#B7791F">ferma e riparte un servizio</text>
+<text x="660" y="588" font-size="17" fill="#52606D">utile dopo aver cambiato un file di configurazione</text>
+<rect x="60" y="610" width="1480" height="92" fill="#FFFFFF"/>
+<rect x="60" y="610" width="8" height="92" fill="#C92A2A"/>
+<text x="90" y="665" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose down</text>
+<text x="660" y="650" font-size="21" font-weight="bold" fill="#C92A2A">ferma e CANCELLA i container</text>
+<text x="660" y="680" font-size="17" fill="#52606D">i volumi con nome restano; con -v cancella anche quelli (e i dati!)</text>
+<rect x="60" y="702" width="1480" height="92" fill="#F5F7FA"/>
+<rect x="60" y="702" width="8" height="92" fill="#7048E8"/>
+<text x="90" y="757" font-size="22" font-weight="bold" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">docker compose pull</text>
+<text x="660" y="742" font-size="21" font-weight="bold" fill="#7048E8">scarica le versioni nuove delle immagini</text>
+<text x="660" y="772" font-size="17" fill="#52606D">poi up -d per usarle</text>
+<rect x="60" y="808" width="1480" height="62" rx="10" fill="#E8F4FD"/>
+<text x="85" y="847" font-size="20" fill="#1F2933"><tspan font-weight="bold">Lezione 1:</tspan> <tspan font-family="DejaVu Sans Mono, monospace">cd /opt/loki-grafana</tspan>, poi <tspan font-family="DejaVu Sans Mono, monospace">ps</tspan>, <tspan font-family="DejaVu Sans Mono, monospace">logs grafana</tspan>, <tspan font-family="DejaVu Sans Mono, monospace">up -d</tspan>. Erano già questi comandi.</text>
+</svg>
