@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">I comandi di docker compose</text>
+<rect x="70" y="200" width="1460" height="96" rx="12" fill="#FFFFFF"/>
+<rect x="70" y="200" width="12" height="96" rx="4" fill="#2F9E44"/>
+<text xml:space="preserve" x="115" y="262" font-size="32" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose up -d</text>
+<text x="900" y="262" font-size="32" fill="#2F9E44" font-weight="bold">avvia tutto</text>
+<rect x="70" y="312" width="1460" height="96" rx="12" fill="#FFFFFF"/>
+<rect x="70" y="312" width="12" height="96" rx="4" fill="#2496ED"/>
+<text xml:space="preserve" x="115" y="374" font-size="32" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose ps</text>
+<text x="900" y="374" font-size="32" fill="#2496ED" font-weight="bold">chi gira?</text>
+<rect x="70" y="424" width="1460" height="96" rx="12" fill="#FFFFFF"/>
+<rect x="70" y="424" width="12" height="96" rx="4" fill="#C2255C"/>
+<text xml:space="preserve" x="115" y="486" font-size="32" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose logs -f web</text>
+<text x="900" y="486" font-size="32" fill="#C2255C" font-weight="bold">log in tempo reale</text>
+<rect x="70" y="536" width="1460" height="96" rx="12" fill="#FFFFFF"/>
+<rect x="70" y="536" width="12" height="96" rx="4" fill="#B7791F"/>
+<text xml:space="preserve" x="115" y="598" font-size="32" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose stop</text>
+<text x="900" y="598" font-size="32" fill="#B7791F" font-weight="bold">ferma, senza cancellare</text>
+<rect x="70" y="648" width="1460" height="96" rx="12" fill="#FFFFFF"/>
+<rect x="70" y="648" width="12" height="96" rx="4" fill="#C92A2A"/>
+<text xml:space="preserve" x="115" y="710" font-size="32" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose down</text>
+<text x="900" y="710" font-size="32" fill="#C92A2A" font-weight="bold">ferma e CANCELLA i container</text>
+<text x="800" y="820" font-size="26" fill="#3E4C59" text-anchor="middle">Sempre dalla cartella del compose.yml, come /opt/loki-grafana nella lezione 1.</text>
+</svg>

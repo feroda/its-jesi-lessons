@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Come si legge il nome di un'immagine</text>
+<text x="70" y="152" font-size="27" fill="#52606D">Il nome dice da dove viene e quale versione è</text>
+<text xml:space="preserve" x="800" y="420" font-size="96" fill="#1F2933" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">grafana/loki:3.7.0</text>
+<rect x="279" y="450" width="404" height="10" rx="5" fill="#8D6E2F"/>
+<text x="482" y="520" font-size="30" fill="#8D6E2F" font-weight="bold" text-anchor="middle">chi la pubblica</text>
+<rect x="742" y="450" width="231" height="10" rx="5" fill="#2496ED"/>
+<text x="857" y="520" font-size="30" fill="#2496ED" font-weight="bold" text-anchor="middle">il nome</text>
+<rect x="1031" y="450" width="288" height="10" rx="5" fill="#2F9E44"/>
+<text x="1175" y="520" font-size="30" fill="#2F9E44" font-weight="bold" text-anchor="middle">la versione (tag)</text>
+<rect x="300" y="640" width="1000" height="140" rx="16" fill="#FFFFFF"/>
+<text x="800" y="700" font-size="32" fill="#C2255C" font-weight="bold" text-anchor="middle">Senza tag Docker prende :latest</text>
+<text x="800" y="750" font-size="28" fill="#3E4C59" text-anchor="middle">che oggi è una versione e domani un'altra</text>
+</svg>
