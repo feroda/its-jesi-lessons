@@ -1,0 +1,14 @@
+loki.source.journal "journal" {
+  forward_to = [loki.write.loki.receiver]
+
+  labels = {
+    job = "journald",
+    host = "client1",
+  }
+}
+
+loki.write "loki" {
+  endpoint {
+    url = "http://befair3.befair.it:3100/loki/api/v1/push"
+  }
+}
