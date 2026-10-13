@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Dov'è finito?</text>
+<text x="70" y="152" font-size="27" fill="#52606D">docker ps mostra solo i container accesi</text>
+<rect x="70" y="200" width="1460" height="319" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="100" y="252" font-size="28" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker ps</text>
+<text xml:space="preserve" x="100" y="298" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">CONTAINER ID   IMAGE   STATUS</text>
+<text xml:space="preserve" x="100" y="391" font-size="28" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker ps -a</text>
+<text xml:space="preserve" x="100" y="437" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">CONTAINER ID   IMAGE         STATUS</text>
+<text xml:space="preserve" x="100" y="483" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">4c1d2e9f0a1b   hello-world   Exited (0) 10 seconds ago</text>
+<text x="800" y="690" font-size="38" fill="#1F2933" font-weight="bold" text-anchor="middle">Un container vive quanto il suo processo.</text>
+<text x="800" y="750" font-size="28" fill="#3E4C59" text-anchor="middle">hello-world stampa e termina: il container resta lì, fermo.</text>
+</svg>

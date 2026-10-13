@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Da docker run a compose.yml</text>
+<rect x="70" y="190" width="1460" height="128" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="100" y="240" font-size="26" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker run -d --name web-07 -p 8007:80 \</text>
+<text xml:space="preserve" x="100" y="283" font-size="26" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">    -v ~/web/sito:/usr/share/nginx/html:ro nginx:alpine</text>
+<text xml:space="preserve" x="70" y="380" font-size="28" fill="#52606D" font-weight="bold" font-family="DejaVu Sans Mono, monospace">~/web/compose.yml</text>
+<rect x="70" y="400" width="1000" height="440" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="110" y="460" font-size="28" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">services:</text>
+<text xml:space="preserve" x="110" y="508" font-size="28" fill="#C2255C" font-weight="bold" font-family="DejaVu Sans Mono, monospace">  web:</text>
+<text xml:space="preserve" x="110" y="556" font-size="28" fill="#2496ED" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    image: nginx:alpine</text>
+<text xml:space="preserve" x="110" y="604" font-size="28" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    ports:</text>
+<text xml:space="preserve" x="110" y="652" font-size="28" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">      - "8007:80"</text>
+<text xml:space="preserve" x="110" y="700" font-size="28" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    volumes:</text>
+<text xml:space="preserve" x="110" y="748" font-size="28" fill="#B7791F" font-weight="bold" font-family="DejaVu Sans Mono, monospace">      - ./sito:/usr/share/nginx/html:ro</text>
+<text xml:space="preserve" x="110" y="796" font-size="28" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    restart: unless-stopped</text>
+<text x="1110" y="470" font-size="30" fill="#1F2933" font-weight="bold">Stesso container,</text>
+<text x="1110" y="515" font-size="30" fill="#1F2933" font-weight="bold">scritto in un file.</text>
+<text x="1110" y="600" font-size="28" fill="#3E4C59">Si legge, si copia,</text>
+<text x="1110" y="645" font-size="28" fill="#3E4C59">si versiona con git.</text>
+<text x="1110" y="730" font-size="28" fill="#3E4C59">YAML: spazi,</text>
+<text x="1110" y="775" font-size="28" fill="#3E4C59">mai tab.</text>
+</svg>

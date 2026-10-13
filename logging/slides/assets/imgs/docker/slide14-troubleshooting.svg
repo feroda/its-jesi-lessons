@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Il sito non risponde</text>
+<text x="70" y="152" font-size="27" fill="#52606D">Un livello alla volta, come nelle lezioni 1 e 2</text>
+<rect x="70" y="200" width="1460" height="125" rx="16" fill="#FFFFFF" stroke="#0C8599" stroke-width="3"/>
+<circle cx="125" cy="262" r="28" fill="#0C8599"/><text x="125" y="273" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">1</text>
+<text xml:space="preserve" x="180" y="275" font-size="32" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">nc -zv IP-VPS 8007</text>
+<text x="920" y="275" font-size="30" fill="#1F2933">dal PC: la porta risponde?</text>
+<rect x="110" y="350" width="1420" height="125" rx="16" fill="#FFFFFF" stroke="#6741D9" stroke-width="3"/>
+<circle cx="165" cy="412" r="28" fill="#6741D9"/><text x="165" y="423" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">2</text>
+<text xml:space="preserve" x="220" y="425" font-size="32" fill="#6741D9" font-weight="bold" font-family="DejaVu Sans Mono, monospace">ss -ltnp | grep 8007</text>
+<text x="920" y="425" font-size="30" fill="#1F2933">sul server: chi ascolta?</text>
+<rect x="150" y="500" width="1380" height="125" rx="16" fill="#FFFFFF" stroke="#2496ED" stroke-width="3"/>
+<circle cx="205" cy="562" r="28" fill="#2496ED"/><text x="205" y="573" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">3</text>
+<text xml:space="preserve" x="260" y="575" font-size="32" fill="#2496ED" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker ps -a</text>
+<text x="920" y="575" font-size="30" fill="#1F2933">il container gira?</text>
+<rect x="190" y="650" width="1340" height="125" rx="16" fill="#FFFFFF" stroke="#C2255C" stroke-width="3"/>
+<circle cx="245" cy="712" r="28" fill="#C2255C"/><text x="245" y="723" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">4</text>
+<text xml:space="preserve" x="300" y="725" font-size="32" fill="#C2255C" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker logs web-07</text>
+<text x="920" y="725" font-size="30" fill="#1F2933">cosa ha detto prima di fermarsi?</text>
+</svg>

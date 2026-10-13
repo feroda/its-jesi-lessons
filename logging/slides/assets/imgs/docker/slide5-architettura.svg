@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Chi fa cosa</text>
+<text x="70" y="152" font-size="27" fill="#52606D">Ridisegnato da Nordic APIs, via devopedia.org</text>
+<rect x="70" y="220" width="330" height="400" rx="16" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text x="235" y="275" font-size="30" fill="#3E4C59" font-weight="bold" text-anchor="middle">CLIENT</text>
+<rect x="100" y="310" width="270" height="154" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="130" y="357" font-size="22" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker run</text>
+<text xml:space="preserve" x="130" y="393" font-size="22" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker ps</text>
+<text xml:space="preserve" x="130" y="430" font-size="22" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker logs</text>
+<text x="235" y="520" font-size="26" fill="#3E4C59" text-anchor="middle">il telecomando</text>
+<rect x="470" y="220" width="620" height="400" rx="16" fill="#E8F4FD" stroke="#2496ED" stroke-width="3"/>
+<text x="780" y="275" font-size="30" fill="#2496ED" font-weight="bold" text-anchor="middle">HOST (il server)</text>
+<rect x="520" y="305" width="520" height="80" rx="40" fill="#FFE3E3" stroke="#C92A2A" stroke-width="3"/>
+<text x="780" y="357" font-size="30" fill="#C92A2A" font-weight="bold" text-anchor="middle">demone dockerd</text>
+<rect x="520" y="430" width="240" height="70" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="720" y1="440" x2="720" y2="490" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="729" y1="440" x2="729" y2="490" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="738" y1="440" x2="738" y2="490" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="747" y1="440" x2="747" y2="490" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="536" y="472" font-size="20" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">immagini</text>
+<rect x="800" y="430" width="240" height="70" rx="6" fill="#E3F6E8" stroke="#2F9E44" stroke-width="3"/>
+<line x1="1000" y1="440" x2="1000" y2="490" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1009" y1="440" x2="1009" y2="490" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1018" y1="440" x2="1018" y2="490" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1027" y1="440" x2="1027" y2="490" stroke="#2F9E44" stroke-width="2.5"/>
+<text xml:space="preserve" x="816" y="472" font-size="20" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">container</text>
+<circle cx="978" cy="465.0" r="10" fill="#2F9E44"/>
+<rect x="1160" y="220" width="370" height="400" rx="16" fill="#F3E6C8" stroke="#8D6E2F" stroke-width="3"/>
+<text x="1345" y="275" font-size="30" fill="#8D6E2F" font-weight="bold" text-anchor="middle">REGISTRY</text>
+<text x="1345" y="380" font-size="34" fill="#1F2933" font-weight="bold" text-anchor="middle">Docker Hub</text>
+<text x="1345" y="425" font-size="26" fill="#3E4C59" text-anchor="middle">su Internet</text>
+<path d="M402,345 L515,345" stroke="#1F2933" stroke-width="5" fill="none" marker-end="url(#aK)"/>
+<path d="M1045,345 L1155,345" stroke="#E8590C" stroke-width="5" fill="none" stroke-dasharray="4 10" stroke-linecap="round" marker-end="url(#aO)"/>
+<text xml:space="preserve" x="1100" y="325" font-size="22" fill="#E8590C" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">pull</text>
+<path d="M762,465 L795,465" stroke="#2F9E44" stroke-width="5" fill="none" marker-end="url(#aG)"/>
+<text x="780" y="560" font-size="22" fill="#2F9E44" font-weight="bold" text-anchor="middle">run: dall'immagine al container</text>
+<text x="800" y="720" font-size="34" fill="#1F2933" font-weight="bold" text-anchor="middle">Il comando docker chiede, il demone fa.</text>
+<text x="800" y="775" font-size="28" fill="#C2255C" text-anchor="middle">Chi può usare docker è, di fatto, root sulla macchina.</text>
+</svg>

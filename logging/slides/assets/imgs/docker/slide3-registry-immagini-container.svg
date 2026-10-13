@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Registry, immagine, container</text>
+<text x="70" y="152" font-size="27" fill="#52606D">Ridisegnato da Microsoft Learn, "Docker overview"</text>
+<rect x="90" y="230" width="340" height="330" rx="10" fill="#F3E6C8" stroke="#8D6E2F" stroke-width="4"/>
+<line x1="90" y1="340" x2="430" y2="340" stroke="#8D6E2F" stroke-width="4"/>
+<line x1="90" y1="450" x2="430" y2="450" stroke="#8D6E2F" stroke-width="4"/>
+<rect x="105" y="255" width="150" height="62" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="215" y1="265" x2="215" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="224" y1="265" x2="224" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="233" y1="265" x2="233" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="242" y1="265" x2="242" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="121" y="292" font-size="18" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">nginx</text>
+<rect x="268" y="255" width="150" height="62" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="378" y1="265" x2="378" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="387" y1="265" x2="387" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="396" y1="265" x2="396" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="405" y1="265" x2="405" y2="307" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="284" y="292" font-size="18" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">loki</text>
+<rect x="105" y="365" width="150" height="62" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="215" y1="375" x2="215" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="224" y1="375" x2="224" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="233" y1="375" x2="233" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="242" y1="375" x2="242" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="121" y="402" font-size="18" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">grafana</text>
+<rect x="268" y="365" width="150" height="62" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="378" y1="375" x2="378" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="387" y1="375" x2="387" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="396" y1="375" x2="396" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="405" y1="375" x2="405" y2="417" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="284" y="402" font-size="18" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">alloy</text>
+<rect x="105" y="475" width="150" height="62" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="215" y1="485" x2="215" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="224" y1="485" x2="224" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="233" y1="485" x2="233" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="242" y1="485" x2="242" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="121" y="512" font-size="18" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">hello</text>
+<rect x="268" y="475" width="150" height="62" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="378" y1="485" x2="378" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="387" y1="485" x2="387" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="396" y1="485" x2="396" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="405" y1="485" x2="405" y2="527" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="284" y="512" font-size="18" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">...</text>
+<path d="M445,395 L585,395" stroke="#1F2933" stroke-width="6" fill="none" marker-end="url(#aK)"/>
+<text xml:space="preserve" x="515" y="375" font-size="26" fill="#1F2933" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">pull</text>
+<rect x="600" y="350" width="260" height="90" rx="6" fill="#DCEFFD" stroke="#2496ED" stroke-width="3"/>
+<line x1="820" y1="360" x2="820" y2="430" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="829" y1="360" x2="829" y2="430" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="838" y1="360" x2="838" y2="430" stroke="#2496ED" stroke-width="2.5"/>
+<line x1="847" y1="360" x2="847" y2="430" stroke="#2496ED" stroke-width="2.5"/>
+<text xml:space="preserve" x="616" y="404" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">nginx</text>
+<path d="M875,395 L1015,395" stroke="#1F2933" stroke-width="6" fill="none" marker-end="url(#aK)"/>
+<text xml:space="preserve" x="945" y="375" font-size="26" fill="#1F2933" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">run</text>
+<rect x="1030" y="230" width="480" height="330" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<rect x="1065" y="255" width="410" height="75" rx="6" fill="#E3F6E8" stroke="#2F9E44" stroke-width="3"/>
+<line x1="1435" y1="265" x2="1435" y2="320" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1444" y1="265" x2="1444" y2="320" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1453" y1="265" x2="1453" y2="320" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1462" y1="265" x2="1462" y2="320" stroke="#2F9E44" stroke-width="2.5"/>
+<text xml:space="preserve" x="1081" y="301" font-size="24" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">web-07</text>
+<circle cx="1413" cy="292.5" r="10" fill="#2F9E44"/>
+<rect x="1065" y="355" width="410" height="75" rx="6" fill="#E3F6E8" stroke="#2F9E44" stroke-width="3"/>
+<line x1="1435" y1="365" x2="1435" y2="420" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1444" y1="365" x2="1444" y2="420" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1453" y1="365" x2="1453" y2="420" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1462" y1="365" x2="1462" y2="420" stroke="#2F9E44" stroke-width="2.5"/>
+<text xml:space="preserve" x="1081" y="401" font-size="24" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">web-08</text>
+<circle cx="1413" cy="392.5" r="10" fill="#2F9E44"/>
+<rect x="1065" y="455" width="410" height="75" rx="6" fill="#E3F6E8" stroke="#2F9E44" stroke-width="3"/>
+<line x1="1435" y1="465" x2="1435" y2="520" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1444" y1="465" x2="1444" y2="520" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1453" y1="465" x2="1453" y2="520" stroke="#2F9E44" stroke-width="2.5"/>
+<line x1="1462" y1="465" x2="1462" y2="520" stroke="#2F9E44" stroke-width="2.5"/>
+<text xml:space="preserve" x="1081" y="501" font-size="24" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">web-12</text>
+<circle cx="1413" cy="492.5" r="10" fill="#2F9E44"/>
+<text x="260" y="640" font-size="40" fill="#8D6E2F" font-weight="bold" text-anchor="middle">Registry</text>
+<text x="260" y="690" font-size="28" fill="#3E4C59" text-anchor="middle">il magazzino</text>
+<text x="730" y="640" font-size="40" fill="#2496ED" font-weight="bold" text-anchor="middle">Immagine</text>
+<text x="730" y="690" font-size="28" fill="#3E4C59" text-anchor="middle">il pacchetto fermo</text>
+<text x="1270" y="640" font-size="40" fill="#2F9E44" font-weight="bold" text-anchor="middle">Container</text>
+<text x="1270" y="690" font-size="28" fill="#3E4C59" text-anchor="middle">l'immagine in moto</text>
+<text x="800" y="800" font-size="30" fill="#1F2933" font-weight="bold" text-anchor="middle">Da una sola immagine si avviano tanti container.</text>
+</svg>

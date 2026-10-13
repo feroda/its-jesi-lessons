@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Lo stack del corso</text>
+<text x="70" y="152" font-size="27" fill="#52606D">Lo stesso compose di befair3, su un altro server</text>
+<rect x="70" y="200" width="900" height="640" rx="18" fill="#FFFFFF" stroke="#1F2933" stroke-width="4"/>
+<text x="110" y="250" font-size="30" fill="#1F2933" font-weight="bold">VPS del corso</text>
+<rect x="110" y="280" width="660" height="520" rx="14" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="12 8"/>
+<text xml:space="preserve" x="440" y="320" font-size="24" fill="#2496ED" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">loki-grafana/compose.yml</text>
+<rect x="150" y="350" width="420" height="160" rx="12" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<text x="360" y="440" font-size="40" fill="#E8590C" font-weight="bold" text-anchor="middle">grafana</text>
+<rect x="150" y="600" width="420" height="160" rx="12" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text x="360" y="690" font-size="40" fill="#1C64C8" font-weight="bold" text-anchor="middle">loki</text>
+<path d="M360,512 L360,596" stroke="#52606D" stroke-width="3" stroke-dasharray="7 6" fill="none"/><text xml:space="preserve" x="380" y="560" font-size="22" fill="#52606D" font-family="DejaVu Sans Mono, monospace">http://loki:3100</text>
+<line x1="572" y1="430" x2="900" y2="430" stroke="#E8590C" stroke-width="5"/><line x1="572" y1="680" x2="900" y2="680" stroke="#1C64C8" stroke-width="5"/><rect x="900" y="400" width="150" height="60" rx="10" fill="#E8590C"/>
+<text x="975" y="441" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3000</text>
+<rect x="900" y="650" width="150" height="60" rx="10" fill="#1C64C8"/>
+<text x="975" y="691" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3100</text>
+<text x="1080" y="441" font-size="30" fill="#1F2933">← il browser</text>
+<text x="1080" y="691" font-size="30" fill="#1F2933">← Alloy (lezione 4)</text>
+</svg>

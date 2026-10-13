@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Riapriamo il caso della lezione 1</text>
+<text x="70" y="152" font-size="27" fill="#52606D">Perché Grafana non era ripartito da solo?</text>
+<text xml:space="preserve" x="70" y="225" font-size="24" fill="#52606D" font-weight="bold" font-family="DejaVu Sans Mono, monospace">/opt/loki-grafana/compose.yml (estratto)</text>
+<rect x="70" y="245" width="680" height="450" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="105" y="300" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">services:</text>
+<text xml:space="preserve" x="105" y="346" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  loki:</text>
+<text xml:space="preserve" x="105" y="392" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    image: grafana/loki:3.7.0</text>
+<text xml:space="preserve" x="105" y="438" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    ports: ["3100:3100"]</text>
+<rect x="80" y="451" width="660" height="46" rx="4" fill="#FFE3E3"/>
+<text xml:space="preserve" x="105" y="484" font-size="26" fill="#C92A2A" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    # restart: ???</text>
+<text xml:space="preserve" x="105" y="530" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  grafana:</text>
+<text xml:space="preserve" x="105" y="576" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    image: grafana/grafana</text>
+<text xml:space="preserve" x="105" y="622" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    ports: ["3000:3000"]</text>
+<rect x="80" y="635" width="660" height="46" rx="4" fill="#FFE3E3"/>
+<text xml:space="preserve" x="105" y="668" font-size="26" fill="#C92A2A" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    # restart: ???</text>
+<circle cx="830" cy="290" r="16" fill="#52606D"/><text x="870" y="278" font-size="24" fill="#52606D" font-weight="bold">03:30 UTC</text>
+<text x="870" y="320" font-size="32" fill="#1F2933" font-weight="bold">Grafana e Loki si spengono</text>
+<circle cx="830" cy="430" r="16" fill="#C92A2A"/><text x="870" y="418" font-size="24" fill="#C92A2A" font-weight="bold">dopo</text>
+<text x="870" y="460" font-size="32" fill="#1F2933" font-weight="bold">nessuno li riaccende</text>
+<circle cx="830" cy="570" r="16" fill="#E8590C"/><text x="870" y="558" font-size="24" fill="#E8590C" font-weight="bold">mattina</text>
+<text x="870" y="600" font-size="32" fill="#1F2933" font-weight="bold">Grafana irraggiungibile</text>
+<line x1="830" y1="306" x2="830" y2="554" stroke="#CBD2D9" stroke-width="4"/><text x="70" y="780" font-size="34" fill="#1F2933" font-weight="bold">Senza restart: un container fermo resta fermo.</text>
+<text x="70" y="830" font-size="28" fill="#3E4C59">Chi li ha spenti alle 03:30? Lo chiediamo a journalctl -u docker.</text>
+</svg>

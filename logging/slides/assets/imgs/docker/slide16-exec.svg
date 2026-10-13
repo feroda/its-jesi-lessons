@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Entrare nel container</text>
+<text x="70" y="152" font-size="27" fill="#52606D">docker exec avvia un comando dentro un container acceso</text>
+<rect x="70" y="195" width="1460" height="319" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="100" y="247" font-size="28" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ docker exec -it web-07 sh</text>
+<text xml:space="preserve" x="100" y="293" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">/ # ls /usr/share/nginx/html</text>
+<text xml:space="preserve" x="100" y="339" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">index.html</text>
+<text xml:space="preserve" x="100" y="386" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">/ # cat /etc/os-release</text>
+<text xml:space="preserve" x="100" y="432" font-size="28" fill="#7BC47F" font-family="DejaVu Sans Mono, monospace">NAME="Alpine Linux"</text>
+<text xml:space="preserve" x="100" y="478" font-size="28" fill="#9FB3C8" font-family="DejaVu Sans Mono, monospace">/ # exit</text>
+<text x="800" y="700" font-size="34" fill="#1F2933" font-weight="bold" text-anchor="middle">Dentro c'è un altro Linux, piccolo: Alpine.</text>
+<text x="800" y="760" font-size="28" fill="#3E4C59" text-anchor="middle">Come fare ssh in un altro server, ma senza rete.</text>
+</svg>
