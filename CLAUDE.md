@@ -71,7 +71,7 @@ magick $I/slide0-*.png $I/slide1-*.png $I/slide2-*.png $I/slide3-*.png $I/slide4
   -units PixelsPerInch -density 240 -compress zip Troubleshooting.pdf
 ```
 
-`logging/slides/assets/imgs/docker/` holds the lesson 3 deck on Docker and Docker Compose, with the same SVG plus PNG convention and its own numbering (slide 0 to 23). It lives in a subfolder so the `slideN-*` globs above keep matching only the Troubleshooting deck. Unlike the Troubleshooting deck it uses a warm paper background (`#F6F3EC`) and one idea per slide with large text, because the first version was too dense to read in class; keep it that way and leave details to the lesson plan. Slides 3 and 5 are redrawn from two third-party diagrams (Microsoft Learn and Nordic APIs, credited in the subtitles) rather than copied, because the repository is public. The assembled deck is `logging/slides/Docker.pdf`:
+`logging/slides/assets/imgs/docker/` holds the lesson 3 deck on Docker and Docker Compose, with the same SVG plus PNG convention and its own numbering (slide 0 to 23). It lives in a subfolder so the `slideN-*` globs above keep matching only the Troubleshooting deck. Unlike the Troubleshooting deck it uses a warm paper background (`#F6F3EC`) and one idea per slide with large text, because the first version was too dense to read in class; keep it that way and leave details to the teacher's notes, which are not in this repository. Slides 3 and 5 are redrawn from two third-party diagrams (Microsoft Learn and Nordic APIs, credited in the subtitles) rather than copied, because the repository is public. The assembled deck is `logging/slides/Docker.pdf`:
 
 ```bash
 cd logging/slides
