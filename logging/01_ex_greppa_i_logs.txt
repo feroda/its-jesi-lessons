@@ -1,32 +1,38 @@
 SSH (sshd_classic.log / sshd_highprec.log)
 ------------------------------------------------------------
-Fallimenti su utente 'pippo' (Failed password):
-Totale righe 'Invalid user': 
-Totale righe 'Failed password':
-Totale accessi riusciti (Accepted): 
+Fallimenti su utente 'pippo' (Failed password): 3
+Totale righe 'Invalid user': 16
+Totale righe 'Failed password': 49
+Totale accessi riusciti (Accepted): 17 
 
 BONUS:
 
-- Password spraying dall'IP 185.22.1.9: 
+- Password spraying dall'IP 185.22.1.9:  10 - grep 185.22.1.9 sshd_highprec.log | wc -l
 - Brute force da quale IP? quale utente? quanti accessi falliti? quanti riusciti (Accepted)?
+
+  45.9.14.207, deploy, 36, 1
+
+cat sshd_highprec.log | cut -f7,9,4 -d' ' | sort | uniq -c | sort -rn | grep 45.9.14.207
+oppure
+cat sshd_highprec.log | awk '{print $7" "$9" "$4 }' | sort | uniq -c | sort -rn | grep 45.9.14.207
+
 
 APACHE (apache_access.log)
 ------------------------------------------------------------
-Totale richieste:
-Totale 404:
-IP che scansiona directory (raffica di 404):
-IP con tentativi di SQL injection:
+Totale richieste: 83 wc -l apache_access.log
+Totale 404: 47 - grep "\<404\>" apache_access.log | wc -l
+IP che scansiona directory (raffica di 404):  185.220.101.54 - grep "\<404\>" apache_access.log | cut -d' ' -f1 | sort | uniq -c | sort -rn
+IP con tentativi di SQL injection: 45.9.14.207
   -> 'Contare le richieste per ogni IP' mette in cima proprio
      lo scanner e l'IP SQLi.
 
+grep -iE "(SELECT|UPDATE|DROP|INSERT|DELETE)" apache_access.log | cut -d' ' -f1 | sort -rn | uniq -c
+
+
 MAIL (mail.log)
 ------------------------------------------------------------
-Righe status=sent:
-Righe status=bounced:
-Righe status=deferred:
-Righe from=<...@example.com>:
-  NOTA per approfondimento: 
-  due queue ID compaiono in piu' stati per via del retry
-  (deferred -> sent, e deferred -> bounced). Contare i 'sent'
-  conta i destinatari consegnati, non i messaggi unici.
+Righe status=sent: 15 facile grep
+Righe status=bounced: 3 facile grep
+Righe status=deferred: 2 facile grep
+Righe from=<...@example.com>: 11 - grep -E "from.*example.com>" mail.log  | wc -l
 
