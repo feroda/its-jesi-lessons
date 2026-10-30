@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Il quadro finale</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Lo stesso su befair3 e sul VPS del corso</text>
+<rect x="70" y="300" width="380" height="340" rx="18" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="260" y="350" font-size="30" fill="#3E4C59" font-weight="bold" text-anchor="middle">i PC</text>
+<rect x="110" y="400" width="300" height="180" rx="12" fill="#EBFBEE" stroke="#2F9E44" stroke-width="3"/>
+<text xml:space="preserve" x="260.0" y="487.2" font-size="40" fill="#2F9E44" font-weight="bold" text-anchor="middle">Alloy</text>
+<text xml:space="preserve" x="260.0" y="523.2" font-size="24" fill="#52606D" text-anchor="middle">su ogni PC</text>
+<rect x="640" y="200" width="600" height="620" rx="18" fill="#FFFFFF" stroke="#1F2933" stroke-width="4"/>
+<text xml:space="preserve" x="940" y="245" font-size="28" fill="#1F2933" font-weight="bold" text-anchor="middle">server</text>
+<rect x="690" y="280" width="280" height="120" rx="12" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text xml:space="preserve" x="830.0" y="335.09999999999997" font-size="34" fill="#1C64C8" font-weight="bold" text-anchor="middle">Loki</text>
+<text xml:space="preserve" x="830.0" y="371.09999999999997" font-size="24" fill="#52606D" text-anchor="middle">:3100</text>
+<rect x="690" y="620" width="280" height="120" rx="12" fill="#FFF5F5" stroke="#C92A2A" stroke-width="3"/>
+<text xml:space="preserve" x="830.0" y="673.7" font-size="30" fill="#C92A2A" font-weight="bold" text-anchor="middle">Prometheus</text>
+<text xml:space="preserve" x="830.0" y="709.7" font-size="24" fill="#52606D" text-anchor="middle">:9090</text>
+<rect x="1010" y="450" width="200" height="120" rx="12" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<text xml:space="preserve" x="1110.0" y="502.99999999999994" font-size="28" fill="#E8590C" font-weight="bold" text-anchor="middle">Grafana</text>
+<text xml:space="preserve" x="1110.0" y="539.0" font-size="24" fill="#52606D" text-anchor="middle">:3000</text>
+<line x1="455" y1="400" x2="684" y2="340" stroke="#1C64C8" stroke-width="5" marker-end="url(#aB)"/>
+<text xml:space="preserve" x="560" y="345" font-size="28" fill="#1C64C8" font-weight="bold" text-anchor="middle">log</text>
+<line x1="455" y1="540" x2="684" y2="680" stroke="#C92A2A" stroke-width="5" marker-end="url(#aR)"/>
+<text xml:space="preserve" x="540" y="660" font-size="28" fill="#C92A2A" font-weight="bold" text-anchor="middle">metriche</text>
+<line x1="1060" y1="446" x2="975" y2="345" stroke="#52606D" stroke-width="3" marker-end="url(#aY)" stroke-dasharray="7 6"/>
+<line x1="1060" y1="574" x2="975" y2="675" stroke="#52606D" stroke-width="3" marker-end="url(#aY)" stroke-dasharray="7 6"/>
+<rect x="1300" y="450" width="230" height="120" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="1415.0" y="520.5" font-size="30" fill="#3E4C59" font-weight="bold" text-anchor="middle">browser</text>
+<line x1="1295" y1="510" x2="1215" y2="510" stroke="#E8590C" stroke-width="4" marker-end="url(#aO)"/>
+</svg>

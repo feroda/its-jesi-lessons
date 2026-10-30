@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Pull: il server va a chiedere</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Prometheus, di base, fa così</text>
+<rect x="70" y="380" width="360" height="140" rx="12" fill="#FFF5F5" stroke="#C92A2A" stroke-width="3"/>
+<text xml:space="preserve" x="250.0" y="462.6" font-size="36" fill="#C92A2A" font-weight="bold" text-anchor="middle">Prometheus</text>
+<rect x="1100" y="230" width="400" height="110" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="1300.0" y="295.5" font-size="30" fill="#3E4C59" font-weight="bold" text-anchor="middle">macchina 1</text>
+<rect x="1100" y="395" width="400" height="110" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="1300.0" y="460.5" font-size="30" fill="#3E4C59" font-weight="bold" text-anchor="middle">macchina 2</text>
+<rect x="1100" y="560" width="400" height="110" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="1300.0" y="625.5" font-size="30" fill="#3E4C59" font-weight="bold" text-anchor="middle">macchina 3</text>
+<line x1="435" y1="430" x2="1095" y2="285" stroke="#C92A2A" stroke-width="4" marker-end="url(#aR)"/>
+<line x1="435" y1="450" x2="1095" y2="450" stroke="#C92A2A" stroke-width="4" marker-end="url(#aR)"/>
+<line x1="435" y1="470" x2="1095" y2="615" stroke="#C92A2A" stroke-width="4" marker-end="url(#aR)"/>
+<text xml:space="preserve" x="760" y="425" font-size="28" fill="#C92A2A" font-weight="bold" text-anchor="middle">ogni 15 s: come stai?</text>
+<text xml:space="preserve" x="70" y="790" font-size="32" fill="#1F2933" font-weight="bold">Il server deve riuscire a raggiungere ogni macchina.</text>
+</svg>

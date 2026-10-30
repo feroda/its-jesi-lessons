@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">SNMP e sicurezza</text>
+<rect x="70" y="190" width="700" height="500" rx="14" fill="#FFFFFF" stroke="#C92A2A" stroke-width="3"/>
+<rect x="830" y="190" width="700" height="500" rx="14" fill="#FFFFFF" stroke="#2F9E44" stroke-width="3"/>
+<text xml:space="preserve" x="420" y="270" font-size="44" fill="#C92A2A" font-weight="bold" text-anchor="middle">v1, v2c</text>
+<text xml:space="preserve" x="420" y="370" font-size="32" fill="#1F2933" font-weight="bold" text-anchor="middle">community "public"</text>
+<text xml:space="preserve" x="420" y="440" font-size="28" fill="#3E4C59" text-anchor="middle">è una password</text>
+<text xml:space="preserve" x="420" y="485" font-size="28" fill="#3E4C59" text-anchor="middle">che tutti conoscono</text>
+<text xml:space="preserve" x="420" y="580" font-size="28" fill="#C92A2A" font-weight="bold" text-anchor="middle">e viaggia in chiaro</text>
+<text xml:space="preserve" x="1180" y="270" font-size="44" fill="#2F9E44" font-weight="bold" text-anchor="middle">v3</text>
+<text xml:space="preserve" x="1180" y="370" font-size="32" fill="#1F2933" font-weight="bold" text-anchor="middle">utente e password</text>
+<text xml:space="preserve" x="1180" y="440" font-size="28" fill="#3E4C59" text-anchor="middle">autenticazione</text>
+<text xml:space="preserve" x="1180" y="485" font-size="28" fill="#3E4C59" text-anchor="middle">e cifratura</text>
+<text xml:space="preserve" x="70" y="790" font-size="30" fill="#3E4C59">Con tcpdump, chi è sulla stessa rete legge la community.</text>
+</svg>

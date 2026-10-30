@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Metriche, eventi e alerting</text>
+<rect x="70" y="150" width="470" height="150" rx="14" fill="#FFFFFF" stroke="#C92A2A" stroke-width="3"/>
+<rect x="70" y="150" width="12" height="150" rx="6" fill="#C92A2A"/>
+<text xml:space="preserve" x="105" y="197" font-size="30" fill="#C92A2A" font-weight="bold">Metrica</text>
+<text xml:space="preserve" x="105" y="237" font-size="24" fill="#1F2933">un numero nel tempo</text>
+<text xml:space="preserve" x="105" y="277" font-size="22" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">CPU all'87% alle 10:15</text>
+<rect x="565" y="150" width="470" height="150" rx="14" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<rect x="565" y="150" width="12" height="150" rx="6" fill="#1C64C8"/>
+<text xml:space="preserve" x="600" y="197" font-size="30" fill="#1C64C8" font-weight="bold">Evento</text>
+<text xml:space="preserve" x="600" y="237" font-size="24" fill="#1F2933">un fatto puntuale</text>
+<text xml:space="preserve" x="600" y="277" font-size="22" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">10:15:02 servizio riavviato</text>
+<rect x="1060" y="150" width="470" height="150" rx="14" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<rect x="1060" y="150" width="12" height="150" rx="6" fill="#E8590C"/>
+<text xml:space="preserve" x="1095" y="197" font-size="30" fill="#E8590C" font-weight="bold">Alert</text>
+<text xml:space="preserve" x="1095" y="237" font-size="24" fill="#1F2933">una situazione anomala</text>
+<text xml:space="preserve" x="1095" y="277" font-size="22" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">CPU oltre il 90% da 5 minuti</text>
+<text xml:space="preserve" x="70" y="360" font-size="30" fill="#B7791F" font-weight="bold">Soglie (thresholds)</text>
+<text xml:space="preserve" x="70" y="400" font-size="23" fill="#1F2933">statica: un valore fisso, es. disco oltre il 90%</text>
+<text xml:space="preserve" x="70" y="434" font-size="23" fill="#1F2933">dinamica: rispetto al normale, es. il triplo del solito</text>
+<rect x="70" y="460" width="720" height="330" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="95" y="500" font-size="22" fill="#1F2933" font-weight="bold">Isteresi: scatta sopra il 90%, rientra solo sotto l'80%</text>
+<rect x="300" y="520" width="310" height="250" rx="0" fill="#FFF5F5"/>
+<text xml:space="preserve" x="455" y="545" font-size="20" fill="#C92A2A" font-weight="bold" text-anchor="middle">alert attivo</text>
+<line x1="95" y1="590" x2="770" y2="590" stroke="#C92A2A" stroke-width="2.5" stroke-dasharray="10 7"/>
+<line x1="95" y1="660" x2="770" y2="660" stroke="#B7791F" stroke-width="2.5" stroke-dasharray="10 7"/>
+<text xml:space="preserve" x="770" y="580" font-size="20" fill="#C92A2A" font-weight="bold" text-anchor="end">90%</text>
+<text xml:space="preserve" x="770" y="650" font-size="20" fill="#B7791F" font-weight="bold" text-anchor="end">80%</text>
+<polyline points="100,750 170,735 240,690 300,590 340,565 380,620 420,575 460,630 500,585 545,640 610,660 670,715 765,735" fill="none" stroke="#1F2933" stroke-width="4" stroke-linejoin="round"/>
+<text xml:space="preserve" x="300" y="765" font-size="20" fill="#C92A2A" font-weight="bold" text-anchor="middle">scatta</text>
+<text xml:space="preserve" x="610" y="765" font-size="20" fill="#B7791F" font-weight="bold" text-anchor="middle">rientra</text>
+<text xml:space="preserve" x="70" y="835" font-size="22" fill="#3E4C59">Senza isteresi si accenderebbe e spegnerebbe a ogni oscillazione.</text>
+<text xml:space="preserve" x="830" y="360" font-size="30" fill="#C92A2A" font-weight="bold">Severity</text>
+<rect x="830" y="385" width="170" height="52" rx="10" fill="#0C8599"/>
+<text xml:space="preserve" x="915.0" y="419.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Info</text>
+<text xml:space="preserve" x="1025" y="420" font-size="24" fill="#1F2933">da registrare, nessuna azione</text>
+<rect x="830" y="455" width="170" height="52" rx="10" fill="#B7791F"/>
+<text xml:space="preserve" x="915.0" y="489.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Warning</text>
+<text xml:space="preserve" x="1025" y="490" font-size="24" fill="#1F2933">da guardare prima che peggiori</text>
+<rect x="830" y="525" width="170" height="52" rx="10" fill="#E8590C"/>
+<text xml:space="preserve" x="915.0" y="559.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">High</text>
+<text xml:space="preserve" x="1025" y="560" font-size="24" fill="#1F2933">da risolvere presto</text>
+<rect x="830" y="595" width="170" height="52" rx="10" fill="#C92A2A"/>
+<text xml:space="preserve" x="915.0" y="629.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Critical</text>
+<text xml:space="preserve" x="1025" y="630" font-size="24" fill="#1F2933">servizio fermo: subito</text>
+<rect x="830" y="680" width="700" height="165" rx="14" fill="#FFF5F5" stroke="#C92A2A" stroke-width="3"/>
+<text xml:space="preserve" x="860" y="725" font-size="28" fill="#C92A2A" font-weight="bold">Alert fatigue</text>
+<text xml:space="preserve" x="860" y="765" font-size="23" fill="#1F2933">troppi falsi positivi: nessuno legge più gli alert,</text>
+<text xml:space="preserve" x="860" y="798" font-size="23" fill="#1F2933">nemmeno quello vero.</text>
+<text xml:space="preserve" x="860" y="832" font-size="23" fill="#1F2933" font-weight="bold">Un alert solo se serve un'azione.</text>
+</svg>

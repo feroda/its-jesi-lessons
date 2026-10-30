@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Il firewall che scrive nel log</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">iptables -j LOG: ogni pacchetto che corrisponde finisce nel log del kernel</text>
+<rect x="70" y="190" width="1460" height="203" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="102" y="238" font-size="23" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ sudo iptables -I INPUT -p tcp --dport 22 -j LOG --log-prefix "SSH-IN: "</text>
+<text xml:space="preserve" x="102" y="278" font-size="23" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ sudo journalctl -k -f | grep SSH-IN</text>
+<text xml:space="preserve" x="102" y="318" font-size="23" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">Oct 28 10:15:02 srv kernel: SSH-IN: IN=eth0 OUT= SRC=45.9.14.207 DST=203.0.113.10</text>
+<text xml:space="preserve" x="102" y="358" font-size="23" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">    ... PROTO=TCP SPT=42216 DPT=22 SYN</text>
+<circle cx="100" cy="462.76" r="9" fill="#C92A2A"/><text xml:space="preserve" x="130" y="473" font-size="32" fill="#1F2933">SRC e DST sono il livello 3, SPT e DPT il livello 4</text>
+<circle cx="100" cy="534.76" r="9" fill="#C92A2A"/><text xml:space="preserve" x="130" y="545" font-size="32" fill="#1F2933">-j LOG non blocca: scrive e passa alla regola successiva</text>
+<circle cx="100" cy="606.76" r="9" fill="#C92A2A"/><text xml:space="preserve" x="130" y="617" font-size="32" fill="#1F2933">-I la mette in cima, prima delle regole che accettano o scartano</text>
+<circle cx="100" cy="678.76" r="9" fill="#C92A2A"/><text xml:space="preserve" x="130" y="689" font-size="32" fill="#1F2933">Sui sistemi recenti c'è nftables: stessa idea, sintassi diversa</text>
+</svg>

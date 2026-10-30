@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Classificazione degli indicatori chiave</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Cosa misurare, a seconda di cosa si osserva</text>
+<rect x="70" y="190" width="470" height="640" rx="16" fill="#FFFFFF" stroke="#6741D9" stroke-width="3"/>
+<rect x="70" y="190" width="470" height="120" rx="16" fill="#6741D9"/>
+<rect x="70" y="280" width="470" height="30" rx="0" fill="#6741D9"/>
+<text xml:space="preserve" x="305" y="245" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Apparati di rete</text>
+<text xml:space="preserve" x="305" y="290" font-size="24" fill="#FFFFFF" text-anchor="middle">router, switch, firewall</text>
+<circle cx="115" cy="379.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="145" y="390" font-size="32" fill="#1F2933">throughput</text>
+<circle cx="115" cy="454.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="145" y="465" font-size="32" fill="#1F2933">errori sulle interfacce</text>
+<circle cx="115" cy="529.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="145" y="540" font-size="32" fill="#1F2933">latenza</text>
+<circle cx="115" cy="604.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="145" y="615" font-size="32" fill="#1F2933">CPU e RAM</text>
+<text xml:space="preserve" x="305" y="800" font-size="22" fill="#52606D" font-style="italic" text-anchor="middle">di solito via SNMP, senza agent</text>
+<rect x="565" y="190" width="470" height="640" rx="16" fill="#FFFFFF" stroke="#2F9E44" stroke-width="3"/>
+<rect x="565" y="190" width="470" height="120" rx="16" fill="#2F9E44"/>
+<rect x="565" y="280" width="470" height="30" rx="0" fill="#2F9E44"/>
+<text xml:space="preserve" x="800" y="245" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Server</text>
+<text xml:space="preserve" x="800" y="290" font-size="24" fill="#FFFFFF" text-anchor="middle">GNU/Linux, Windows</text>
+<circle cx="610" cy="379.76" r="9" fill="#2F9E44"/><text xml:space="preserve" x="640" y="390" font-size="32" fill="#1F2933">utilizzo CPU</text>
+<circle cx="610" cy="454.76" r="9" fill="#2F9E44"/><text xml:space="preserve" x="640" y="465" font-size="32" fill="#1F2933">RAM</text>
+<circle cx="610" cy="529.76" r="9" fill="#2F9E44"/><text xml:space="preserve" x="640" y="540" font-size="32" fill="#1F2933">I/O disco</text>
+<circle cx="610" cy="604.76" r="9" fill="#2F9E44"/><text xml:space="preserve" x="640" y="615" font-size="32" fill="#1F2933">spazio disco</text>
+<circle cx="610" cy="679.76" r="9" fill="#2F9E44"/><text xml:space="preserve" x="640" y="690" font-size="32" fill="#1F2933">processi attivi</text>
+<text xml:space="preserve" x="800" y="800" font-size="22" fill="#52606D" font-style="italic" text-anchor="middle">con un agent (Alloy, node exporter)</text>
+<rect x="1060" y="190" width="470" height="640" rx="16" fill="#FFFFFF" stroke="#E8590C" stroke-width="3"/>
+<rect x="1060" y="190" width="470" height="120" rx="16" fill="#E8590C"/>
+<rect x="1060" y="280" width="470" height="30" rx="0" fill="#E8590C"/>
+<text xml:space="preserve" x="1295" y="245" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Servizi e applicazioni</text>
+<text xml:space="preserve" x="1295" y="290" font-size="24" fill="#FFFFFF" text-anchor="middle">web, database, API</text>
+<circle cx="1105" cy="379.76" r="9" fill="#E8590C"/><text xml:space="preserve" x="1135" y="390" font-size="32" fill="#1F2933">uptime</text>
+<circle cx="1105" cy="454.76" r="9" fill="#E8590C"/><text xml:space="preserve" x="1135" y="465" font-size="32" fill="#1F2933">status code HTTP</text>
+<circle cx="1105" cy="529.76" r="9" fill="#E8590C"/><text xml:space="preserve" x="1135" y="540" font-size="32" fill="#1F2933">tempi di risposta</text>
+<circle cx="1105" cy="604.76" r="9" fill="#E8590C"/><text xml:space="preserve" x="1135" y="615" font-size="32" fill="#1F2933">porte aperte</text>
+<text xml:space="preserve" x="1295" y="800" font-size="22" fill="#52606D" font-style="italic" text-anchor="middle">controllati anche da fuori (curl, nc)</text>
+</svg>

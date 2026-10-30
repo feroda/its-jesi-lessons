@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Il client: Alloy fa da node exporter</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Tre blocchi in più in pc-studente/alloy/config.alloy</text>
+<rect x="70" y="180" width="1060" height="644" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="102" y="223" font-size="22" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">prometheus.exporter.unix "pc" {</text>
+<text xml:space="preserve" x="102" y="261" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  procfs_path = "/host/proc"</text>
+<text xml:space="preserve" x="102" y="299" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  sysfs_path  = "/host/sys"</text>
+<text xml:space="preserve" x="102" y="337" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">}</text>
+<text xml:space="preserve" x="102" y="375" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace"></text>
+<text xml:space="preserve" x="102" y="413" font-size="22" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">prometheus.scrape "pc" {</text>
+<text xml:space="preserve" x="102" y="451" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  targets    = prometheus.exporter.unix.pc.targets</text>
+<text xml:space="preserve" x="102" y="489" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  forward_to = [prometheus.remote_write.vps.receiver]</text>
+<text xml:space="preserve" x="102" y="527" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">}</text>
+<text xml:space="preserve" x="102" y="565" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace"></text>
+<text xml:space="preserve" x="102" y="603" font-size="22" fill="#C92A2A" font-weight="bold" font-family="DejaVu Sans Mono, monospace">prometheus.remote_write "vps" {</text>
+<text xml:space="preserve" x="102" y="641" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  endpoint {</text>
+<text xml:space="preserve" x="102" y="679" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    url = "http://its.fabersoft.net:9090/api/v1/write"</text>
+<text xml:space="preserve" x="102" y="717" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  }</text>
+<text xml:space="preserve" x="102" y="755" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  external_labels = { host = constants.hostname }</text>
+<text xml:space="preserve" x="102" y="793" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">}</text>
+<text xml:space="preserve" x="1180" y="223" font-size="32" fill="#2F9E44" font-weight="bold">1. misura il PC</text>
+<text xml:space="preserve" x="1180" y="413" font-size="32" fill="#0C8599" font-weight="bold">2. raccogli</text>
+<text xml:space="preserve" x="1180" y="457" font-size="26" fill="#3E4C59">ogni 15 s</text>
+<text xml:space="preserve" x="1180" y="603" font-size="32" fill="#C92A2A" font-weight="bold">3. spedisci</text>
+<text xml:space="preserve" x="1180" y="647" font-size="26" fill="#3E4C59">a Prometheus,</text>
+<text xml:space="preserve" x="1180" y="689" font-size="26" fill="#3E4C59">con l'etichetta host</text>
+</svg>

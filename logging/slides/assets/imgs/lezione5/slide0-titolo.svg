@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="28" height="900" fill="#1C64C8"/><rect x="28" y="0" width="10" height="900" fill="#2496ED"/>
+<text xml:space="preserve" x="110" y="250" font-size="30" fill="#2496ED" font-weight="bold">LEZIONE 5</text>
+<text xml:space="preserve" x="110" y="350" font-size="96" fill="#1F2933" font-weight="bold">Monitoraggio</text>
+<text xml:space="preserve" x="110" y="460" font-size="96" fill="#1F2933" font-weight="bold">e Prometheus</text>
+<rect x="114" y="500" width="180" height="10" rx="5" fill="#2496ED"/>
+<text xml:space="preserve" x="110" y="590" font-size="36" fill="#1F2933">ITS CyberSecurity - Jesi (AN) 2026/2027</text>
+<text xml:space="preserve" x="110" y="645" font-size="28" fill="#52606D">Corso Logging, Monitoring, Troubleshooting</text>
+<text xml:space="preserve" x="110" y="790" font-size="34" fill="#1C64C8" font-weight="bold">prof. Luca Ferroni</text>
+<rect x="1100" y="380" width="420" height="300" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<polyline points="1130,640 1180,600 1230,620 1280,520 1330,560 1380,470 1430,500 1480,430" fill="none" stroke="#C92A2A" stroke-width="6" stroke-linejoin="round"/><text xml:space="preserve" x="1310" y="730" font-size="26" fill="#52606D" text-anchor="middle">un numero nel tempo</text>
+</svg>

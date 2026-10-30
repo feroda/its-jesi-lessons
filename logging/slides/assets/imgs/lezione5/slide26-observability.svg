@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">OBSERVABILITY</text>
+<rect x="70" y="200" width="280" height="80" rx="10" fill="#1C64C8"/>
+<text xml:space="preserve" x="210.0" y="251.52" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Logging</text>
+<text xml:space="preserve" x="375" y="255" font-size="48" fill="#1F2933" font-weight="bold" text-anchor="middle">+</text>
+<rect x="410" y="200" width="320" height="80" rx="10" fill="#C92A2A"/>
+<text xml:space="preserve" x="570.0" y="251.52" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Monitoring</text>
+<text xml:space="preserve" x="755" y="255" font-size="48" fill="#1F2933" font-weight="bold" text-anchor="middle">+</text>
+<rect x="790" y="200" width="400" height="80" rx="10" fill="#E8590C"/>
+<text xml:space="preserve" x="990.0" y="251.52" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Troubleshooting</text>
+<text xml:space="preserve" x="1225" y="255" font-size="48" fill="#1F2933" font-weight="bold" text-anchor="middle">=</text>
+<rect x="1260" y="200" width="270" height="80" rx="10" fill="#6741D9"/>
+<text xml:space="preserve" x="1395.0" y="251.52" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Observability</text>
+<text xml:space="preserve" x="70" y="380" font-size="32" fill="#1F2933" font-weight="bold">Capire cosa succede dentro un sistema guardando quello che produce:</text>
+<text xml:space="preserve" x="70" y="425" font-size="30" fill="#3E4C59">log ed eventi, metriche (e, nelle architetture più grandi, le tracce).</text>
+<circle cx="100" cy="519.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="130" y="530" font-size="32" fill="#1F2933">sapere in ogni momento cosa succede nella rete e nei servizi</text>
+<circle cx="100" cy="589.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="130" y="600" font-size="32" fill="#1F2933">correlare: stesso istante, stesso host, log e metriche affiancati in Grafana</text>
+<circle cx="100" cy="659.76" r="9" fill="#6741D9"/><text xml:space="preserve" x="130" y="670" font-size="32" fill="#1F2933">arrivare alla root cause di un guasto in tempi rapidi</text>
+<text xml:space="preserve" x="70" y="820" font-size="30" fill="#6741D9" font-weight="bold">Il monitoring ti dice che qualcosa non va; l'observability ti aiuta a capire perché.</text>
+</svg>
