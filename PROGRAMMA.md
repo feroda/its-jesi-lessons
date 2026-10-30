@@ -61,7 +61,7 @@ Rif: [Lezione4-compose.pdf](./logging/slides/Lezione4-compose.pdf)
 - Basi del monitoraggio: metriche e log, agent e agentless, pull e push, database a serie temporali e retention, SNMP.
 - Aggiungiamo Prometheus al `compose.yml` del server e facciamo inviare ad Alloy anche le metriche del PC (push).
 - Observability: log e metriche dello stesso host insieme in Grafana.
-- Simulazione del compito.
+- [Simulazione del compito](./simulazione/simulazione.pdf) con le [soluzioni](./simulazione/simulazione-soluzioni.pdf).
 
 Rif: [Lezione5-monitoraggio.pdf](./logging/slides/Lezione5-monitoraggio.pdf)
 
@@ -69,4 +69,4 @@ Rif: [Lezione5-monitoraggio.pdf](./logging/slides/Lezione5-monitoraggio.pdf)
 
 - Ripasso e compito in classe su: architettura d'insieme; troubleshooting lato client ai livelli 3, 4 e 7; i comandi per leggere i log (`cat`, `cut`, `wc`, `sort`, `uniq`, `tail`, `grep`) sui file del repository; `docker run hello-world`; differenza tra Docker e Docker Compose; come impostereste un sistema di raccolta dei log e di monitoraggio.
 
-Rif: [Lezione6-ripasso.pdf](./logging/slides/Lezione6-ripasso.pdf)
+Rif: [Lezione6-quadro-generale-e-domande-per-il-ripasso.pdf](./logging/slides/Lezione6-quadro-generale-e-domande-per-il-ripasso.pdf)

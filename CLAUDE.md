@@ -99,5 +99,5 @@ Two Markdown handouts for students live in `logging/`:
 These are exported documents with no source in this repository:
 
 - `RecapLezione1.pdf`: written recap of lesson 1, including the live troubleshooting of the Grafana and Alloy stacks.
-- `logging/Logging-Monitoring-Troubleshooting_part1.pdf`: slides of the first lesson (image-only, no extractable text).
+- `logging/slides/Logging-Monitoring-Troubleshooting_part1.pdf`: slides of the first lesson (image-only, no extractable text).
 - `02_shell_GNULinux_Luca Ferroni.pdf`: introduction to the GNU/Linux shell (Bash builtins versus external programs, `help`, `man`, `PATH`), printed from the teacher's GitLab course material for another class. It is background reading for the shell tools used here.
