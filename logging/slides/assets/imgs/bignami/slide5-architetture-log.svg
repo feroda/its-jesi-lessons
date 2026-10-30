@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Come si centralizzano i log</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Quattro architetture: nel corso usiamo Loki</text>
+<text xml:space="preserve" x="348" y="221" font-size="22" fill="#52606D" font-weight="bold">raccolta</text>
+<text xml:space="preserve" x="708" y="221" font-size="22" fill="#52606D" font-weight="bold">storage</text>
+<text xml:space="preserve" x="968" y="221" font-size="22" fill="#52606D" font-weight="bold">visualizzazione</text>
+<text xml:space="preserve" x="1208" y="221" font-size="22" fill="#52606D" font-weight="bold">nota</text>
+<rect x="70" y="235" width="1460" height="140" rx="12" fill="#FFFFFF" stroke="#0C8599" stroke-width="2"/>
+<rect x="70" y="235" width="240" height="140" rx="12" fill="#0C8599"/>
+<text xml:space="preserve" x="190.0" y="315.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">syslog</text>
+<text xml:space="preserve" x="348" y="298.62" font-size="22" fill="#1F2933">inoltro al server rsyslog</text>
+<text xml:space="preserve" x="348" y="327.22" font-size="22" fill="#1F2933">UDP/TCP 514, TLS 6514</text>
+<text xml:space="preserve" x="708" y="312.92" font-size="22" fill="#1F2933">file di testo</text>
+<text xml:space="preserve" x="968" y="312.92" font-size="22" fill="#1F2933">grep, tail</text>
+<text xml:space="preserve" x="1208" y="298.62" font-size="22" fill="#1F2933">la più semplice:</text>
+<text xml:space="preserve" x="1208" y="327.22" font-size="22" fill="#1F2933">c'è già ovunque</text>
+<rect x="70" y="385" width="1460" height="140" rx="12" fill="#FFFFFF" stroke="#B7791F" stroke-width="2"/>
+<rect x="70" y="385" width="240" height="140" rx="12" fill="#B7791F"/>
+<text xml:space="preserve" x="190.0" y="455.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">ELK</text>
+<text xml:space="preserve" x="190.0" y="489.0" font-size="17" fill="#FFFFFF" text-anchor="middle">Elastic Stack</text>
+<text xml:space="preserve" x="348" y="462.92" font-size="22" fill="#1F2933">Beats o Logstash</text>
+<text xml:space="preserve" x="708" y="448.62" font-size="22" fill="#1F2933">Elasticsearch,</text>
+<text xml:space="preserve" x="708" y="477.22" font-size="22" fill="#1F2933">indice full-text</text>
+<text xml:space="preserve" x="968" y="462.92" font-size="22" fill="#1F2933">Kibana</text>
+<text xml:space="preserve" x="1208" y="448.62" font-size="22" fill="#1F2933">ricerche potenti, ma</text>
+<text xml:space="preserve" x="1208" y="477.22" font-size="22" fill="#1F2933">pesante in RAM e disco</text>
+<rect x="70" y="535" width="1460" height="140" rx="12" fill="#FFFFFF" stroke="#6741D9" stroke-width="2"/>
+<rect x="70" y="535" width="240" height="140" rx="12" fill="#6741D9"/>
+<text xml:space="preserve" x="190.0" y="615.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Graylog</text>
+<text xml:space="preserve" x="348" y="612.92" font-size="22" fill="#1F2933">GELF, syslog, Beats</text>
+<text xml:space="preserve" x="708" y="598.62" font-size="22" fill="#1F2933">OpenSearch</text>
+<text xml:space="preserve" x="708" y="627.22" font-size="22" fill="#1F2933">(più MongoDB)</text>
+<text xml:space="preserve" x="968" y="612.92" font-size="22" fill="#1F2933">web di Graylog</text>
+<text xml:space="preserve" x="1208" y="598.62" font-size="22" fill="#1F2933">pronto all'uso, con</text>
+<text xml:space="preserve" x="1208" y="627.22" font-size="22" fill="#1F2933">stream e allarmi</text>
+<rect x="70" y="685" width="1460" height="140" rx="12" fill="#E7F0FD" stroke="#1C64C8" stroke-width="4"/>
+<rect x="70" y="685" width="240" height="140" rx="12" fill="#1C64C8"/>
+<text xml:space="preserve" x="190.0" y="755.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Loki</text>
+<text xml:space="preserve" x="190.0" y="789.0" font-size="17" fill="#FFFFFF" text-anchor="middle">nel corso</text>
+<text xml:space="preserve" x="348" y="762.92" font-size="22" fill="#1F2933">Alloy</text>
+<text xml:space="preserve" x="708" y="748.62" font-size="22" fill="#1F2933">indicizza solo</text>
+<text xml:space="preserve" x="708" y="777.22" font-size="22" fill="#1F2933">le etichette</text>
+<text xml:space="preserve" x="968" y="762.92" font-size="22" fill="#1F2933">Grafana</text>
+<text xml:space="preserve" x="1208" y="748.62" font-size="22" fill="#1F2933">leggero: per questo</text>
+<text xml:space="preserve" x="1208" y="777.22" font-size="22" fill="#1F2933">lo usiamo</text>
+</svg>

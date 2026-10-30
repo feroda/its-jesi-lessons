@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Le tre scelte del monitoraggio</text>
+<rect x="70" y="190" width="470" height="480" rx="16" fill="#FFFFFF" stroke="#2F9E44" stroke-width="3"/>
+<rect x="70" y="190" width="470" height="90" rx="16" fill="#2F9E44"/>
+<rect x="70" y="250" width="470" height="30" rx="0" fill="#2F9E44"/>
+<text xml:space="preserve" x="305" y="250" font-size="34" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Agent o agentless</text>
+<text xml:space="preserve" x="105" y="350" font-size="30" fill="#2F9E44" font-weight="bold">agent</text>
+<text xml:space="preserve" x="105" y="395" font-size="27" fill="#1F2933">un programma sulla macchina</text>
+<text xml:space="preserve" x="105" y="440" font-size="27" fill="#1F2933">(Alloy, node exporter)</text>
+<text xml:space="preserve" x="105" y="500" font-size="30" fill="#2F9E44" font-weight="bold">agentless</text>
+<text xml:space="preserve" x="105" y="545" font-size="27" fill="#1F2933">si osserva da fuori</text>
+<text xml:space="preserve" x="105" y="590" font-size="27" fill="#1F2933">(SNMP, ping)</text>
+<rect x="565" y="190" width="470" height="480" rx="16" fill="#FFFFFF" stroke="#2496ED" stroke-width="3"/>
+<rect x="565" y="190" width="470" height="90" rx="16" fill="#2496ED"/>
+<rect x="565" y="250" width="470" height="30" rx="0" fill="#2496ED"/>
+<text xml:space="preserve" x="800" y="250" font-size="34" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Push o pull</text>
+<text xml:space="preserve" x="600" y="350" font-size="30" fill="#2496ED" font-weight="bold">push</text>
+<text xml:space="preserve" x="600" y="395" font-size="27" fill="#1F2933">l'agent spedisce al server:</text>
+<text xml:space="preserve" x="600" y="440" font-size="27" fill="#1F2933">va bene dietro un router</text>
+<text xml:space="preserve" x="600" y="500" font-size="30" fill="#2496ED" font-weight="bold">pull</text>
+<text xml:space="preserve" x="600" y="545" font-size="27" fill="#1F2933">il server va a prendere:</text>
+<text xml:space="preserve" x="600" y="590" font-size="27" fill="#1F2933">deve raggiungere la macchina</text>
+<rect x="1060" y="190" width="470" height="480" rx="16" fill="#FFFFFF" stroke="#B7791F" stroke-width="3"/>
+<rect x="1060" y="190" width="470" height="90" rx="16" fill="#B7791F"/>
+<rect x="1060" y="250" width="470" height="30" rx="0" fill="#B7791F"/>
+<text xml:space="preserve" x="1295" y="250" font-size="34" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Retention</text>
+<text xml:space="preserve" x="1095" y="350" font-size="30" fill="#B7791F" font-weight="bold">cos'è</text>
+<text xml:space="preserve" x="1095" y="395" font-size="27" fill="#1F2933">per quanto tempo tengo i dati</text>
+<text xml:space="preserve" x="1095" y="440" font-size="27" fill="#1F2933">prima di cancellarli</text>
+<text xml:space="preserve" x="1095" y="500" font-size="30" fill="#B7791F" font-weight="bold">costo</text>
+<text xml:space="preserve" x="1095" y="545" font-size="27" fill="#1F2933">più giorni = più disco</text>
+<text xml:space="preserve" x="1095" y="590" font-size="27" fill="#1F2933">es. 15 giorni, 1 mese</text>
+<text xml:space="preserve" x="70" y="770" font-size="30" fill="#1F2933" font-weight="bold">Nel corso: agent (Alloy) che fa push, perché i PC hanno IP privati.</text>
+</svg>

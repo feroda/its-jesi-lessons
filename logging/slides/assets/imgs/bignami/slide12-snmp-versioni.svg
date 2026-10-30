@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">SNMP per gli apparati di rete</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Switch, router, stampanti, UPS: niente da installare. UDP 161 (domande) e 162 (trap)</text>
+<rect x="70" y="200" width="250" height="80" rx="8" fill="#1F2933"/>
+<text xml:space="preserve" x="95" y="252" font-size="28" fill="#FFFFFF" font-weight="bold"></text>
+<rect x="330" y="200" width="590" height="80" rx="8" fill="#1F2933"/>
+<text xml:space="preserve" x="355" y="252" font-size="28" fill="#FFFFFF" font-weight="bold">v1 / v2c</text>
+<rect x="930" y="200" width="600" height="80" rx="8" fill="#1F2933"/>
+<text xml:space="preserve" x="955" y="252" font-size="28" fill="#FFFFFF" font-weight="bold">v3</text>
+<rect x="70" y="285" width="250" height="80" rx="8" fill="#FFFFFF"/>
+<text xml:space="preserve" x="95" y="337" font-size="28" fill="#52606D" font-weight="bold">accesso</text>
+<rect x="330" y="285" width="590" height="80" rx="8" fill="#FFFFFF"/>
+<text xml:space="preserve" x="355" y="337" font-size="28" fill="#1F2933">community (es. public)</text>
+<rect x="930" y="285" width="600" height="80" rx="8" fill="#FFFFFF"/>
+<text xml:space="preserve" x="955" y="337" font-size="28" fill="#1F2933">utente e password</text>
+<rect x="70" y="370" width="250" height="80" rx="8" fill="#EEF1F5"/>
+<text xml:space="preserve" x="95" y="422" font-size="28" fill="#52606D" font-weight="bold">cifratura</text>
+<rect x="330" y="370" width="590" height="80" rx="8" fill="#EEF1F5"/>
+<text xml:space="preserve" x="355" y="422" font-size="28" fill="#1F2933">nessuna: tutto in chiaro</text>
+<rect x="930" y="370" width="600" height="80" rx="8" fill="#EEF1F5"/>
+<text xml:space="preserve" x="955" y="422" font-size="28" fill="#1F2933">sì (livello authPriv)</text>
+<rect x="70" y="455" width="250" height="80" rx="8" fill="#FFFFFF"/>
+<text xml:space="preserve" x="95" y="507" font-size="28" fill="#52606D" font-weight="bold">quando</text>
+<rect x="330" y="455" width="590" height="80" rx="8" fill="#FFFFFF"/>
+<text xml:space="preserve" x="355" y="507" font-size="28" fill="#1F2933">rete fidata, sola lettura</text>
+<rect x="930" y="455" width="600" height="80" rx="8" fill="#FFFFFF"/>
+<text xml:space="preserve" x="955" y="507" font-size="28" fill="#1F2933">sempre, se l'apparato lo supporta</text>
+<rect x="70" y="570" width="1460" height="66" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="102" y="609" font-size="22" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ snmpget -v2c -c public 192.168.1.1 1.3.6.1.2.1.1.3.0</text>
+<rect x="70" y="670" width="1460" height="66" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="102" y="709" font-size="22" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ snmpget -v3 -l authPriv -u monitor -a SHA -A &lt;pwd&gt; -x AES -X &lt;pwd&gt; 192.168.1.1 1.3.6.1.2.1.1.3.0</text>
+<text xml:space="preserve" x="70" y="830" font-size="28" fill="#C92A2A" font-weight="bold">La community di v1 e v2c viaggia in chiaro: chi la intercetta legge tutto.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Il quadro completo</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Chi guarda log e metriche, e chi li manda</text>
+<rect x="990" y="180" width="570" height="690" rx="18" fill="#F5F7FA" stroke="#1F2933" stroke-width="4"/>
+<text xml:space="preserve" x="1275" y="222" font-size="30" fill="#1F2933" font-weight="bold" text-anchor="middle">VPS its.fabersoft.net</text>
+<rect x="1040" y="245" width="490" height="605" rx="14" fill="none" stroke="#2496ED" stroke-width="3" stroke-dasharray="12 8"/>
+<text xml:space="preserve" x="1285" y="280" font-size="26" fill="#2496ED" font-weight="bold" text-anchor="middle">docker compose</text>
+<rect x="1090" y="300" width="370" height="120" rx="12" fill="#FFF4E6" stroke="#E8590C" stroke-width="3"/>
+<text xml:space="preserve" x="1275.0" y="356.5" font-size="38" fill="#E8590C" font-weight="bold" text-anchor="middle">Grafana</text>
+<text xml:space="preserve" x="1275.0" y="392.5" font-size="24" fill="#52606D" text-anchor="middle">guarda log e metriche</text>
+<rect x="1090" y="475" width="300" height="115" rx="12" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text xml:space="preserve" x="1240.0" y="528.3000000000001" font-size="36" fill="#1C64C8" font-weight="bold" text-anchor="middle">Loki</text>
+<text xml:space="preserve" x="1240.0" y="564.3000000000001" font-size="24" fill="#52606D" text-anchor="middle">i log</text>
+<rect x="1090" y="675" width="300" height="115" rx="12" fill="#FFF5F5" stroke="#C92A2A" stroke-width="3"/>
+<text xml:space="preserve" x="1240.0" y="728.3000000000001" font-size="36" fill="#C92A2A" font-weight="bold" text-anchor="middle">Prometheus</text>
+<text xml:space="preserve" x="1240.0" y="764.3000000000001" font-size="24" fill="#52606D" text-anchor="middle">le metriche</text>
+<line x1="1240" y1="424" x2="1240" y2="468" stroke="#52606D" stroke-width="3" marker-end="url(#aY)" stroke-dasharray="7 6"/>
+<path d="M1462,360 L1495,360 L1495,732 L1398,732" fill="none" stroke="#52606D" stroke-width="3" stroke-dasharray="7 6" marker-end="url(#aY)"/><text xml:space="preserve" x="1255" y="455" font-size="22" fill="#52606D">interroga</text>
+<rect x="1055" y="360" width="35" height="4" rx="0" fill="#E8590C"/>
+<rect x="1055" y="530" width="35" height="4" rx="0" fill="#1C64C8"/>
+<rect x="1055" y="730" width="35" height="4" rx="0" fill="#C92A2A"/>
+<circle cx="560" cy="560" r="90" fill="#EEF1F5" stroke="#A0AAB4" stroke-width="3"/><circle cx="665" cy="515" r="100" fill="#EEF1F5" stroke="#A0AAB4" stroke-width="3"/><circle cx="750" cy="580" r="85" fill="#EEF1F5" stroke="#A0AAB4" stroke-width="3"/><circle cx="510" cy="610" r="70" fill="#EEF1F5" stroke="#A0AAB4" stroke-width="3"/><circle cx="640" cy="630" r="90" fill="#EEF1F5" stroke="#A0AAB4" stroke-width="3"/><circle cx="560" cy="560" r="88" fill="#EEF1F5"/><circle cx="665" cy="515" r="98" fill="#EEF1F5"/><circle cx="750" cy="580" r="83" fill="#EEF1F5"/><circle cx="510" cy="610" r="68" fill="#EEF1F5"/><circle cx="640" cy="630" r="88" fill="#EEF1F5"/><text xml:space="preserve" x="650" y="495" font-size="34" fill="#52606D" font-weight="bold" text-anchor="middle">Internet</text>
+<rect x="40" y="290" width="260" height="110" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<rect x="42" y="292" width="256" height="28" rx="10" fill="#CBD2D9"/>
+<circle cx="62" cy="306" r="6" fill="#E03131"/><circle cx="80" cy="306" r="6" fill="#F59F00"/><circle cx="98" cy="306" r="6" fill="#2F9E44"/><rect x="55" y="330" width="230" height="30" rx="6" fill="#F5F7FA" stroke="#A0AAB4" stroke-width="1.5"/>
+<text xml:space="preserve" x="65" y="351" font-size="16" fill="#3E4C59" font-family="DejaVu Sans Mono, monospace">its.fabersoft.net:3000</text>
+<text xml:space="preserve" x="170" y="388" font-size="26" fill="#1F2933" font-weight="bold" text-anchor="middle">browser</text>
+<rect x="40" y="500" width="260" height="130" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="170" y="545" font-size="28" fill="#1F2933" font-weight="bold" text-anchor="middle">PC di Anna</text>
+<rect x="70" y="565" width="200" height="48" rx="12" fill="#EBFBEE" stroke="#2F9E44" stroke-width="3"/>
+<text xml:space="preserve" x="170.0" y="598.1" font-size="26" fill="#2F9E44" font-weight="bold" text-anchor="middle">Alloy</text>
+<rect x="40" y="690" width="260" height="130" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="170" y="735" font-size="28" fill="#1F2933" font-weight="bold" text-anchor="middle">PC di Mario</text>
+<rect x="70" y="755" width="200" height="48" rx="12" fill="#EBFBEE" stroke="#2F9E44" stroke-width="3"/>
+<text xml:space="preserve" x="170.0" y="788.1" font-size="26" fill="#2F9E44" font-weight="bold" text-anchor="middle">Alloy</text>
+<path d="M305,345 C610.0,345 610.0,360 915,360" fill="none" stroke="#E8590C" stroke-width="5" marker-end="url(#aO)"/>
+<path d="M305,560 C610.0,560 610.0,520 915,520" fill="none" stroke="#1C64C8" stroke-width="5" marker-end="url(#aB)"/>
+<path d="M305,755 C610.0,755 610.0,540 915,540" fill="none" stroke="#1C64C8" stroke-width="5" marker-end="url(#aB)"/>
+<path d="M305,600 C610.0,600 610.0,720 915,720" fill="none" stroke="#C92A2A" stroke-width="5" marker-end="url(#aR)"/>
+<path d="M305,790 C610.0,790 610.0,740 915,740" fill="none" stroke="#C92A2A" stroke-width="5" marker-end="url(#aR)"/>
+<rect x="925" y="330" width="130" height="60" rx="8" fill="#E8590C"/>
+<text xml:space="preserve" x="990" y="371" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3000</text>
+<rect x="925" y="500" width="130" height="60" rx="8" fill="#1C64C8"/>
+<text xml:space="preserve" x="990" y="541" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3100</text>
+<rect x="925" y="700" width="130" height="60" rx="8" fill="#C92A2A"/>
+<text xml:space="preserve" x="990" y="741" font-size="30" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:9090</text>
+<text xml:space="preserve" x="560" y="300" font-size="26" fill="#E8590C" font-weight="bold" text-anchor="middle">HTTP, porta 3000</text>
+<text xml:space="preserve" x="70" y="865" font-size="26" fill="#1C64C8" font-weight="bold">Alloy spedisce i log a Loki</text>
+<text xml:space="preserve" x="520" y="865" font-size="26" fill="#C92A2A" font-weight="bold">e le metriche a Prometheus</text>
+</svg>

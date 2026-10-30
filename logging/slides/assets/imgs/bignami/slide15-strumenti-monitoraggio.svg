@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Gli strumenti di monitoraggio più usati</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Nel corso usiamo Prometheus: è lo standard e si integra con Alloy e Grafana</text>
+<text xml:space="preserve" x="358" y="201" font-size="22" fill="#52606D" font-weight="bold">come raccoglie</text>
+<text xml:space="preserve" x="778" y="201" font-size="22" fill="#52606D" font-weight="bold">dove salva</text>
+<text xml:space="preserve" x="1128" y="201" font-size="22" fill="#52606D" font-weight="bold">in una riga</text>
+<rect x="70" y="215" width="1460" height="118" rx="12" fill="#FFFFFF" stroke="#6741D9" stroke-width="2"/>
+<rect x="70" y="215" width="250" height="118" rx="12" fill="#6741D9"/>
+<text xml:space="preserve" x="195.0" y="284.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Zabbix</text>
+<text xml:space="preserve" x="358" y="267.91" font-size="21" fill="#1F2933">agent proprio, e agentless:</text>
+<text xml:space="preserve" x="358" y="295.21000000000004" font-size="21" fill="#1F2933">SNMP, IPMI, ping</text>
+<text xml:space="preserve" x="778" y="267.91" font-size="21" fill="#1F2933">database relazionale</text>
+<text xml:space="preserve" x="778" y="295.21000000000004" font-size="21" fill="#1F2933">(PostgreSQL, MySQL)</text>
+<text xml:space="preserve" x="1128" y="267.91" font-size="21" fill="#1F2933">tutto in uno: raccolta, web,</text>
+<text xml:space="preserve" x="1128" y="295.21000000000004" font-size="21" fill="#1F2933">trigger e allarmi</text>
+<rect x="70" y="343" width="1460" height="118" rx="12" fill="#FFFFFF" stroke="#0C8599" stroke-width="2"/>
+<rect x="70" y="343" width="250" height="118" rx="12" fill="#0C8599"/>
+<text xml:space="preserve" x="195.0" y="402.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">TIG</text>
+<text xml:space="preserve" x="195.0" y="436.0" font-size="17" fill="#FFFFFF" text-anchor="middle">Telegraf InfluxDB Grafana</text>
+<text xml:space="preserve" x="358" y="395.91" font-size="21" fill="#1F2933">Telegraf: agent con molti</text>
+<text xml:space="preserve" x="358" y="423.21000000000004" font-size="21" fill="#1F2933">plugin, in push</text>
+<text xml:space="preserve" x="778" y="409.56" font-size="21" fill="#1F2933">InfluxDB, una TSDB</text>
+<text xml:space="preserve" x="1128" y="395.91" font-size="21" fill="#1F2933">come il nostro stack,</text>
+<text xml:space="preserve" x="1128" y="423.21000000000004" font-size="21" fill="#1F2933">ma in push nativo</text>
+<rect x="70" y="471" width="1460" height="118" rx="12" fill="#FFF5F5" stroke="#C92A2A" stroke-width="4"/>
+<rect x="70" y="471" width="250" height="118" rx="12" fill="#C92A2A"/>
+<text xml:space="preserve" x="195.0" y="540.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Prometheus</text>
+<text xml:space="preserve" x="358" y="523.91" font-size="21" fill="#1F2933">pull da /metrics degli</text>
+<text xml:space="preserve" x="358" y="551.2099999999999" font-size="21" fill="#1F2933">exporter; push con remote write</text>
+<text xml:space="preserve" x="778" y="537.56" font-size="21" fill="#1F2933">TSDB propria</text>
+<text xml:space="preserve" x="1128" y="523.91" font-size="21" fill="#1F2933">PromQL e Alertmanager;</text>
+<text xml:space="preserve" x="1128" y="551.2099999999999" font-size="21" fill="#1F2933">lo standard per i container</text>
+<rect x="70" y="599" width="1460" height="118" rx="12" fill="#FFFFFF" stroke="#2F9E44" stroke-width="2"/>
+<rect x="70" y="599" width="250" height="118" rx="12" fill="#2F9E44"/>
+<text xml:space="preserve" x="195.0" y="668.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">Netdata</text>
+<text xml:space="preserve" x="358" y="651.91" font-size="21" fill="#1F2933">agent su ogni macchina,</text>
+<text xml:space="preserve" x="358" y="679.2099999999999" font-size="21" fill="#1F2933">una metrica al secondo</text>
+<text xml:space="preserve" x="778" y="651.91" font-size="21" fill="#1F2933">sulla macchina stessa</text>
+<text xml:space="preserve" x="778" y="679.2099999999999" font-size="21" fill="#1F2933">(o inoltra a un parent)</text>
+<text xml:space="preserve" x="1128" y="651.91" font-size="21" fill="#1F2933">zero configurazione,</text>
+<text xml:space="preserve" x="1128" y="679.2099999999999" font-size="21" fill="#1F2933">dashboard già pronta</text>
+<rect x="70" y="727" width="1460" height="118" rx="12" fill="#FFFFFF" stroke="#B7791F" stroke-width="2"/>
+<rect x="70" y="727" width="250" height="118" rx="12" fill="#B7791F"/>
+<text xml:space="preserve" x="195.0" y="786.0" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">PCP</text>
+<text xml:space="preserve" x="195.0" y="820.0" font-size="17" fill="#FFFFFF" text-anchor="middle">Performance Co-Pilot</text>
+<text xml:space="preserve" x="358" y="779.91" font-size="21" fill="#1F2933">demone pmcd, un agent</text>
+<text xml:space="preserve" x="358" y="807.2099999999999" font-size="21" fill="#1F2933">per sottosistema</text>
+<text xml:space="preserve" x="778" y="793.56" font-size="21" fill="#1F2933">archivi di pmlogger</text>
+<text xml:space="preserve" x="1128" y="779.91" font-size="21" fill="#1F2933">analisi delle prestazioni,</text>
+<text xml:space="preserve" x="1128" y="807.2099999999999" font-size="21" fill="#1F2933">anche a posteriori</text>
+</svg>

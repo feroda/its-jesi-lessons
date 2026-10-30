@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">compose.yml del server</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Loki, Grafana e Prometheus sul VPS, nello stesso file (continua a destra)</text>
+<rect x="70" y="175" width="600" height="500" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="102" y="213" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">services:</text>
+<text xml:space="preserve" x="102" y="244" font-size="18" fill="#1C64C8" font-weight="bold" font-family="DejaVu Sans Mono, monospace">  loki:</text>
+<text xml:space="preserve" x="102" y="275" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    image: grafana/loki:3.7.0</text>
+<text xml:space="preserve" x="102" y="306" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    command: -config.file=/etc/loki/config.yml</text>
+<text xml:space="preserve" x="102" y="337" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    volumes:</text>
+<text xml:space="preserve" x="102" y="368" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - ./loki/config.yml:/etc/loki/config.yml:ro</text>
+<text xml:space="preserve" x="102" y="399" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - loki-data:/loki</text>
+<text xml:space="preserve" x="102" y="430" font-size="18" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    ports: ["3100:3100"]</text>
+<text xml:space="preserve" x="102" y="461" font-size="18" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    restart: unless-stopped</text>
+<text xml:space="preserve" x="102" y="492" font-size="18" fill="#E8590C" font-weight="bold" font-family="DejaVu Sans Mono, monospace">  grafana:</text>
+<text xml:space="preserve" x="102" y="523" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    image: grafana/grafana:13.2.4</text>
+<text xml:space="preserve" x="102" y="554" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    volumes:</text>
+<text xml:space="preserve" x="102" y="585" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - grafana-data:/var/lib/grafana</text>
+<text xml:space="preserve" x="102" y="616" font-size="18" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    ports: ["3000:3000"]</text>
+<text xml:space="preserve" x="102" y="647" font-size="18" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    restart: unless-stopped</text>
+<rect x="690" y="175" width="840" height="531" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="722" y="213" font-size="18" fill="#C92A2A" font-weight="bold" font-family="DejaVu Sans Mono, monospace">  prometheus:</text>
+<text xml:space="preserve" x="722" y="244" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    image: prom/prometheus:v3.15.0</text>
+<text xml:space="preserve" x="722" y="275" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    command:</text>
+<text xml:space="preserve" x="722" y="306" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - --config.file=/etc/prometheus/prometheus.yml</text>
+<text xml:space="preserve" x="722" y="337" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - --storage.tsdb.path=/prometheus</text>
+<text xml:space="preserve" x="722" y="368" font-size="18" fill="#B7791F" font-weight="bold" font-family="DejaVu Sans Mono, monospace">      - --storage.tsdb.retention.time=15d</text>
+<text xml:space="preserve" x="722" y="399" font-size="18" fill="#C92A2A" font-weight="bold" font-family="DejaVu Sans Mono, monospace">      - --web.enable-remote-write-receiver</text>
+<text xml:space="preserve" x="722" y="430" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">    volumes:</text>
+<text xml:space="preserve" x="722" y="461" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro</text>
+<text xml:space="preserve" x="722" y="492" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">      - prometheus-data:/prometheus</text>
+<text xml:space="preserve" x="722" y="523" font-size="18" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    ports: ["9090:9090"]</text>
+<text xml:space="preserve" x="722" y="554" font-size="18" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">    restart: unless-stopped</text>
+<text xml:space="preserve" x="722" y="585" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">volumes:</text>
+<text xml:space="preserve" x="722" y="616" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  loki-data:</text>
+<text xml:space="preserve" x="722" y="647" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  grafana-data:</text>
+<text xml:space="preserve" x="722" y="678" font-size="18" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  prometheus-data:</text>
+<text xml:space="preserve" x="70" y="788" font-size="28" fill="#1F2933" font-weight="bold">Porte esportate:</text>
+<rect x="340" y="750" width="220" height="56" rx="10" fill="#E8590C"/>
+<text xml:space="preserve" x="450.0" y="786.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3000 Grafana</text>
+<rect x="580" y="750" width="190" height="56" rx="10" fill="#1C64C8"/>
+<text xml:space="preserve" x="675.0" y="786.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3100 Loki</text>
+<rect x="790" y="750" width="270" height="56" rx="10" fill="#C92A2A"/>
+<text xml:space="preserve" x="925.0" y="786.64" font-size="24" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:9090 Prometheus</text>
+<text xml:space="preserve" x="1090" y="788" font-size="24" fill="#3E4C59">retention 15 giorni, accetta il push</text>
+</svg>
