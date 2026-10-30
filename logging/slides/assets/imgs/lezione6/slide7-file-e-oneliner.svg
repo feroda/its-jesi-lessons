@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Un file di log e tre righe di shell</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">logging/sshd_classic.log dal repository del corso</text>
+<rect x="70" y="180" width="1460" height="150" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="102" y="223" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">Sep  7 18:43:41 srv sshd[5319]: Failed password for pippo from 10.0.0.7 port 47004 ssh2</text>
+<text xml:space="preserve" x="102" y="261" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">Sep  8 03:11:00 srv sshd[7438]: Failed password for invalid user admin from 185.22.1.9 port 46374 ssh2</text>
+<text xml:space="preserve" x="102" y="299" font-size="22" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">Sep 28 02:49:02 srv sshd[2208]: Accepted password for deploy from 45.9.14.207 port 42216 ssh2</text>
+<rect x="70" y="360" width="1460" height="354" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="102" y="403" font-size="22" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ grep -c 'Failed password' sshd_classic.log</text>
+<text xml:space="preserve" x="102" y="443" font-size="22" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">49</text>
+<text xml:space="preserve" x="102" y="483" font-size="22" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ grep 'Failed password' sshd_classic.log | grep -o 'from [0-9.]*' | sort | uniq -c | sort -rn | head -3</text>
+<text xml:space="preserve" x="102" y="523" font-size="22" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">     36 from 45.9.14.207</text>
+<text xml:space="preserve" x="102" y="563" font-size="22" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">     10 from 185.22.1.9</text>
+<text xml:space="preserve" x="102" y="603" font-size="22" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">      3 from 10.0.0.7</text>
+<text xml:space="preserve" x="102" y="643" font-size="22" fill="#FFFFFF" font-weight="bold" font-family="DejaVu Sans Mono, monospace">$ grep Accepted sshd_classic.log | grep 45.9.14.207</text>
+<text xml:space="preserve" x="102" y="683" font-size="22" fill="#8CE99A" font-family="DejaVu Sans Mono, monospace">Sep 28 02:49:02 srv sshd[2208]: Accepted password for deploy from 45.9.14.207 ...</text>
+<text xml:space="preserve" x="70" y="830" font-size="30" fill="#C92A2A" font-weight="bold">36 password sbagliate e poi un accesso riuscito: il brute force è andato a segno.</text>
+</svg>
