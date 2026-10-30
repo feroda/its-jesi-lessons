@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Uniform Resource Locator (URL)</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Fonte: it.wikipedia.org/wiki/Uniform_Resource_Locator</text>
+<rect x="70" y="185" width="1460" height="225" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<path d="M117,304 L117,316 L197.27999999999997,316 L197.27999999999997,304" fill="none" stroke="#C2255C" stroke-width="3"/>
+<text xml:space="preserve" x="157.14" y="356" font-size="24" fill="#C2255C" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&lt;proto&gt;</text>
+<rect x="197.27999999999997" y="250" width="54.568" height="42" rx="5" fill="#FFE066"/>
+<path d="M251.84799999999996,304 L251.84799999999996,316 L517.5439999999999,316 L517.5439999999999,304" fill="none" stroke="#6741D9" stroke-width="3"/>
+<text xml:space="preserve" x="384.6959999999999" y="356" font-size="24" fill="#6741D9" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&lt;fqdn&gt;</text>
+<rect x="517.5439999999999" y="250" width="20.855999999999998" height="42" rx="5" fill="#FFE066"/>
+<path d="M538.3999999999999,304 L538.3999999999999,316 L584.9679999999998,316 L584.9679999999998,304" fill="none" stroke="#0C8599" stroke-width="3"/>
+<text xml:space="preserve" x="561.6839999999999" y="356" font-size="24" fill="#0C8599" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&lt;port&gt;</text>
+<rect x="584.9679999999998" y="250" width="20.855999999999998" height="42" rx="5" fill="#FFE066"/>
+<path d="M605.8239999999998,304 L605.8239999999998,316 L1090.6479999999997,316 L1090.6479999999997,304" fill="none" stroke="#1C64C8" stroke-width="3"/>
+<text xml:space="preserve" x="848.2359999999999" y="356" font-size="24" fill="#1C64C8" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&lt;path&gt;</text>
+<rect x="1090.6479999999997" y="250" width="20.855999999999998" height="42" rx="5" fill="#FFE066"/>
+<path d="M1111.5039999999997,304 L1111.5039999999997,316 L1276.0639999999996,316 L1276.0639999999996,304" fill="none" stroke="#B7791F" stroke-width="3"/>
+<text xml:space="preserve" x="1193.7839999999997" y="356" font-size="24" fill="#B7791F" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&lt;querystring&gt;</text>
+<rect x="1276.0639999999996" y="250" width="20.855999999999998" height="42" rx="5" fill="#FFE066"/>
+<path d="M1296.9199999999996,304 L1296.9199999999996,316 L1478.3359999999996,316 L1478.3359999999996,304" fill="none" stroke="#2F9E44" stroke-width="3"/>
+<text xml:space="preserve" x="1387.6279999999997" y="356" font-size="24" fill="#2F9E44" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&lt;anchor&gt;</text>
+<text xml:space="preserve" x="115" y="280" font-size="28" font-family="DejaVu Sans Mono, monospace"><tspan fill="#C2255C" font-weight="bold">https</tspan><tspan fill="#1F2933" font-weight="bold">://</tspan><tspan fill="#6741D9" font-weight="bold">it.wikipedia.org</tspan><tspan fill="#1F2933" font-weight="bold">:</tspan><tspan fill="#0C8599" font-weight="bold">443</tspan><tspan fill="#1F2933" font-weight="bold">/</tspan><tspan fill="#1C64C8" font-weight="bold">wiki/Uniform_Resource_Locator</tspan><tspan fill="#1F2933" font-weight="bold">?</tspan><tspan fill="#B7791F" font-weight="bold">uselang=it</tspan><tspan fill="#1F2933" font-weight="bold">#</tspan><tspan fill="#2F9E44" font-weight="bold">cite_note-2</tspan></text>
+<text xml:space="preserve" x="115" y="225" font-size="22" fill="#52606D">In giallo i separatori:  ://   :   /   ?   #</text>
+<rect x="70" y="440" width="715" height="130" rx="12" fill="#FFFFFF" stroke="#C2255C" stroke-width="3"/>
+<rect x="70" y="440" width="12" height="130" rx="6" fill="#C2255C"/>
+<text xml:space="preserve" x="105" y="482" font-size="26" fill="#C2255C" font-weight="bold" font-family="DejaVu Sans Mono, monospace">&lt;proto&gt;</text>
+<text xml:space="preserve" x="105" y="520" font-size="22" fill="#1F2933">il protocollo di livello 7: http o https</text>
+<text xml:space="preserve" x="105" y="552" font-size="22" fill="#3E4C59">finisce con  ://</text>
+<rect x="70" y="585" width="715" height="130" rx="12" fill="#FFFFFF" stroke="#6741D9" stroke-width="3"/>
+<rect x="70" y="585" width="12" height="130" rx="6" fill="#6741D9"/>
+<text xml:space="preserve" x="105" y="627" font-size="26" fill="#6741D9" font-weight="bold" font-family="DejaVu Sans Mono, monospace">&lt;fqdn&gt;</text>
+<text xml:space="preserve" x="105" y="665" font-size="22" fill="#1F2933">il nome completo del server: il DNS</text>
+<text xml:space="preserve" x="105" y="697" font-size="22" fill="#3E4C59">lo traduce nell'indirizzo IP (livello 3)</text>
+<rect x="70" y="730" width="715" height="130" rx="12" fill="#FFFFFF" stroke="#0C8599" stroke-width="3"/>
+<rect x="70" y="730" width="12" height="130" rx="6" fill="#0C8599"/>
+<text xml:space="preserve" x="105" y="772" font-size="26" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">&lt;port&gt;</text>
+<text xml:space="preserve" x="105" y="810" font-size="22" fill="#1F2933">la porta (livello 4), dopo i  :</text>
+<text xml:space="preserve" x="105" y="842" font-size="22" fill="#3E4C59">si omette se è quella standard: 80 o 443</text>
+<rect x="815" y="440" width="715" height="130" rx="12" fill="#FFFFFF" stroke="#1C64C8" stroke-width="3"/>
+<rect x="815" y="440" width="12" height="130" rx="6" fill="#1C64C8"/>
+<text xml:space="preserve" x="850" y="482" font-size="26" fill="#1C64C8" font-weight="bold" font-family="DejaVu Sans Mono, monospace">&lt;path&gt;</text>
+<text xml:space="preserve" x="850" y="520" font-size="22" fill="#1F2933">la risorsa sul server, dopo la prima  /</text>
+<text xml:space="preserve" x="850" y="552" font-size="22" fill="#3E4C59">è quello che finisce nei log del web server</text>
+<rect x="815" y="585" width="715" height="130" rx="12" fill="#FFFFFF" stroke="#B7791F" stroke-width="3"/>
+<rect x="815" y="585" width="12" height="130" rx="6" fill="#B7791F"/>
+<text xml:space="preserve" x="850" y="627" font-size="26" fill="#B7791F" font-weight="bold" font-family="DejaVu Sans Mono, monospace">&lt;querystring&gt;</text>
+<text xml:space="preserve" x="850" y="665" font-size="22" fill="#1F2933">parametri per il server, dopo il  ?</text>
+<text xml:space="preserve" x="850" y="697" font-size="22" fill="#3E4C59">nome=valore, più parametri uniti da  &amp;</text>
+<rect x="815" y="730" width="715" height="130" rx="12" fill="#FFFFFF" stroke="#2F9E44" stroke-width="3"/>
+<rect x="815" y="730" width="12" height="130" rx="6" fill="#2F9E44"/>
+<text xml:space="preserve" x="850" y="772" font-size="26" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">&lt;anchor&gt;</text>
+<text xml:space="preserve" x="850" y="810" font-size="22" fill="#1F2933">un punto della pagina, dopo il  #</text>
+<text xml:space="preserve" x="850" y="842" font-size="22" fill="#3E4C59">resta nel browser: non arriva al server</text>
+</svg>

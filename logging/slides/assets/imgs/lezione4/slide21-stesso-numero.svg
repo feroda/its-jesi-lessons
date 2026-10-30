@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Stesso numero</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Quante righe parlano dell'IP 45.9.14.207?</text>
+<rect x="70" y="220" width="1460" height="150" rx="14" fill="#1F2933"/>
+<text xml:space="preserve" x="102" y="280" font-size="30" fill="#FFFFFF" font-family="DejaVu Sans Mono, monospace">$ cat *.log | grep -c 45.9.14.207</text>
+<text xml:space="preserve" x="102" y="328" font-size="30" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">79</text>
+<rect x="70" y="480" width="1460" height="144" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="102" y="538" font-size="28" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">sum(count_over_time({host="mario-rossi"} |= "45.9.14.207" [1h]))</text>
+<text xml:space="preserve" x="102" y="582" font-size="28" fill="#2F9E44" font-weight="bold" font-family="DejaVu Sans Mono, monospace">79</text>
+<text xml:space="preserve" x="70" y="790" font-size="30" fill="#3E4C59">Stessi log, stessa domanda, stessa risposta: ma ora sono tutti in un posto.</text>
+</svg>

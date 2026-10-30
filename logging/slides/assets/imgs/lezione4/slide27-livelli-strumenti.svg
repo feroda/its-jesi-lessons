@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Strumenti per livello</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Dal client si sale da 3 a 7; sul server si guarda chi ascolta e cosa dice</text>
+<text xml:space="preserve" x="90" y="222" font-size="30" fill="#52606D" font-weight="bold"></text>
+<text xml:space="preserve" x="440" y="222" font-size="30" fill="#52606D" font-weight="bold">dal client</text>
+<text xml:space="preserve" x="980" y="222" font-size="30" fill="#52606D" font-weight="bold">sul server</text>
+<rect x="70" y="250" width="330" height="185" rx="12" fill="#C2255C"/>
+<text xml:space="preserve" x="100" y="354.5" font-size="32" fill="#FFFFFF" font-weight="bold">7  applicazione</text>
+<rect x="420" y="250" width="520" height="185" rx="12" fill="#FFFFFF" stroke="#C2255C" stroke-width="3"/>
+<text xml:space="preserve" x="445" y="351.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">curl -I http://host:3000</text>
+<rect x="960" y="250" width="570" height="185" rx="12" fill="#FFFFFF" stroke="#C2255C" stroke-width="3"/>
+<text xml:space="preserve" x="985" y="327.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose logs -f grafana</text>
+<text xml:space="preserve" x="985" y="375.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">journalctl -u nome-servizio</text>
+<rect x="70" y="450" width="330" height="185" rx="12" fill="#0C8599"/>
+<text xml:space="preserve" x="100" y="554.5" font-size="32" fill="#FFFFFF" font-weight="bold">4  porta</text>
+<rect x="420" y="450" width="520" height="185" rx="12" fill="#FFFFFF" stroke="#0C8599" stroke-width="3"/>
+<text xml:space="preserve" x="445" y="551.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">nc -zv host 3000</text>
+<rect x="960" y="450" width="570" height="185" rx="12" fill="#FFFFFF" stroke="#0C8599" stroke-width="3"/>
+<text xml:space="preserve" x="985" y="527.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">sudo ss -lptn | grep 3000</text>
+<text xml:space="preserve" x="985" y="575.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">sudo tcpdump -ni any port 3000</text>
+<rect x="70" y="650" width="330" height="185" rx="12" fill="#6741D9"/>
+<text xml:space="preserve" x="100" y="754.5" font-size="32" fill="#FFFFFF" font-weight="bold">3  IP</text>
+<rect x="420" y="650" width="520" height="185" rx="12" fill="#FFFFFF" stroke="#6741D9" stroke-width="3"/>
+<text xml:space="preserve" x="445" y="751.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">ping -c 3 host</text>
+<rect x="960" y="650" width="570" height="185" rx="12" fill="#FFFFFF" stroke="#6741D9" stroke-width="3"/>
+<text xml:space="preserve" x="985" y="727.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">ip a</text>
+<text xml:space="preserve" x="985" y="775.5" font-size="26" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">sudo tcpdump -ni any icmp</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">LogQL è il vostro grep</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">A sinistra la lezione 2, a destra Grafana</text>
+<text xml:space="preserve" x="70" y="250" font-size="30" fill="#52606D" font-weight="bold">Shell</text>
+<text xml:space="preserve" x="820" y="250" font-size="30" fill="#52606D" font-weight="bold">Grafana (LogQL)</text>
+<rect x="70" y="280" width="700" height="134" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="102" y="335" font-size="24" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">grep "Failed password" \</text>
+<text xml:space="preserve" x="102" y="373" font-size="24" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  sshd_classic.log</text>
+<rect x="820" y="280" width="710" height="134" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="852" y="335" font-size="24" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">{filename="/log-corso/sshd_classic.log"}</text>
+<text xml:space="preserve" x="852" y="373" font-size="24" fill="#1C64C8" font-weight="bold" font-family="DejaVu Sans Mono, monospace">  |= "Failed password"</text>
+<rect x="70" y="500" width="700" height="134" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="102" y="555" font-size="24" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">grep -v "Accepted" \</text>
+<text xml:space="preserve" x="102" y="593" font-size="24" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">  sshd_classic.log</text>
+<rect x="820" y="500" width="710" height="134" rx="14" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="852" y="555" font-size="24" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">{filename="/log-corso/sshd_classic.log"}</text>
+<text xml:space="preserve" x="852" y="593" font-size="24" fill="#1C64C8" font-weight="bold" font-family="DejaVu Sans Mono, monospace">  != "Accepted"</text>
+<text xml:space="preserve" x="70" y="770" font-size="32" fill="#1F2933" font-weight="bold">|= tiene le righe che contengono il testo, != le toglie.</text>
+</svg>

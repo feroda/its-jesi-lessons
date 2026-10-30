@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">I log non arrivano?</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Un livello alla volta, come nella lezione 1</text>
+<circle cx="110" cy="268" r="26" fill="#2496ED"/><text xml:space="preserve" x="110" y="278" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">1</text>
+<text xml:space="preserve" x="165" y="280" font-size="30" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">nc -zv its.fabersoft.net 3100</text>
+<text xml:space="preserve" x="1530" y="280" font-size="28" fill="#3E4C59" text-anchor="end">livello 4: la porta risponde?</text>
+<circle cx="110" cy="378" r="26" fill="#2496ED"/><text xml:space="preserve" x="110" y="388" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">2</text>
+<text xml:space="preserve" x="165" y="390" font-size="30" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">curl http://its.fabersoft.net:3100/ready</text>
+<text xml:space="preserve" x="1530" y="390" font-size="28" fill="#3E4C59" text-anchor="end">livello 7</text>
+<circle cx="110" cy="488" r="26" fill="#2496ED"/><text xml:space="preserve" x="110" y="498" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">3</text>
+<text xml:space="preserve" x="165" y="500" font-size="30" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose ps</text>
+<text xml:space="preserve" x="1530" y="500" font-size="28" fill="#3E4C59" text-anchor="end">Alloy gira?</text>
+<circle cx="110" cy="598" r="26" fill="#2496ED"/><text xml:space="preserve" x="110" y="608" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">4</text>
+<text xml:space="preserve" x="165" y="610" font-size="30" fill="#1F2933" font-weight="bold" font-family="DejaVu Sans Mono, monospace">docker compose logs alloy</text>
+<text xml:space="preserve" x="1530" y="610" font-size="28" fill="#3E4C59" text-anchor="end">cosa dice?</text>
+<text xml:space="preserve" x="70" y="760" font-size="28" fill="#3E4C59">Gli errori di Alloy dicono quasi sempre cosa non va: URL, porta o una virgola.</text>
+</svg>

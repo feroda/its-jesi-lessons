@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">ports: fuori e dentro</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">La stessa regola di docker run -p</text>
+<text xml:space="preserve" x="800" y="300" font-size="80" fill="#0C8599" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">"3100:3100"</text>
+<text xml:space="preserve" x="640" y="380" font-size="30" fill="#3E4C59" text-anchor="middle">porta del server</text>
+<text xml:space="preserve" x="1000" y="380" font-size="30" fill="#3E4C59" text-anchor="middle">porta del container</text>
+<rect x="110" y="470" width="420" height="150" rx="12" fill="#FFFFFF" stroke="#3E4C59" stroke-width="3"/>
+<text xml:space="preserve" x="320.0" y="540.8000000000001" font-size="36" fill="#3E4C59" font-weight="bold" text-anchor="middle">server</text>
+<text xml:space="preserve" x="320.0" y="576.8000000000001" font-size="24" fill="#52606D" text-anchor="middle">its.fabersoft.net</text>
+<rect x="535" y="515" width="150" height="60" rx="10" fill="#0C8599"/>
+<text xml:space="preserve" x="610.0" y="555.08" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3100</text>
+<line x1="690" y1="545" x2="905" y2="545" stroke="#0C8599" stroke-width="5" marker-end="url(#aT)"/>
+<rect x="910" y="515" width="150" height="60" rx="10" fill="#1C64C8"/>
+<text xml:space="preserve" x="985.0" y="555.08" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">:3100</text>
+<rect x="1065" y="470" width="420" height="150" rx="12" fill="#E7F0FD" stroke="#1C64C8" stroke-width="3"/>
+<text xml:space="preserve" x="1275.0" y="556.9" font-size="34" fill="#1C64C8" font-weight="bold" text-anchor="middle">container loki</text>
+<text xml:space="preserve" x="70" y="760" font-size="30" fill="#3E4C59">Chi arriva da fuori bussa alla porta del server: Docker lo passa al container.</text>
+</svg>

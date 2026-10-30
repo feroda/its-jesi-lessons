@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Atkinson Hyperlegible, DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2933"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F9E44"/></marker>
+<marker id="aO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E8590C"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0C8599"/></marker>
+<marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C92A2A"/></marker>
+<marker id="aD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2496ED"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1C64C8"/></marker>
+<marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606D"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6741D9"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<rect x="0" y="0" width="1600" height="10" fill="#2496ED"/>
+<text xml:space="preserve" x="70" y="100" font-size="52" fill="#1F2933" font-weight="bold">Incapsulamento: tre buste</text>
+<text xml:space="preserve" x="70" y="152" font-size="27" fill="#52606D">Il browser chiede una pagina a Grafana sul VPS</text>
+<rect x="70" y="200" width="930" height="660" rx="12" fill="#F3F0FF" stroke="#6741D9" stroke-width="4"/>
+<path d="M70,208 L535.0,260 L1000,208" fill="none" stroke="#6741D9" stroke-width="2.5" opacity="0.5"/>
+<rect x="90" y="178" width="340" height="44" rx="10" fill="#6741D9"/>
+<text xml:space="preserve" x="260.0" y="207.92" font-size="22" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LIVELLO 3 · busta IP</text>
+<text xml:space="preserve" x="110" y="290" font-size="20" fill="#52606D">mittente</text>
+<text xml:space="preserve" x="110" y="324" font-size="28" fill="#6741D9" font-weight="bold" font-family="DejaVu Sans Mono, monospace">IP del PC</text>
+<text xml:space="preserve" x="560" y="290" font-size="20" fill="#52606D">destinatario</text>
+<text xml:space="preserve" x="560" y="324" font-size="28" fill="#6741D9" font-weight="bold" font-family="DejaVu Sans Mono, monospace">IP del VPS</text>
+<rect x="120" y="390" width="830" height="440" rx="12" fill="#E3FAFC" stroke="#0C8599" stroke-width="4"/>
+<path d="M120,398 L535.0,450 L950,398" fill="none" stroke="#0C8599" stroke-width="2.5" opacity="0.5"/>
+<rect x="140" y="368" width="475" height="44" rx="10" fill="#0C8599"/>
+<text xml:space="preserve" x="377.5" y="397.92" font-size="22" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LIVELLO 4 · busta della porta</text>
+<text xml:space="preserve" x="160" y="470" font-size="20" fill="#52606D">porta mittente (a caso)</text>
+<text xml:space="preserve" x="160" y="504" font-size="28" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">50432</text>
+<text xml:space="preserve" x="560" y="470" font-size="20" fill="#52606D">porta destinatario</text>
+<text xml:space="preserve" x="560" y="504" font-size="28" fill="#0C8599" font-weight="bold" font-family="DejaVu Sans Mono, monospace">3000</text>
+<path d="M170,580 L860,580 L900,620 L900,800 L170,800 Z" fill="#FFFFFF" stroke="#C2255C" stroke-width="4"/>
+<path d="M860,580 L860,620 L900,620" fill="#FFF0F6" stroke="#C2255C" stroke-width="3"/>
+<rect x="190" y="558" width="420" height="44" rx="10" fill="#C2255C"/>
+<text xml:space="preserve" x="400.0" y="587.92" font-size="22" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LIVELLO 7 · il messaggio HTTP</text>
+<text xml:space="preserve" x="210" y="650" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">GET / HTTP/1.1</text>
+<text xml:space="preserve" x="210" y="692" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">Host: its.fabersoft.net:3000</text>
+<text xml:space="preserve" x="210" y="734" font-size="26" fill="#1F2933" font-family="DejaVu Sans Mono, monospace">User-Agent: Firefox</text>
+<text xml:space="preserve" x="1060" y="225" font-size="30" fill="#1F2933" font-weight="bold">Chi apre quale busta</text>
+<rect x="1060" y="270" width="10" height="150" rx="4" fill="#6741D9"/>
+<text xml:space="preserve" x="1090" y="298" font-size="26" fill="#6741D9" font-weight="bold">3 · indirizzo IP</text>
+<text xml:space="preserve" x="1090" y="336" font-size="22" fill="#3E4C59">I router lungo Internet:</text>
+<text xml:space="preserve" x="1090" y="368" font-size="22" fill="#3E4C59">portano il pacchetto al VPS.</text>
+<text xml:space="preserve" x="1530" y="298" font-size="22" fill="#6741D9" font-weight="bold" text-anchor="end" font-family="DejaVu Sans Mono, monospace">ping</text>
+<rect x="1060" y="475" width="10" height="150" rx="4" fill="#0C8599"/>
+<text xml:space="preserve" x="1090" y="503" font-size="26" fill="#0C8599" font-weight="bold">4 · porta</text>
+<text xml:space="preserve" x="1090" y="541" font-size="22" fill="#3E4C59">Il sistema operativo del VPS:</text>
+<text xml:space="preserve" x="1090" y="573" font-size="22" fill="#3E4C59">consegna al programma in ascolto.</text>
+<text xml:space="preserve" x="1530" y="503" font-size="22" fill="#0C8599" font-weight="bold" text-anchor="end" font-family="DejaVu Sans Mono, monospace">nc -zv</text>
+<rect x="1060" y="680" width="10" height="150" rx="4" fill="#C2255C"/>
+<text xml:space="preserve" x="1090" y="708" font-size="26" fill="#C2255C" font-weight="bold">7 · messaggio</text>
+<text xml:space="preserve" x="1090" y="746" font-size="22" fill="#3E4C59">Solo il programma, qui Grafana:</text>
+<text xml:space="preserve" x="1090" y="778" font-size="22" fill="#3E4C59">legge la richiesta e risponde.</text>
+<text xml:space="preserve" x="1530" y="708" font-size="22" fill="#C2255C" font-weight="bold" text-anchor="end" font-family="DejaVu Sans Mono, monospace">curl</text>
+</svg>
