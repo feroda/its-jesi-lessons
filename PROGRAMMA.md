@@ -47,7 +47,26 @@ Rif: [Lezione3-docker.pdf](./logging/slides/Lezione3-docker.pdf), fino alla slid
 
 RECAP: [RecapLezione3.pdf](./RecapLezione3.pdf)
 
-## Lez. 4 - Docker Compose e log centralizzati (prevista)
+## Lez. 4 - Docker Compose e log centralizzati
+
+- Docker run: esposizione della porta 80 di un container generato dall'immagine `nginx:alpine` su porta alta 80XX dove XX è il numero dello studente nel registro cartaceo del corso `docker run -d --name web-XX -p 80XX:80 nginx:alpine`
+- Il container logga su standard output e di vede on `docker logs -f nomecontainer`, mentre il demone `dockerd` logga su `systemd-journald`, per questo i suoi log si vedono con `journalctl -u docker`
+- I volumi di docker: nel docker run con nginx vogliamo sovrascrivere il file index.html di default e lo possiamo fare con definendo un volume con il parametro `-v`
+- Passare da `docker` a `docker-compose` trasformando i parametri dati a "run" in un file `compose.yml`. Attenzione a `restart: unless-stopped` che è il motivo in cui nella prima lezione i container non si erano riavviati
+- I sottocomandi base di `docker compose`: `up -d`, `ps`, `logs -f nomecontainer-in-compose.yml`, `stop` e `down`. ATTENZIONE perché con `down -v` state cancellando anche i volumi e quindi i dati persistenti in tutti i container definiti nel `compose.yml`
+
+- Monitoring: di apparati, di server e di applicazioni
+- Monitoring: agentless (SNMP, ping), agent (Alloy, node-exporter). Modalità push e/o pull.
+- Monitoring: time series database (TSDB), e retention
+
+
+Rif: [Lezione3-docker.pdf](./logging/slides/Lezione3-docker.pdf), dalla slide 10
+
+Rif: [LMT-Bignami.pdf](./logging/slides/LMT-Bignami.pdf), dalla slide 10 alla 12
+
+## Lez. 5 - Monitoraggio (prevista)
+
+**DA FARE E QUINDI AGGIORNARE DOPO LA LEZIONE**
 
 - Docker Compose, il minimo: il file `compose.yml` (`image`, `ports`, `volumes`, `restart`) e i comandi `up -d`, `ps`, `logs`, `down`. Differenza tra `docker run` e `docker compose up`.
 - Costruiamo l'architettura della lezione 1: Loki e Grafana sul VPS del corso ([vps-corso](./logging/vps-corso/)), Alloy sul proprio PC ([pc-studente](./logging/pc-studente/)) che invia i log a Loki.
@@ -55,8 +74,6 @@ RECAP: [RecapLezione3.pdf](./RecapLezione3.pdf)
 - Troubleshooting di un client che non invia i log.
 
 Rif: [Lezione4-compose.pdf](./logging/slides/Lezione4-compose.pdf)
-
-## Lez. 5 - Monitoraggio (prevista)
 
 - Basi del monitoraggio: metriche e log, agent e agentless, pull e push, database a serie temporali e retention, SNMP.
 - Aggiungiamo Prometheus al `compose.yml` del server e facciamo inviare ad Alloy anche le metriche del PC (push).
