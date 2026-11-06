@@ -1,0 +1,21 @@
+logging {
+  level = "info"
+}
+
+loki.source.windowsevent "application" {
+  eventlog_name = "Application"
+  forward_to    = [loki.write.loki.receiver]
+  labels        = { job = "windows-eventlog", host = "prof.ferroni-win" }
+}
+
+loki.source.windowsevent "system" {
+  eventlog_name = "System"
+  forward_to    = [loki.write.loki.receiver]
+  labels        = { job = "windows-eventlog", host = "prof.ferroni-win" }
+}
+
+loki.write "loki" {
+  endpoint {
+    url = "http://its.fabersoft.net:3100/loki/api/v1/push"
+  }
+}
