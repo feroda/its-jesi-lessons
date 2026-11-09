@@ -13,7 +13,7 @@ facendo troubleshooting su un caso reale: i 2 servizi di aggregazione e visualiz
 
 Abbiamo visto anche che i log di un container si leggono con `docker logs` e, per i servizi di un compose, con `docker compose logs`.
 
-Gli stessi concetti sono stati ripresi nella lezione 3 con la metafora del "centro commerciale": [Troubleshooting.pdf](./logging/slides/Troubleshooting.pdf)
+Gli stessi concetti sono stati ripresi nella lezione 3 con la metafora del "centro commerciale": [Troubleshooting.pdf](./slides/Troubleshooting.pdf)
 
 RECAP: [RecapLezione1.pdf](./RecapLezione1.pdf)
 
@@ -29,21 +29,21 @@ Abbiamo visto anche gli strumenti più utili da riga di comando per analizzare i
 
 Fuori programma, sul VPS del corso abbiamo fatto troubleshooting di un processo al 400% di CPU: era un cryptominer (XMRig) camuffato da `fail2ban`.
 
-Abbiamo clonato il repository del corso (`git clone https://github.com/feroda/its-jesi-lessons`), con i log per gli esercizi e due cheatsheet: [comandi per i log](./logging/cheatsheet-comandi.md) e [troubleshooting](./logging/cheatsheet-troubleshooting.md).
+Abbiamo clonato il repository del corso (`git clone https://github.com/feroda/its-jesi-lessons`), con i log per gli esercizi e due cheatsheet: [comandi per i log](./cheatsheet-comandi.md) e [troubleshooting](./cheatsheet-troubleshooting.md).
 
-Rif: [Logging-Monitoring-Troubleshooting_part1.pdf](./logging/slides/Logging-Monitoring-Troubleshooting_part1.pdf)
+Rif: [Logging-Monitoring-Troubleshooting_part1.pdf](./slides/Logging-Monitoring-Troubleshooting_part1.pdf)
 
-Esercizio: [01_ex_greppa_i_logs.txt](./logging/01_ex_greppa_i_logs.txt)
+Esercizio: [01_ex_greppa_i_logs.txt](./01_ex_greppa_i_logs.txt)
 
 RECAP: [RecapLezione2.pdf](./RecapLezione2.pdf)
 
 ## Lez. 3 - Esercizi sui log e Docker
 
-In questa lezione abbiamo corretto gli esercizi della lezione precedente ([01_ex_greppa_i_logs.txt](./logging/01_ex_greppa_i_logs.txt)),
+In questa lezione abbiamo corretto gli esercizi della lezione precedente ([01_ex_greppa_i_logs.txt](./01_ex_greppa_i_logs.txt)),
 poi abbiamo ripreso le slide Troubleshooting sulla prima lezione (livelli 3, 4 e 7, strumenti lato client e lato server), per passare a Docker:
 container e macchine virtuali, registry, immagini e container, il demone `dockerd`, `docker run hello-world`, `docker ps` e `docker ps -a`, le porte.
 
-Rif: [Lezione3-docker.pdf](./logging/slides/Lezione3-docker.pdf), fino alla slide 9
+Rif: [Lezione3-docker.pdf](./slides/Lezione3-docker.pdf), fino alla slide 9
 
 RECAP: [RecapLezione3.pdf](./RecapLezione3.pdf)
 
@@ -60,30 +60,30 @@ RECAP: [RecapLezione3.pdf](./RecapLezione3.pdf)
 - Monitoring: time series database (TSDB), e retention
 
 
-Rif: [Lezione3-docker.pdf](./logging/slides/Lezione3-docker.pdf), dalla slide 10
+Rif: [Lezione3-docker.pdf](./slides/Lezione3-docker.pdf), dalla slide 10
 
-Rif: [LMT-Bignami.pdf](./logging/slides/LMT-Bignami.pdf), dalla slide 10 alla 12
+Rif: [LMT-Bignami.pdf](./slides/LMT-Bignami.pdf), dalla slide 10 alla 12
 
 ## Lez. 5 - Monitoraggio (prevista)
 
 **DA FARE E QUINDI AGGIORNARE DOPO LA LEZIONE**
 
 - Docker Compose, il minimo: il file `compose.yml` (`image`, `ports`, `volumes`, `restart`) e i comandi `up -d`, `ps`, `logs`, `down`. Differenza tra `docker run` e `docker compose up`.
-- Costruiamo l'architettura della lezione 1: Loki e Grafana sul VPS del corso ([vps-corso](./logging/vps-corso/)), Alloy sul proprio PC ([pc-studente](./logging/pc-studente/)) che invia i log a Loki.
+- Costruiamo l'architettura della lezione 1: Loki e Grafana sul VPS del corso ([vps-corso](./vps-corso/)), Alloy sul proprio PC ([journal-alloy](./journal-alloy/)) che invia i log a Loki.
 - Grafana e LogQL: gli esercizi della lezione 2 rifatti sul server centrale.
 - Troubleshooting di un client che non invia i log.
 
-Rif: [Lezione4-compose.pdf](./logging/slides/Lezione4-compose.pdf)
+Rif: [Lezione4-compose.pdf](./slides/Lezione4-compose.pdf)
 
 - Basi del monitoraggio: metriche e log, agent e agentless, pull e push, database a serie temporali e retention, SNMP.
 - Aggiungiamo Prometheus al `compose.yml` del server e facciamo inviare ad Alloy anche le metriche del PC (push).
 - Observability: log e metriche dello stesso host insieme in Grafana.
 - [Simulazione del compito](./simulazione/simulazione.pdf) con le [soluzioni](./simulazione/simulazione-soluzioni.pdf).
 
-Rif: [Lezione5-monitoraggio.pdf](./logging/slides/Lezione5-monitoraggio.pdf)
+Rif: [Lezione5-monitoraggio.pdf](./slides/Lezione5-monitoraggio.pdf)
 
 ## Lez. 6 - Ripasso e compito (prevista)
 
 - Ripasso e compito in classe su: architettura d'insieme; troubleshooting lato client ai livelli 3, 4 e 7; i comandi per leggere i log (`cat`, `cut`, `wc`, `sort`, `uniq`, `tail`, `grep`) sui file del repository; `docker run hello-world`; differenza tra Docker e Docker Compose; come impostereste un sistema di raccolta dei log e di monitoraggio.
 
-Rif: [Lezione6-quadro-generale-e-domande-per-il-ripasso.pdf](./logging/slides/Lezione6-quadro-generale-e-domande-per-il-ripasso.pdf)
+Rif: [Lezione6-quadro-generale-e-domande-per-il-ripasso.pdf](./slides/Lezione6-quadro-generale-e-domande-per-il-ripasso.pdf)
