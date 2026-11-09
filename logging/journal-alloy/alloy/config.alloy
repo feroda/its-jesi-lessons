@@ -3,12 +3,12 @@ loki.source.journal "journal" {
 
   labels = {
     job = "journald",
-    host = "client1",
+    host = "nome-cognome",
   }
 }
 
 loki.write "loki" {
   endpoint {
-    url = "http://befair3.befair.it:3100/loki/api/v1/push"
+    url = "http://its.fabersoft.net:3100/loki/api/v1/push"
   }
 }
