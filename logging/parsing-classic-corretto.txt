@@ -1,0 +1,14 @@
+# Con awk
+
+grep 'Invalid user' sshd_classic.log | awk '{print $1, $2, $3, $8}'
+
+Volendo puoi anche togliere il grep e fare tutto in awk:
+
+awk '/Invalid user/{print $1, $2, $3, $8}' sshd_classic.log
+
+# Se vuoi restare su grep + cut
+
+Il trucco è normalizzare gli spazi prima del cut, con tr -s ' ' (squeeze):
+
+grep 'Invalid user' sshd_classic.log | tr -s ' ' | cut -d' ' -f1-3,8
+
